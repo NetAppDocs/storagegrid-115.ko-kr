@@ -1,0 +1,71 @@
+---
+permalink: maintain/gathering-required-materials-for-grid-node-recovery.html 
+sidebar: sidebar 
+keywords: storagegrid, recovery, grid node recovery, node recovery 
+summary: 유지보수 절차를 수행하기 전에 장애가 발생한 그리드 노드를 복구하는 데 필요한 자료가 있는지 확인해야 합니다. 
+---
+= 그리드 노드 복구를 위해 필요한 자료를 수집합니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+유지보수 절차를 수행하기 전에 장애가 발생한 그리드 노드를 복구하는 데 필요한 자료가 있는지 확인해야 합니다.
+
+[cols="1a,2a"]
+|===
+| 항목 | 참고 
+
+
+ a| 
+StorageGRID 설치 아카이브
+ a| 
+그리드 노드를 복구해야 하는 경우 플랫폼에 대한 StorageGRID 설치 아카이브가 필요합니다.
+
+* 참고: * 스토리지 노드에서 장애가 발생한 스토리지 볼륨을 복구하는 경우에는 파일을 다운로드할 필요가 없습니다.
+
+
+
+ a| 
+복구 패키지 `.zip` 파일
+ a| 
+최신 복구 패키지 사본을 가져옵니다 `.zip` 파일:
+`sgws-recovery-package-_id-revision_.zip`
+
+의 내용 `.zip` 파일은 시스템이 수정될 때마다 업데이트됩니다. 이러한 변경 작업을 수행한 후 가장 최신 버전의 복구 패키지를 안전한 위치에 저장하도록 지정됩니다. 그리드 장애로부터 복구하려면 최신 복제본을 사용합니다.
+
+기본 관리 노드가 정상적으로 작동하는 경우 그리드 관리자에서 복구 패키지를 다운로드할 수 있습니다. 유지보수 * * 시스템 * 복구 패키지 * 를 선택합니다.
+
+그리드 관리자에 액세스할 수 없는 경우 ADC 서비스가 포함된 일부 스토리지 노드에서 복구 패키지의 암호화된 사본을 찾을 수 있습니다. 각 스토리지 노드에서 이 위치에서 복구 패키지를 검사합니다. `/var/local/install/sgws-recovery-package-_grid-id_-_revision_.zip.gpg` 가장 높은 수정 번호가 있는 복구 패키지를 사용합니다.
+
+
+
+ a| 
+`Passwords.txt` 파일
+ a| 
+명령줄에서 그리드 노드에 액세스하는 데 필요한 암호를 포함합니다. 복구 패키지에 포함되어 있습니다.
+
+
+
+ a| 
+프로비저닝 암호
+ a| 
+StorageGRID 시스템을 처음 설치할 때 암호가 생성되고 문서화됩니다. 프로비저닝 암호가 에 없습니다 `Passwords.txt` 파일.
+
+
+
+ a| 
+현재 사용 중인 플랫폼에 대한 설명서입니다
+ a| 
+현재 지원되는 플랫폼 버전은 상호 운용성 매트릭스 툴을 참조하십시오.
+
+https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"]
+
+플랫폼 공급업체의 웹 사이트에서 설명서를 참조하십시오.
+
+|===
+.관련 정보
+link:downloading-and-extracting-storagegrid-installation-files.html["StorageGRID 설치 파일 다운로드 및 추출"]
+
+link:web-browser-requirements.html["웹 브라우저 요구 사항"]

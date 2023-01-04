@@ -1,0 +1,28 @@
+---
+permalink: ubuntu/deploying-virtual-grid-nodes.html 
+sidebar: sidebar 
+keywords: storagegrid, deploying grid nodes, deploy grid nodes, ubuntu, debian 
+summary: Ubuntu 또는 Debian 환경에 그리드 노드를 배포할 때 모든 노드에 대한 노드 구성 파일을 만들고, 파일을 검증하고, 노드를 시작하는 StorageGRID 호스트 서비스를 시작합니다. StorageGRID 어플라이언스 스토리지 노드를 배포해야 하는 경우 모든 가상 노드를 배포한 후 어플라이언스에 대한 설치 및 유지 관리 지침을 참조하십시오. 
+---
+= 가상 그리드 노드 구축
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Ubuntu 또는 Debian 환경에 그리드 노드를 배포할 때 모든 노드에 대한 노드 구성 파일을 만들고, 파일을 검증하고, 노드를 시작하는 StorageGRID 호스트 서비스를 시작합니다. StorageGRID 어플라이언스 스토리지 노드를 배포해야 하는 경우 모든 가상 노드를 배포한 후 어플라이언스에 대한 설치 및 유지 관리 지침을 참조하십시오.
+
+* link:creating-node-configuration-files.html["노드 구성 파일을 만드는 중입니다"]
+* link:validating-storagegrid-configuration.html["StorageGRID 구성을 확인하는 중입니다"]
+* link:starting-storagegrid-host-service.html["StorageGRID 호스트 서비스를 시작합니다"]
+
+
+.관련 정보
+link:../sg100-1000/index.html["SG100 및 AMP, SG1000 서비스 어플라이언스"]
+
+link:../sg5600/index.html["SG5600 스토리지 어플라이언스"]
+
+link:../sg5700/index.html["SG5700 스토리지 어플라이언스"]
+
+link:../sg6000/index.html["SG6000 스토리지 어플라이언스"]

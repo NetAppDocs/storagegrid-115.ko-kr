@@ -1,0 +1,32 @@
+---
+permalink: admin/using-grid-management-api.html 
+sidebar: sidebar 
+keywords:  
+summary: Grid Manager 사용자 인터페이스 대신 Grid Management REST API를 사용하여 시스템 관리 작업을 수행할 수 있습니다. 예를 들어, API를 사용하여 작업을 자동화하거나 사용자와 같은 여러 엔터티를 더 빠르게 생성할 수 있습니다. 
+---
+= Grid Management API 사용
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Grid Manager 사용자 인터페이스 대신 Grid Management REST API를 사용하여 시스템 관리 작업을 수행할 수 있습니다. 예를 들어, API를 사용하여 작업을 자동화하거나 사용자와 같은 여러 엔터티를 더 빠르게 생성할 수 있습니다.
+
+Grid Management API는 Swagger 오픈 소스 API 플랫폼을 사용합니다. Swagger는 개발자와 개발자가 아닌 사용자가 API를 사용하여 StorageGRID에서 실시간 작업을 수행할 수 있도록 직관적인 사용자 인터페이스를 제공합니다.
+
+
+
+== 최고 수준의 리소스
+
+Grid Management API는 다음과 같은 최상위 리소스를 제공합니다.
+
+* `/grid`: 액세스는 Grid Manager 사용자로 제한되며 구성된 그룹 권한을 기반으로 합니다.
+* `/org`: 테넌트 계정의 로컬 또는 통합 LDAP 그룹에 속한 사용자만 액세스할 수 있습니다. 자세한 내용은 테넌트 계정 사용에 대한 정보를 참조하십시오.
+* `/private`: 액세스는 Grid Manager 사용자로 제한되며 구성된 그룹 권한을 기반으로 합니다. 이러한 API는 내부용으로만 사용해야 하며 공개적으로 문서화되지 않았습니다. 또한 이러한 API는 사전 통보 없이 변경될 수 있습니다.
+
+
+.관련 정보
+link:../tenant/index.html["테넌트 계정을 사용합니다"]
+
+https://prometheus.io/docs/querying/basics/["Prometheus: 쿼리 기본 사항"^]

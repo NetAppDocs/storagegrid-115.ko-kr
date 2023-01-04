@@ -1,0 +1,54 @@
+---
+permalink: maintain/linux-importing-node-on-target-host.html 
+sidebar: sidebar 
+keywords: storagegrid, recover, linux, import node, importing node, target host 
+summary: 소스 호스트에서 노드를 내보낸 후 타겟 Linux 호스트에서 노드를 가져오고 유효성을 검사합니다. 검증에서 노드가 소스 호스트와 동일한 블록 스토리지 및 네트워크 인터페이스 디바이스를 액세스할 수 있는지 확인합니다. 
+---
+= Linux: 타겟 호스트에서 노드 가져오기
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+소스 호스트에서 노드를 내보낸 후 타겟 Linux 호스트에서 노드를 가져오고 유효성을 검사합니다. 검증에서 노드가 소스 호스트와 동일한 블록 스토리지 및 네트워크 인터페이스 디바이스를 액세스할 수 있는지 확인합니다.
+
+대상 Linux 호스트에서 다음 명령을 실행합니다.
+
+. 타겟 호스트에서 노드를 가져옵니다.
++
+[listing]
+----
+sudo storagegrid node import /dev/mapper/sgws-dc1-s3-var-local
+----
++
+`Finished importing node DC1-S3 from /dev/mapper/sgws-dc1-s3-var-local.`
+
++
+`You should run 'storagegrid node validate DC1-S3'`
+
+. 새 호스트에서 노드 구성을 검증합니다.
++
+[listing]
+----
+sudo storagegrid node validate DC1-S3
+----
++
+`+Confirming existence of node DC1-S3... PASSED+`
+
++
+`+Checking configuration file /etc/storagegrid/nodes/DC1-S3.conf for node DC1-S3... PASSED+`
+
++
+`+Checking for duplication of unique values... PASSED+`
+
+. 유효성 검사 오류가 발생하면 마이그레이션된 노드를 시작하기 전에 이를 해결하십시오.
++
+문제 해결 정보는 Linux 운영 체제의 StorageGRID 설치 지침을 참조하십시오.
+
+
+
+.관련 정보
+link:../rhel/index.html["Red Hat Enterprise Linux 또는 CentOS를 설치합니다"]
+
+link:../ubuntu/index.html["Ubuntu 또는 Debian을 설치합니다"]

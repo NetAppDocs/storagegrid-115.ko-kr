@@ -1,0 +1,19 @@
+---
+permalink: monitor/using-grid-manager-for-monitoring.html 
+sidebar: sidebar 
+keywords:  
+summary: 그리드 관리자는 StorageGRID 시스템을 모니터링하는 데 가장 중요한 도구입니다. 이 섹션에서는 그리드 관리자 대시보드를 소개하고 노드 페이지에 대한 자세한 정보를 제공합니다. 
+---
+= 모니터링을 위해 Grid Manager 사용
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+그리드 관리자는 StorageGRID 시스템을 모니터링하는 데 가장 중요한 도구입니다. 이 섹션에서는 그리드 관리자 대시보드를 소개하고 노드 페이지에 대한 자세한 정보를 제공합니다.
+
+* link:web-browser-requirements.html["웹 브라우저 요구 사항"]
+* link:viewing-dashboard.html["대시보드 보기"]
+* link:viewing-nodes-page.html["노드 페이지 보기"]
+

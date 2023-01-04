@@ -1,0 +1,20 @@
+---
+permalink: upgrade/index.html 
+sidebar: sidebar 
+keywords:  
+summary:  
+---
+= 소프트웨어 업그레이드
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+StorageGRID 시스템을 새 릴리즈로 업그레이드하는 방법에 대해 알아보십시오.
+
+* link:about-this-release.html["StorageGRID 11.5 정보"]
+* link:upgrade-planning-and-preparation.html["업그레이드 계획 및 준비"]
+* link:performing-upgrade.html["업그레이드를 수행하는 중입니다"]
+* link:troubleshooting-upgrade-issues.html["업그레이드 문제 해결"]
+

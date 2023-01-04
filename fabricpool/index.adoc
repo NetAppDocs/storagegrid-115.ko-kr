@@ -1,0 +1,21 @@
+---
+permalink: fabricpool/index.html 
+sidebar: sidebar 
+keywords:  
+summary:  
+---
+= FabricPool용 StorageGRID를 구성합니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+StorageGRID를 NetApp FabricPool 클라우드 계층으로 구성하는 방법을 알아보십시오.
+
+* link:configuring-storagegrid-for-fabricpool.html["FabricPool용 StorageGRID 구성"]
+* link:information-needed-to-attach-storagegrid-as-cloud-tier.html["StorageGRID를 클라우드 계층으로 연결하는 데 필요한 정보"]
+* link:using-storagegrid-ilm-with-fabricpool-data.html["FabricPool 데이터에 StorageGRID 정보 수명 주기 관리 사용"]
+* link:creating-traffic-classification-policy-for-fabricpool.html["FabricPool에 대한 트래픽 분류 정책 생성"]
+* link:other-best-practices-for-storagegrid-and-fabricpool.html["기타 StorageGRID 및 FabricPool 모범 사례"]
+

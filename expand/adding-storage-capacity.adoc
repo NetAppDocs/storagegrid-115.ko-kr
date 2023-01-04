@@ -1,0 +1,22 @@
+---
+permalink: expand/adding-storage-capacity.html 
+sidebar: sidebar 
+keywords: storage, capacity, add, adding, expand, expansion, full storage node 
+summary: 기존 스토리지 노드가 꽉 차면 StorageGRID 시스템의 스토리지 용량을 늘려야 합니다. 
+---
+= 스토리지 용량 추가
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+기존 스토리지 노드가 꽉 차면 StorageGRID 시스템의 스토리지 용량을 늘려야 합니다.
+
+스토리지 용량을 늘리려면 먼저 데이터가 현재 어디에 저장되어 있는지 파악한 다음, 모든 필요한 위치에 용량을 추가해야 합니다. 예를 들어, 현재 여러 사이트에 오브젝트 데이터 복사본을 저장하는 경우 각 사이트의 스토리지 용량을 늘려야 할 수 있습니다.
+
+* link:guidelines-for-adding-object-capacity.html["오브젝트 용량 추가 지침"]
+* link:adding-storage-capacity-for-replicated-objects.html["복제된 객체에 대한 스토리지 용량 추가"]
+* link:adding-storage-capacity-for-erasure-coded-objects.html["삭제 코딩 오브젝트를 위한 스토리지 용량 추가"]
+* link:considerations-for-rebalancing-erasure-coded-data.html["삭제 코딩 데이터의 재조정에 대한 고려사항"]
+

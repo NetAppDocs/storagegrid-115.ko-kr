@@ -1,1 +1,1 @@
-# storagegrid-115.ko-kr
+# storagegrid

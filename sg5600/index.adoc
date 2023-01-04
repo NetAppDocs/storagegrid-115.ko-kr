@@ -1,0 +1,27 @@
+---
+permalink: sg5600/index.html 
+sidebar: sidebar 
+keywords: storagegrid, sg5600, storage node, storage appliance 
+summary: StorageGRID SG5612 및 SG5660 어플라이언스를 설치 및 유지 관리하는 방법을 알아보십시오. 
+---
+= SG5600 스토리지 어플라이언스
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+StorageGRID SG5612 및 SG5660 어플라이언스를 설치 및 유지 관리하는 방법을 알아보십시오.
+
+* link:storagegrid-appliance-overview.html["StorageGRID 어플라이언스 개요"]
+* link:installation-and-deployment-overview.html["설치 및 구축 개요"]
+* link:preparing-for-installation.html["설치 준비 중"]
+* link:installing-hardware.html["하드웨어 설치"]
+* link:configuring-hardware.html["하드웨어 구성"]
+* link:deploying-appliance-storage-node.html["어플라이언스 스토리지 노드 구축"]
+* link:monitoring-storage-appliance-installation.html["스토리지 어플라이언스 설치 모니터링"]
+* link:automating-appliance-installation-and-configuration.html["어플라이언스 설치 및 구성 자동화"]
+* link:overview-of-installation-rest-apis.html["REST API 설치 개요"]
+* link:troubleshooting-hardware-installation.html["하드웨어 설치 문제 해결"]
+* link:maintaining-sg5600-appliance.html["SG5600 어플라이언스 유지 관리"]
+

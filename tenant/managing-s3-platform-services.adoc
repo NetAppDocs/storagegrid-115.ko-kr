@@ -1,0 +1,22 @@
+---
+permalink: tenant/managing-s3-platform-services.html 
+sidebar: sidebar 
+keywords:  
+summary: S3 테넌트 계정에 플랫폼 서비스를 사용할 수 있는 경우 플랫폼 서비스를 사용하여 외부 서비스를 활용하고 CloudMirror 복제, 알림 및 S3 버킷에 대한 검색 통합을 구성할 수 있습니다. 
+---
+= S3 플랫폼 서비스 관리
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+S3 테넌트 계정에 플랫폼 서비스를 사용할 수 있는 경우 플랫폼 서비스를 사용하여 외부 서비스를 활용하고 CloudMirror 복제, 알림 및 S3 버킷에 대한 검색 통합을 구성할 수 있습니다.
+
+* link:what-platform-services-are.html["어떤 플랫폼 서비스인지 확인하십시오"]
+* link:considerations-for-using-platform-services.html["플랫폼 서비스 사용에 대한 고려 사항"]
+* link:configuring-platform-services-endpoints.html["플랫폼 서비스 엔드포인트를 구성합니다"]
+* link:configuring-cloudmirror-replication.html["CloudMirror 복제 구성"]
+* link:configuring-event-notifications.html["이벤트 알림을 구성하는 중입니다"]
+* link:using-search-integration-service.html["검색 통합 서비스 사용"]
+

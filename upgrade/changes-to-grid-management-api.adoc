@@ -1,0 +1,72 @@
+---
+permalink: upgrade/changes-to-grid-management-api.html 
+sidebar: sidebar 
+keywords: grid management api, api, api version, swagger, rest api 
+summary: StorageGRID 11.5는 그리드 관리 API 버전 3을 사용합니다. 버전 3은 버전 2를 사용하지 않지만 버전 1과 버전 2는 계속 지원됩니다. 
+---
+= Grid Management API 변경
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+StorageGRID 11.5는 그리드 관리 API 버전 3을 사용합니다. 버전 3은 버전 2를 사용하지 않지만 버전 1과 버전 2는 계속 지원됩니다.
+
+
+IMPORTANT: StorageGRID 11.5에서 관리 API 버전 1 및 버전 2를 계속 사용할 수 있지만, 이러한 API 버전에 대한 지원은 StorageGRID의 향후 릴리스에서 제거됩니다. StorageGRID 11.5로 업그레이드한 후 를 사용하여 더 이상 사용되지 않는 v1 및 v2 API를 비활성화할 수 있습니다 `PUT /grid/config/management` API를 참조하십시오.
+
+
+
+== 새 클라이언트-인증서 섹션입니다
+
+새 섹션, `/grid/client-certificates`, StorageGRID Prometheus 데이터베이스에 대한 안전하고 인증된 액세스를 제공하도록 클라이언트 인증서를 구성할 수 있습니다. 예를 들어, Grafana를 사용하여 외부에서 StorageGRID를 모니터링할 수 있습니다.
+
+
+
+== 레거시 규정 준수 끝점이 새로운 S3 오브젝트 잠금 섹션으로 이동했습니다
+
+StorageGRID S3 오브젝트 잠금이 도입됨에 따라 그리드의 레거시 규정 준수 설정을 관리하는 데 사용되는 API가 Swagger 사용자 인터페이스의 새 섹션으로 이동되었습니다. S3-오브젝트 잠금 * 섹션에는 이 두 가지가 포함되어 있습니다 `/grid/compliance-global` 이제 전역 S3 오브젝트 잠금 설정을 제어하는 API 끝점입니다. 끝점 URI는 기존 응용 프로그램과의 호환성을 위해 변경되지 않습니다.
+
+
+
+== Swift-admin-암호 계정 끝점이 제거되었습니다
+
+StorageGRID 10.4에서 더 이상 사용되지 않는 다음 계정 API 끝점이 이제 제거되었습니다.
+
+[listing]
+----
+https://<IP-Address>/api/v1/grid/accounts/<AccountID>/swift-admin-password
+----
+
+
+== 새 그리드 암호 섹션
+
+grid-passwords * 섹션은 그리드 암호 관리 작업을 활성화합니다. 이 섹션은 2개로 구성되어 있습니다 `/grid/change-provisioning-passphrase` API 엔드포인트, 사용자는 엔드포인트를 통해 StorageGRID 프로비저닝 암호를 변경하고 암호 변경 상태를 검색할 수 있습니다.
+
+
+
+== StorageAdmin 권한이 그룹 API에 추가되었습니다
+
+를 클릭합니다 `/grid/groups` 이제 API에 StorageAdmin 권한이 포함됩니다.
+
+
+
+== 스토리지 사용 API에 대한 새 매개 변수입니다
+
+를 클릭합니다 `+GET /grid/accounts/{id}/usage+` 이제 API에 가 있습니다 `strictConsistency` 매개 변수. 스토리지 노드 간에 스토리지 사용 정보를 검색할 때 강력한 글로벌 정합성을 적용하려면 이 매개 변수를 로 설정합니다 `true`. 이 매개변수가 로 설정된 경우 `false` (기본값) StorageGRID는 강력한 글로벌 일관성을 사용하여 사용 정보 검색을 시도하지만 강력한 글로벌 일관성을 충족할 수 없는 경우 강력한 사이트 일관성으로 돌아갑니다.
+
+
+
+== 새 노드 상태 API
+
+새로운 소식 `/grid/node-health` 끝점이 추가되었습니다. 이 API는 노드에서 active_alerts_를 확인하여 각 노드의 현재 상태를 반환합니다. 를 클릭합니다 `/grid/health/topology` 노드의 ACTIVE_ALARMS_를 확인하는 API는 더 이상 사용되지 않습니다.
+
+
+
+== "ApplianceStorageShelvesPowerSupplyDegraded" 알림 규칙 ID로 변경합니다
+
+알림 규칙 ID "ApplianceStorageShelvesPowerSupplyDegraded"가 "ApplianceStorageShelvesDegraded"로 변경되어 알림의 실제 동작을 더 잘 반영합니다.
+
+.관련 정보
+link:../admin/index.html["StorageGRID 관리"]

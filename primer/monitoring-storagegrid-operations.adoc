@@ -1,0 +1,20 @@
+---
+permalink: primer/monitoring-storagegrid-operations.html 
+sidebar: sidebar 
+keywords:  
+summary: 그리드 관리자는 StorageGRID 시스템의 상태를 포함하여 일일 활동을 모니터링하는 데 필요한 정보를 제공합니다. 
+---
+= StorageGRID 작업 모니터링
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+그리드 관리자는 StorageGRID 시스템의 상태를 포함하여 일일 활동을 모니터링하는 데 필요한 정보를 제공합니다.
+
+* link:viewing-nodes-page.html["노드 페이지 보기"]
+* link:monitoring-and-managing-alerts.html["경고 모니터링 및 관리"]
+* link:using-snmp-monitoring.html["SNMP 모니터링을 사용합니다"]
+* link:reviewing-audit-messages.html["감사 메시지 검토"]
+

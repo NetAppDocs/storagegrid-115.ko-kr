@@ -1,0 +1,28 @@
+---
+permalink: vmware/deploying-virtual-machine-grid-nodes-in-vmware-vsphere-web-client.html 
+sidebar: sidebar 
+keywords: storagegrid, deploying grid nodes, deploy grid nodes, vsphere, vsphere web client 
+summary: VMware vSphere Web Client를 사용하여 각 그리드 노드를 가상 머신으로 구축합니다. 배포 중에는 각 그리드 노드가 하나 이상의 네트워크에 생성되고 연결됩니다. StorageGRID 어플라이언스 스토리지 노드를 배포해야 하는 경우 모든 가상 머신 그리드 노드를 배포한 후 어플라이언스에 대한 설치 및 유지 관리 지침을 참조하십시오. 
+---
+= VMware vSphere Web Client에 가상 머신 그리드 노드 구축
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+VMware vSphere Web Client를 사용하여 각 그리드 노드를 가상 머신으로 구축합니다. 배포 중에는 각 그리드 노드가 하나 이상의 네트워크에 생성되고 연결됩니다. StorageGRID 어플라이언스 스토리지 노드를 배포해야 하는 경우 모든 가상 머신 그리드 노드를 배포한 후 어플라이언스에 대한 설치 및 유지 관리 지침을 참조하십시오.
+
+* link:collecting-information-about-your-deployment-environment.html["배포 환경에 대한 정보를 수집합니다"]
+* link:how-grid-nodes-discover-primary-admin-node.html["그리드 노드가 기본 관리자 노드를 검색하는 방법"]
+* link:deploying-storagegrid-node-as-virtual-machine.html["StorageGRID 노드를 가상 시스템으로 구축"]
+
+
+.관련 정보
+link:../sg100-1000/index.html["SG100 및 AMP, SG1000 서비스 어플라이언스"]
+
+link:../sg5600/index.html["SG5600 스토리지 어플라이언스"]
+
+link:../sg5700/index.html["SG5700 스토리지 어플라이언스"]
+
+link:../sg6000/index.html["SG6000 스토리지 어플라이언스"]

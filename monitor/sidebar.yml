@@ -1,0 +1,181 @@
+---
+section: monitor
+title: StorageGRID 시스템을 모니터링합니다
+url: "/monitor/index.html"
+entries:
+- title: 모니터링을 위해 Grid Manager 사용
+  url: "/monitor/using-grid-manager-for-monitoring.html"
+  entries:
+  - title: 웹 브라우저 요구 사항
+    url: "/monitor/web-browser-requirements.html"
+  - title: 대시보드 보기
+    url: "/monitor/viewing-dashboard.html"
+  - title: 노드 페이지 보기
+    url: "/monitor/viewing-nodes-page.html"
+    entries:
+    - title: 개요 탭 보기
+      url: "/monitor/viewing-overview-tab.html"
+    - title: 하드웨어 탭 보기
+      url: "/monitor/viewing-hardware-tab.html"
+    - title: 네트워크 탭 보기
+      url: "/monitor/viewing-network-tab.html"
+    - title: Storage 탭 보기
+      url: "/monitor/viewing-storage-tab.html"
+    - title: 이벤트 탭 보기
+      url: "/monitor/viewing-events-tab.html"
+    - title: 작업 탭을 사용하여 그리드 노드를 재부팅합니다
+      url: "/monitor/using-task-tab-to-reboot-grid-node.html"
+    - title: 오브젝트 탭 보기
+      url: "/monitor/viewing-objects-tab.html"
+    - title: ILM 탭 보기
+      url: "/monitor/viewing-ilm-tab.html"
+    - title: 부하 분산 탭 보기
+      url: "/monitor/viewing-load-balancer-tab.html"
+    - title: 플랫폼 서비스 탭 보기
+      url: "/monitor/viewing-platform-services-tab.html"
+    - title: 어플라이언스 스토리지 노드에 대한 정보 보기
+      url: "/monitor/viewing-information-about-appliance-storage-nodes.html"
+    - title: SANtricity 시스템 관리자 탭 보기
+      url: "/monitor/viewing-santricity-system-manager-tab.html"
+    - title: 어플라이언스 관리 노드 및 게이트웨이 노드에 대한 정보 보기
+      url: "/monitor/viewing-information-about-appliance-admin-nodes-and-gateway-nodes.html"
+- title: 정기적으로 모니터링해야 하는 정보
+  url: "/monitor/information-you-should-monitor-regularly.html"
+  entries:
+  - title: 시스템 상태 모니터링
+    url: "/monitor/monitoring-system-health.html"
+    entries:
+    - title: 노드 연결 상태를 모니터링합니다
+      url: "/monitor/monitoring-node-connection-states.html"
+    - title: 현재 경고 보기
+      url: "/monitor/viewing-current-alerts.html"
+    - title: 해결된 경고 보기
+      url: "/monitor/viewing-resolved-alerts.html"
+    - title: 특정 경고 보기
+      url: "/monitor/viewing-specific-alert.html"
+    - title: 레거시 알람 보기
+      url: "/monitor/viewing-legacy-alarms.html"
+  - title: 스토리지 용량 모니터링
+    url: "/monitor/monitoring-storage-capacity.html"
+    entries:
+    - title: 전체 그리드에 대한 스토리지 용량 모니터링
+      url: "/monitor/monitoring-storage-capacity-for-entire-grid.html"
+    - title: 각 스토리지 노드의 스토리지 용량 모니터링
+      url: "/monitor/monitoring-storage-capacity-for-each-storage-node.html"
+    - title: 각 스토리지 노드에 대해 객체 메타데이터 용량 모니터링
+      url: "/monitor/monitoring-object-metadata-capacity-for-each-storage-node.html"
+  - title: 정보 수명 주기 관리 모니터링
+    url: "/monitor/monitoring-information-lifecycle-management.html"
+  - title: 성능, 네트워킹 및 시스템 리소스 모니터링
+    url: "/monitor/monitoring-performance-networking-and-system-resources.html"
+    entries:
+    - title: 쿼리 지연 시간 모니터링
+      url: "/monitor/monitoring-query-latency.html"
+    - title: 네트워크 연결 및 성능 모니터링
+      url: "/monitor/monitoring-network-connections-and-performance.html"
+    - title: 노드 레벨 리소스 모니터링
+      url: "/monitor/monitoring-node-level-resources.html"
+  - title: 테넌트 작업 모니터링
+    url: "/monitor/monitoring-tenant-activity.html"
+  - title: 아카이빙 용량 모니터링
+    url: "/monitor/monitoring-archival-capacity.html"
+  - title: 로드 밸런싱 작업 모니터링
+    url: "/monitor/monitoring-load-balancing-operations.html"
+  - title: 필요한 경우 핫픽스 적용 또는 소프트웨어 업그레이드
+    url: "/monitor/applying-hotfixes-or-upgrading-software-if-necessary.html"
+- title: 경고 및 알람 관리
+  url: "/monitor/managing-alerts-and-alarms.html"
+  entries:
+  - title: 경고 및 알람 비교
+    url: "/monitor/comparing-alerts-and-alarms.html"
+  - title: 알림 관리
+    url: "/monitor/managing-alerts.html"
+  - title: 알람 관리(기존 시스템)
+    url: "/monitor/managing-alarms.html"
+- title: SNMP 모니터링을 사용합니다
+  url: "/monitor/using-snmp-monitoring.html"
+  entries:
+  - title: SNMP 에이전트 구성
+    url: "/monitor/configuring-snmp-agent.html"
+  - title: SNMP 에이전트를 업데이트하는 중입니다
+    url: "/monitor/updating-snmp-agent.html"
+- title: 추가 StorageGRID 데이터 수집
+  url: "/monitor/collecting-additional-storagegrid-data.html"
+  entries:
+  - title: 차트 및 보고서 사용
+    url: "/monitor/using-charts-and-reports.html"
+    entries:
+    - title: 차트 및 그래프 유형
+      url: "/monitor/types-of-charts-and-graphs.html"
+      entries:
+      - title: 차트 범례
+        url: "/monitor/chart-legend.html"
+    - title: 차트 및 그래프 표시
+      url: "/monitor/displaying-charts-and-graphs.html"
+    - title: 차트 생성 중
+      url: "/monitor/generating-charts.html"
+    - title: 텍스트 보고서의 유형입니다
+      url: "/monitor/types-of-text-reports.html"
+    - title: 텍스트 보고서를 생성하는 중입니다
+      url: "/monitor/generating-text-reports.html"
+    - title: 텍스트 보고서를 내보내는 중입니다
+      url: "/monitor/exporting-text-reports.html"
+  - title: 모니터링 PUT 및 GET 성능
+    url: "/monitor/monitoring-put-and-get-performance.html"
+  - title: 개체 검증 작업 모니터링
+    url: "/monitor/monitoring-object-verification-operations.html"
+  - title: 이벤트 모니터링
+    url: "/monitor/monitoring-events.html"
+    entries:
+    - title: 이전 이벤트 검토
+      url: "/monitor/reviewing-previous-events.html"
+    - title: 이벤트 수를 재설정하는 중입니다
+      url: "/monitor/resetting-event-counts.html"
+    - title: 사용자 지정 syslog 이벤트를 생성합니다
+      url: "/monitor/creating-custom-syslog-events.html"
+    - title: 사용자 지정 이벤트 수를 0으로 재설정합니다
+      url: "/monitor/resetting-count-of-custom-events-to-zero.html"
+  - title: 감사 메시지 검토
+    url: "/monitor/reviewing-audit-messages.html"
+  - title: 로그 파일 및 시스템 데이터를 수집하는 중입니다
+    url: "/monitor/collecting-log-files-and-system-data.html"
+  - title: 수동으로 AutoSupport 메시지 트리거
+    url: "/monitor/manually-triggering-autosupport-message.html"
+  - title: 그리드 토폴로지 트리 보기
+    url: "/monitor/viewing-grid-topology-tree.html"
+  - title: 지원 메트릭 검토
+    url: "/monitor/reviewing-support-metrics.html"
+  - title: 진단 프로그램 실행 중
+    url: "/monitor/running-diagnostics.html"
+  - title: 맞춤형 모니터링 애플리케이션 생성
+    url: "/monitor/creating-custom-monitoring-applications.html"
+- title: 경고 참조
+  url: "/monitor/alerts-reference.html"
+  entries:
+  - title: 일반적으로 사용되는 Prometheus 메트릭입니다
+    url: "/monitor/commonly-used-prometheus-metrics.html"
+- title: 알람 기준(레거시 시스템)
+  url: "/monitor/alarms-reference.html"
+  entries:
+  - title: SNMP 알림을 생성하는 알람(레거시 시스템)
+    url: "/monitor/alarms-that-generate-snmp-notifications.html"
+- title: 로그 파일 참조
+  url: "/monitor/logs-files-reference.html"
+  entries:
+  - title: StorageGRID 소프트웨어 로그
+    url: "/monitor/storagegrid-software-logs.html"
+  - title: 배포 및 유지 관리 로그
+    url: "/monitor/deployment-and-maintenance-logs.html"
+  - title: 타사 소프트웨어에 대한 로그입니다
+    url: "/monitor/logs-for-third-party-software.html"
+  - title: bycast.log 정보
+    url: "/monitor/about-bycast-log.html"
+    entries:
+    - title: bycast.log 파일 회전
+      url: "/monitor/file-rotation-for-bycast-log.html"
+    - title: bycast.log 의 메시지
+      url: "/monitor/messages-in-bycast-log.html"
+    - title: bycast.log 의 메시지 심각도
+      url: "/monitor/message-severities-in-bycast-log.html"
+    - title: bycast.log 오류 코드
+      url: "/monitor/error-codes-in-bycast-log.html"

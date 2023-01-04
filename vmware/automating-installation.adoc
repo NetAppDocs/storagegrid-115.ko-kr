@@ -1,0 +1,18 @@
+---
+permalink: vmware/automating-installation.html 
+sidebar: sidebar 
+keywords:  
+summary: VMware 가상 그리드 노드의 구축, 그리드 노드의 구성 및 StorageGRID 어플라이언스 구성을 자동화할 수 있습니다. 
+---
+= 설치 자동화
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+VMware 가상 그리드 노드의 구축, 그리드 노드의 구성 및 StorageGRID 어플라이언스 구성을 자동화할 수 있습니다.
+
+* link:automating-grid-node-deployment-in-vmware-vsphere.html["VMware vSphere에서 그리드 노드 구축 자동화"]
+* link:automating-configuration-of-storagegrid.html["StorageGRID 구성 자동화"]
+

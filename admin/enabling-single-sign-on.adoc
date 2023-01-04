@@ -1,0 +1,42 @@
+---
+permalink: admin/enabling-single-sign-on.html 
+sidebar: sidebar 
+keywords:  
+summary: 'sandbox 모드를 사용하여 모든 StorageGRID 기반 당사자 트러스트를 테스트한 후에는 SSO(Single Sign-On)\(SSO\)를 사용할 수 있습니다.' 
+---
+= SSO(Single Sign-On) 활성화
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+sandbox 모드를 사용하여 모든 StorageGRID 기반 당사자 트러스트를 테스트한 후에는 SSO(Single Sign-On)를 사용할 수 있습니다.
+
+.필요한 것
+* ID 소스에서 하나 이상의 통합 그룹을 가져오고 그룹에 할당된 루트 액세스 관리 권한을 가져와야 합니다. 하나 이상의 통합 사용자가 그리드 관리자 및 기존 테넌트 계정에 대한 테넌트 관리자에 대한 루트 액세스 권한을 가지고 있는지 확인해야 합니다.
+* 샌드박스 모드를 사용하여 모든 신뢰할 수 있는 파티 트러스트를 수행해야 합니다.
+
+
+.단계
+. Configuration * * * Access Control * * Single Sign-On * 을 선택합니다.
++
+단일 사인온 페이지가 * Sandbox 모드 * 가 선택된 상태로 나타납니다.
+
+. SSO 상태를 * Enabled * 로 변경합니다.
+. 저장 * 을 클릭합니다.
++
+경고 메시지가 나타납니다.
+
++
+image::../media/sso_status_enabled_warning.gif[SSO 활성화를 위한 경고 메시지입니다]
+
+. 경고를 검토하고 * OK * 를 클릭합니다.
++
+이제 SSO(Single Sign-On)가 활성화됩니다.
+
++
+
+IMPORTANT: 모든 사용자는 SSO를 사용하여 Grid Manager, Tenant Manager, Grid Management API 및 Tenant Management API에 액세스해야 합니다. 로컬 사용자는 더 이상 StorageGRID에 액세스할 수 없습니다.
+
+

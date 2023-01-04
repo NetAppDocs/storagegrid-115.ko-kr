@@ -1,0 +1,36 @@
+---
+permalink: admin/kms-adding-upload-server-certificate.html 
+sidebar: sidebar 
+keywords:  
+summary: '키 관리 서버 추가 마법사의 2단계\(서버 인증서 업로드\)에서 KMS에 대한 서버 인증서\(또는 인증서 번들\)를 업로드합니다. 서버 인증서를 사용하면 외부 KMS가 StorageGRID에 자신을 인증할 수 있습니다.' 
+---
+= 2단계: 서버 인증서 업로드
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+키 관리 서버 추가 마법사의 2단계(서버 인증서 업로드)에서 KMS에 대한 서버 인증서(또는 인증서 번들)를 업로드합니다. 서버 인증서를 사용하면 외부 KMS가 StorageGRID에 자신을 인증할 수 있습니다.
+
+.단계
+. 2단계(서버 인증서 업로드) * 에서 저장된 서버 인증서 또는 인증서 번들의 위치를 찾습니다.
++
+image::../media/kms_step_2_upload_server_certificate.png[KMS 2단계 서버 인증서 업로드]
+
+. 인증서 파일을 업로드합니다.
++
+서버 인증서 메타데이터가 나타납니다.
+
++
+image::../media/kms_step_2_server_certificate_metadata.png[KMS 2단계 서버 인증서 메타데이터]
+
++
+
+NOTE: 인증서 번들을 업로드한 경우 각 인증서의 메타데이터가 해당 탭에 표시됩니다.
+
+. 다음 * 을 선택합니다.
++
+키 관리 서버 추가 마법사의 3단계(클라이언트 인증서 업로드)가 나타납니다.
+
+

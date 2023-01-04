@@ -1,0 +1,29 @@
+---
+permalink: maintain/site-decommissioning.html 
+sidebar: sidebar 
+keywords:  
+summary: StorageGRID 시스템에서 데이터 센터 사이트를 제거해야 할 수 있습니다. 사이트를 제거하려면 사이트를 해제해야 합니다. 
+---
+= 현장 해체
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+StorageGRID 시스템에서 데이터 센터 사이트를 제거해야 할 수 있습니다. 사이트를 제거하려면 사이트를 해제해야 합니다.
+
+흐름도는 사이트 해체를 위한 상위 단계를 보여줍니다.
+
+image::../media/overview_decommission_site.png[개요: 서비스 해제 사이트]
+
+.단계
+* link:considerations-for-removing-site.html["사이트 제거 고려 사항"]
+* link:gathering-required-materials-site-decom.html["필요한 자료를 모으는 중입니다"]
+* link:step-1-select-site.html["1단계: 사이트를 선택합니다"]
+* link:step-2-view-details.html["2단계: 세부 정보 보기"]
+* link:step-3-revise-ilm-policy.html["3단계: ILM 정책 수정"]
+* link:step-4-remove-ilm-references.html["4단계: ILM 참조 제거"]
+* link:step-5-resolve-node-conflicts.html["5단계: 노드 충돌 해결(및 서비스 해제 시작)"]
+* link:step-6-monitor-decommission.html["6단계: 서비스 해제 모니터링"]
+

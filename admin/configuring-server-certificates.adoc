@@ -1,0 +1,43 @@
+---
+permalink: admin/configuring-server-certificates.html 
+sidebar: sidebar 
+keywords:  
+summary: StorageGRID 시스템에서 사용하는 서버 인증서를 사용자 지정할 수 있습니다. 
+---
+= 서버 인증서를 구성하는 중입니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+StorageGRID 시스템에서 사용하는 서버 인증서를 사용자 지정할 수 있습니다.
+
+StorageGRID 시스템은 다음과 같은 여러 가지 목적으로 보안 인증서를 사용합니다.
+
+* 관리 인터페이스 서버 인증서: 그리드 관리자, 테넌트 관리자, 그리드 관리 API 및 테넌트 관리 API에 대한 액세스를 보호하는 데 사용됩니다.
+* 스토리지 API 서버 인증서: API 클라이언트 애플리케이션이 객체 데이터를 업로드 및 다운로드하는 데 사용하는 스토리지 노드 및 게이트웨이 노드에 대한 액세스를 보호하는 데 사용됩니다.
+
+
+설치 중에 생성된 기본 인증서를 사용하거나 이러한 기본 인증서 유형 중 하나 또는 둘 다를 사용자 지정 인증서로 바꿀 수 있습니다.
+
+
+
+== 지원되는 유형의 사용자 지정 서버 인증서
+
+StorageGRID 시스템은 RSA 또는 ECDSA(Elliptic Curve Digital Signature Algorithm)로 암호화된 사용자 지정 서버 인증서를 지원합니다.
+
+StorageGRID가 REST API용 클라이언트 연결을 보호하는 방법에 대한 자세한 내용은 S3 또는 Swift 구현 가이드를 참조하십시오.
+
+
+
+== 로드 밸런서 끝점용 인증서
+
+StorageGRID는 로드 밸런서 끝점에 사용되는 인증서를 별도로 관리합니다. 로드 밸런서 인증서를 구성하려면 로드 밸런서 끝점을 구성하는 지침을 참조하십시오.
+
+.관련 정보
+link:../s3/index.html["S3을 사용합니다"]
+
+link:../swift/index.html["Swift를 사용합니다"]
+
+link:configuring-load-balancer-endpoints.html["부하 분산 장치 엔드포인트 구성"]

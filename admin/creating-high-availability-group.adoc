@@ -1,0 +1,114 @@
+---
+permalink: admin/creating-high-availability-group.html 
+sidebar: sidebar 
+keywords:  
+summary: '하나 이상의 고가용성 \(HA\) 그룹을 생성하여 관리 노드 또는 게이트웨이 노드의 서비스에 대한 고가용성 액세스를 제공할 수 있습니다.' 
+---
+= 고가용성 그룹 생성
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+하나 이상의 고가용성(HA) 그룹을 생성하여 관리 노드 또는 게이트웨이 노드의 서비스에 대한 고가용성 액세스를 제공할 수 있습니다.
+
+.필요한 것
+* 지원되는 브라우저를 사용하여 Grid Manager에 로그인해야 합니다.
+* 루트 액세스 권한이 있어야 합니다.
+
+
+.이 작업에 대해
+HA 그룹에 포함할 인터페이스는 다음 조건을 충족해야 합니다.
+
+* 인터페이스는 게이트웨이 노드 또는 관리 노드여야 합니다.
+* 인터페이스는 Grid Network(eth0) 또는 Client Network(eth2)에 속해야 합니다.
+* 인터페이스는 DHCP가 아닌 고정 또는 고정 IP 주소 지정으로 구성해야 합니다.
+
+
+.단계
+. 구성 * > * 네트워크 설정 * > * 고가용성 그룹 * 을 선택합니다.
++
+High Availability Groups 페이지가 나타납니다.
+
++
+image::../media/ha_groups_page_with_no_groups.png[그룹이 없는 HA 그룹 페이지]
+
+. Create * 를 클릭합니다.
++
+High Availability Group 생성 대화 상자가 나타납니다.
+
+. 이름을 입력하고 원하는 경우 HA 그룹에 대한 설명을 입력합니다.
+. Select Interfaces * 를 클릭합니다.
++
+High Availability Group에 인터페이스 추가 대화 상자가 나타납니다. 이 표에는 적합한 노드, 인터페이스 및 IPv4 서브넷이 나와 있습니다.
+
++
+image::../media/ha_group_add_interfaces.png[HA 그룹 인터페이스 추가]
+
++
+DHCP에서 IP 주소를 할당한 경우 인터페이스가 목록에 나타나지 않습니다.
+
+. HA 그룹에 추가 * 열에서 HA 그룹에 추가할 인터페이스의 확인란을 선택합니다.
++
+인터페이스 선택에 대한 다음 지침을 참조하십시오.
+
++
+** 인터페이스를 하나 이상 선택해야 합니다.
+** 둘 이상의 인터페이스를 선택하는 경우 모든 인터페이스가 그리드 네트워크(eth0) 또는 클라이언트 네트워크(eth2)에 있어야 합니다.
+** 모든 인터페이스는 동일한 서브넷 또는 공통 접두사가 있는 서브넷에 있어야 합니다.
++
+IP 주소는 가장 작은 서브넷(접두사가 가장 큰 서브넷)으로 제한됩니다.
+
+** 다른 노드 유형의 인터페이스를 선택하고 페일오버가 발생하는 경우 선택한 노드에 공통되는 서비스만 가상 IP에서 사용할 수 있습니다.
++
+*** Grid Manager 또는 Tenant Manager의 HA 보호를 위해 두 개 이상의 관리 노드를 선택합니다.
+*** 로드 밸런서 서비스의 HA 보호를 위해 두 개 이상의 관리 노드, 게이트웨이 노드 또는 둘 다를 선택합니다.
+*** CLB 서비스의 HA 보호를 위해 둘 이상의 게이트웨이 노드를 선택합니다.
++
+
+NOTE: CLB 서비스는 더 이상 사용되지 않습니다.
+
+
+
+
+
++
+image::../media/ha_groups_different_node_types.png[HA 그룹 서로 다른 노드 유형]
+
+. 적용 * 을 클릭합니다.
++
+선택한 인터페이스가 고가용성 그룹 생성 페이지의 인터페이스 섹션에 나열됩니다. 기본적으로 목록의 첫 번째 인터페이스가 기본 설정 마스터로 선택됩니다.
+
++
+image::../media/ha_group_select_virtual_ips.png[HA 그룹 가상 IP를 선택합니다]
+
+. 다른 인터페이스를 기본 마스터로 사용하려면 * Preferred Master * 열에서 해당 인터페이스를 선택합니다.
++
+장애가 발생하여 VIP 주소가 백업 인터페이스에 재할당되지 않는 한 기본 마스터는 활성 인터페이스입니다.
+
++
+
+NOTE: HA 그룹이 그리드 관리자에 대한 액세스를 제공하는 경우 기본 관리 노드에서 기본 마스터로 사용할 인터페이스를 선택해야 합니다. 일부 유지 보수 절차는 기본 관리 노드에서만 수행할 수 있습니다.
+
+. 페이지의 가상 IP 주소 섹션에서 HA 그룹에 대한 가상 IP 주소를 1~10개 입력합니다. 더하기 기호(image:../media/icon_plus_sign_black_on_white_old.png["더하기 기호"])를 클릭하여 여러 IP 주소를 추가합니다.
++
+IPv4 주소를 하나 이상 입력해야 합니다. 선택적으로 추가 IPv4 및 IPv6 주소를 지정할 수 있습니다.
+
++
+IPv4 주소는 모든 멤버 인터페이스에서 공유하는 IPv4 서브넷 내에 있어야 합니다.
+
+. 저장 * 을 클릭합니다.
++
+HA 그룹이 생성되고 이제 구성된 가상 IP 주소를 사용할 수 있습니다.
+
+
+
+.관련 정보
+link:../rhel/index.html["Red Hat Enterprise Linux 또는 CentOS를 설치합니다"]
+
+link:../vmware/index.html["VMware를 설치합니다"]
+
+link:../ubuntu/index.html["Ubuntu 또는 Debian을 설치합니다"]
+
+link:managing-load-balancing.html["로드 밸런싱 관리"]

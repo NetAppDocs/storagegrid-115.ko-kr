@@ -1,0 +1,14 @@
+---
+permalink: sg5700/troubleshooting-connection-issues.html 
+sidebar: sidebar 
+keywords: storagegrid, sg5700, storage node, storage appliance, troubleshoot, troubleshooting, connection 
+summary: StorageGRID 어플라이언스 설치 중에 연결 문제가 발생하면 나열된 수정 조치 단계를 수행해야 합니다. 
+---
+= 연결 문제 해결
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+StorageGRID 어플라이언스 설치 중에 연결 문제가 발생하면 나열된 수정 조치 단계를 수행해야 합니다.

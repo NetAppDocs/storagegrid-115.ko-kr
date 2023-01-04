@@ -1,0 +1,98 @@
+---
+section: rhel
+title: Red Hat Enterprise Linux 또는 CentOS를 설치합니다
+url: "/rhel/index.html"
+entries:
+- title: 설치 개요
+  url: "/rhel/installation-overview.html"
+- title: 계획 및 준비
+  url: "/rhel/planning-and-preparation.html"
+  entries:
+  - title: 필수 자료
+    url: "/rhel/required-materials.html"
+  - title: StorageGRID 설치 파일 다운로드 및 추출
+    url: "/rhel/downloading-and-extracting-storagegrid-installation-files.html"
+  - title: CPU 및 RAM 요구 사항
+    url: "/rhel/cpu-and-ram-requirements.html"
+  - title: 요구사항을 충족해야 합니다
+    url: "/rhel/storage-and-performance-requirements.html"
+  - title: 노드 컨테이너 마이그레이션 요구사항
+    url: "/rhel/node-container-migration-requirements.html"
+  - title: 웹 브라우저 요구 사항
+    url: "/rhel/web-browser-requirements.html"
+  - title: 구축 툴
+    url: "/rhel/deployment-tools.html"
+  - title: 호스트를 준비하는 중입니다
+    url: "/rhel/preparing-hosts.html"
+    entries:
+    - title: Linux를 설치하는 중입니다
+      url: "/rhel/installing-linux.html"
+    - title: 호스트 네트워크 구성
+      url: "/rhel/configuring-host-network.html"
+      entries:
+      - title: MAC 주소 복제에 대한 고려 사항 및 권장 사항
+        url: "/rhel/considerations-and-recommendations-for-mac-address-cloning.html"
+      - title: '예 1: 물리적 NIC 또는 가상 NIC에 1:1 대 1 매핑'
+        url: "/rhel/example-1-1-to-1-mapping-to-physical-or-virtual-nics.html"
+      - title: '예 2: VLAN을 전달하는 LACP 결합'
+        url: "/rhel/example-2-lacp-bond-carrying-vlans.html"
+    - title: 호스트 스토리지를 구성하는 중입니다
+      url: "/rhel/configuring-host-storage.html"
+    - title: Docker 스토리지 볼륨 구성
+      url: "/rhel/configuring-docker-storage-volume.html"
+    - title: Docker 설치 중
+      url: "/rhel/installing-docker.html"
+    - title: StorageGRID 호스트 서비스를 설치하는 중입니다
+      url: "/rhel/installing-storagegrid-webscale-host-service.html"
+- title: 가상 그리드 노드 구축
+  url: "/rhel/deploying-virtual-grid-nodes.html"
+  entries:
+  - title: 노드 구성 파일을 만드는 중입니다
+    url: "/rhel/creating-node-configuration-files.html"
+    entries:
+    - title: 그리드 노드가 기본 관리자 노드를 검색하는 방법
+      url: "/rhel/how-grid-nodes-discover-primary-admin-node.html"
+    - title: 노드 구성 파일의 예
+      url: "/rhel/example-node-configuration-files.html"
+  - title: StorageGRID 구성을 확인하는 중입니다
+    url: "/rhel/validating-storagegrid-configuration.html"
+  - title: StorageGRID 호스트 서비스를 시작합니다
+    url: "/rhel/starting-storagegrid-host-service.html"
+- title: 그리드 구성 및 설치 완료
+  url: "/rhel/configuring-grid-and-completing-installation.html"
+  entries:
+  - title: 그리드 관리자로 이동합니다
+    url: "/rhel/navigating-to-grid-manager.html"
+  - title: StorageGRID 라이센스 정보 지정
+    url: "/rhel/specifying-storagegrid-license-information.html"
+  - title: 사이트 추가
+    url: "/rhel/adding-sites.html"
+  - title: 그리드 네트워크 서브넷 지정
+    url: "/rhel/specifying-grid-network-subnets.html"
+  - title: 보류 중인 그리드 노드를 승인하는 중입니다
+    url: "/rhel/approving-pending-grid-nodes.html"
+  - title: 네트워크 시간 프로토콜 서버 정보 지정
+    url: "/rhel/specifying-network-time-protocol-server-information.html"
+  - title: 도메인 이름 시스템 서버 정보 지정
+    url: "/rhel/specifying-domain-name-system-server-information.html"
+  - title: StorageGRID 시스템 암호 지정
+    url: "/rhel/specifying-storagegrid-system-passwords.html"
+  - title: 구성을 검토하고 설치를 완료합니다
+    url: "/rhel/reviewing-your-configuration-and-completing-installation.html"
+  - title: 설치 후 지침
+    url: "/rhel/post-installation-guidelines.html"
+- title: 설치 자동화
+  url: "/rhel/automating-installation.html"
+  entries:
+  - title: StorageGRID 호스트 서비스의 설치 및 구성 자동화
+    url: "/rhel/automating-installation-and-configuration-of-storagegrid-host-service.html"
+  - title: StorageGRID 구성 자동화
+    url: "/rhel/automating-configuration-of-storagegrid.html"
+- title: 설치 REST API 개요
+  url: "/rhel/overview-of-installation-rest-api.html"
+- title: 다음 단계로 넘어갑니다
+  url: "/rhel/where-to-go-next.html"
+- title: 설치 문제 해결
+  url: "/rhel/troubleshooting-installation-issues.html"
+- title: 예 /etc/sysconfig/network-scripts
+  url: "/rhel/example-etc-sysconfig-network-scripts.html"

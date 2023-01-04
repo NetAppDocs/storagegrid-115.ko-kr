@@ -1,0 +1,14 @@
+---
+permalink: audit/audit-messages-list.html 
+sidebar: sidebar 
+keywords: storagegrid, audit, messages, message 
+summary: 시스템 이벤트가 발생하면 StorageGRID 시스템은 감사 메시지를 생성하여 감사 로그에 기록합니다. 
+---
+= 감사 메시지
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+시스템 이벤트가 발생하면 StorageGRID 시스템은 감사 메시지를 생성하여 감사 로그에 기록합니다.

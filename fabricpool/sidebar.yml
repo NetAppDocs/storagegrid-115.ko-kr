@@ -1,0 +1,33 @@
+---
+section: fabricpool
+title: FabricPool용 StorageGRID를 구성합니다
+url: "/fabricpool/index.html"
+entries:
+- title: FabricPool용 StorageGRID 구성
+  url: "/fabricpool/configuring-storagegrid-for-fabricpool.html"
+- title: StorageGRID를 클라우드 계층으로 연결하는 데 필요한 정보
+  url: "/fabricpool/information-needed-to-attach-storagegrid-as-cloud-tier.html"
+  entries:
+  - title: 로드 밸런싱에 대한 모범 사례
+    url: "/fabricpool/best-practices-for-load-balancing.html"
+  - title: 고가용성 그룹에 대한 Best Practice
+    url: "/fabricpool/best-practices-for-high-availability-groups.html"
+  - title: StorageGRID IP 주소에 대한 DNS 서버 구성
+    url: "/fabricpool/configuring-dns-for-storagegrid-ip-addresses.html"
+  - title: FabricPool에 대한 고가용성(HA) 그룹 생성
+    url: "/fabricpool/creating-ha-group-for-fabricpool.html"
+  - title: FabricPool용 로드 밸런서 끝점 생성
+    url: "/fabricpool/creating-load-balancer-endpoint-for-fabricpool.html"
+  - title: FabricPool에 대한 테넌트 계정을 생성합니다
+    url: "/fabricpool/creating-tenant-account-for-fabricpool.html"
+  - title: S3 버킷 생성 및 액세스 키 획득
+    url: "/fabricpool/creating-s3-bucket-and-access-key.html"
+- title: FabricPool 데이터에 StorageGRID 정보 수명 주기 관리 사용
+  url: "/fabricpool/using-storagegrid-ilm-with-fabricpool-data.html"
+  entries:
+  - title: FabricPool 데이터에 대한 ILM 정책의 예
+    url: "/fabricpool/example-ilm-policy-for-fabricpool-data.html"
+- title: FabricPool에 대한 트래픽 분류 정책 생성
+  url: "/fabricpool/creating-traffic-classification-policy-for-fabricpool.html"
+- title: 기타 StorageGRID 및 FabricPool 모범 사례
+  url: "/fabricpool/other-best-practices-for-storagegrid-and-fabricpool.html"

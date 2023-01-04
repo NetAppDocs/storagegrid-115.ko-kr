@@ -1,0 +1,58 @@
+---
+permalink: network/storagegrid-networking-overview.html 
+sidebar: sidebar 
+keywords: storagegrid, network, networking, ethernet, subnet, routing 
+summary: StorageGRID 시스템에 대한 네트워킹을 구성하려면 이더넷 스위칭, TCP/IP 네트워킹, 서브넷, 네트워크 라우팅 및 방화벽에 대한 높은 수준의 경험이 필요합니다. 
+---
+= StorageGRID 네트워킹 개요
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+StorageGRID 시스템에 대한 네트워킹을 구성하려면 이더넷 스위칭, TCP/IP 네트워킹, 서브넷, 네트워크 라우팅 및 방화벽에 대한 높은 수준의 경험이 필요합니다.
+
+네트워킹을 구성하기 전에 _Grid Primer_에 설명된 대로 StorageGRID 아키텍처를 숙지하십시오.
+
+StorageGRID를 구축 및 구성하기 전에 네트워킹 인프라를 구성해야 합니다. 그리드의 모든 노드 사이에서, 그리드와 외부 클라이언트 및 서비스 간에 통신이 이루어져야 합니다.
+
+외부 클라이언트 및 외부 서비스는 다음과 같은 기능을 수행하기 위해 StorageGRID 네트워크에 연결해야 합니다.
+
+* 오브젝트 데이터 저장 및 검색
+* 이메일 알림을 수신합니다
+* StorageGRID 관리 인터페이스 액세스(그리드 관리자 및 테넌트 관리자)
+* 감사 공유 액세스(선택 사항)
+* 다음과 같은 서비스 제공:
++
+** NTP(Network Time Protocol)
+** DNS(Domain Name System)
+** KMS(Key Management Server)
+
+
+
+
+StorageGRID 네트워킹은 이러한 기능 및 기타 기능에 대한 트래픽을 처리할 수 있도록 적절히 구성되어야 합니다.
+
+사용할 StorageGRID 네트워크 3개 중 어떤 네트워크를 어떻게 구성할지 결정한 후 적절한 지침에 따라 StorageGRID 노드를 설치 및 구성할 수 있습니다.
+
+.관련 정보
+link:../primer/index.html["그리드 프라이머"]
+
+link:../admin/index.html["StorageGRID 관리"]
+
+link:../release-notes/index.html["릴리스 정보"]
+
+link:../rhel/index.html["Red Hat Enterprise Linux 또는 CentOS를 설치합니다"]
+
+link:../ubuntu/index.html["Ubuntu 또는 Debian을 설치합니다"]
+
+link:../vmware/index.html["VMware를 설치합니다"]
+
+link:../sg100-1000/index.html["SG100 및 AMP, SG1000 서비스 어플라이언스"]
+
+link:../sg6000/index.html["SG6000 스토리지 어플라이언스"]
+
+link:../sg5700/index.html["SG5700 스토리지 어플라이언스"]
+
+link:../sg5600/index.html["SG5600 스토리지 어플라이언스"]

@@ -1,0 +1,39 @@
+---
+permalink: sg6000/maintaining-sg6000-appliance.html 
+sidebar: sidebar 
+keywords: storagegrid, sg6000, storage node, storage appliance, maintain, maintaining, hardware, procedures, tasks 
+summary: SG6000 어플라이언스에서 유지보수 절차를 수행해야 할 수 있습니다. 이 섹션의 절차에서는 어플라이언스가 이미 StorageGRID 시스템의 스토리지 노드로 구축되었다고 가정합니다. 
+---
+= SG6000 어플라이언스 유지 관리
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SG6000 어플라이언스에서 유지보수 절차를 수행해야 할 수 있습니다. 이 섹션의 절차에서는 어플라이언스가 이미 StorageGRID 시스템의 스토리지 노드로 구축되었다고 가정합니다.
+
+.단계
+* link:placing-appliance-into-maintenance-mode.html["유지보수 모드로 제품을 두십시오"]
+* link:upgrading-santricity-os-on-storage-controllers.html["스토리지 컨트롤러에서 SANtricity OS 업그레이드"]
+* link:upgrading-drive-firmware-using-santricity-system-manager.html["SANtricity 시스템 관리자를 사용하여 드라이브 펌웨어를 업그레이드합니다"]
+* link:adding-expansion-shelf-to-deployed-sg6060.html["구축된 SG6060에 확장 쉘프 추가"]
+* link:turning-controller-identify-led-on-and-off.html["컨트롤러 식별 LED를 켜고 끕니다"]
+* link:locating-controller-in-data-center.html["데이터 센터에서 컨트롤러 찾기"]
+* link:replacing-storage-controller-sg6000.html["스토리지 컨트롤러 교체"]
+* link:replacing-hardware-components-in-storage-controller-shelf.html["스토리지 컨트롤러 쉘프의 하드웨어 구성 요소를 교체합니다"]
+* link:replacing-hardware-components-in-optional-60-drive-expansion-shelf.html["옵션 60-드라이브 확장 쉘프의 하드웨어 구성요소를 교체합니다"]
+* link:shutting-down-sg6000-cn-controller.html["SG6000-CN 컨트롤러를 종료하는 중입니다"]
+* link:powering-on-sg6000-cn-controller-and-verifying-operation.html["SG6000-CN 컨트롤러의 전원을 켜고 작동을 확인합니다"]
+* link:replacing-sg6000-cn-controller.html["SG6000-CN 컨트롤러 교체"]
+* link:replacing-power-supply-in-sg6000-cn-controller.html["SG6000-CN 컨트롤러의 전원 공급 장치 교체"]
+* link:removing-sg6000-cn-controller-from-cabinet-or-rack.html["캐비닛 또는 랙에서 SG6000-CN 컨트롤러 분리"]
+* link:reinstalling-sg6000-cn-controller-into-cabinet-or-rack.html["캐비닛 또는 랙에 SG6000-CN 컨트롤러 재설치"]
+* link:removing-sg6000-cn-controller-cover.html["SG6000-CN 컨트롤러 덮개 분리"]
+* link:reinstalling-sg6000-cn-controller-cover.html["SG6000-CN 컨트롤러 덮개 재설치"]
+* link:replacing-fibre-channel-hba-in-sg6000-cn-controller.html["SG6000-CN 컨트롤러의 파이버 채널 HBA 교체"]
+* link:changing-link-configuration-of-sg6000-cn-controller.html["SG6000-CN 컨트롤러의 링크 구성 변경"]
+* link:changing-mtu-setting.html["MTU 설정을 변경하는 중입니다"]
+* link:checking-dns-server-configuration.html["DNS 서버 구성을 확인하는 중입니다"]
+* link:monitoring-node-encryption-in-maintenance-mode.html["유지보수 모드에서 노드 암호화 모니터링"]
+

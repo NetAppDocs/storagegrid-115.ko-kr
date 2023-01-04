@@ -1,0 +1,22 @@
+---
+permalink: sg100-1000/installing-hardware-sg100-and-sg1000.html 
+sidebar: sidebar 
+keywords: storagegrid, sg100, sg1000, service appliance, services appliance, gateway Node, admin node, hardware, install, installing 
+summary: 하드웨어 설치에는 제품을 캐비닛이나 랙에 설치하고, 케이블을 연결하고, 전원을 공급해야 합니다. 
+---
+= 하드웨어 설치
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+하드웨어 설치에는 제품을 캐비닛이나 랙에 설치하고, 케이블을 연결하고, 전원을 공급해야 합니다.
+
+.단계
+* link:registering-hardware-sg100-and-sg1000.html["하드웨어를 등록하는 중입니다"]
+* link:installing-appliance-in-cabinet-or-rack-sg100-and-sg1000.html["캐비닛 또는 랙에 어플라이언스 설치(SG100 및 SG1000)"]
+* link:cabling-appliance-sg100-and-sg1000.html["어플라이언스 SG100 및 SG1000 케이블 연결)"]
+* link:connecting-power-cords-and-applying-power-sg100-and-sg1000.html["전원 코드 연결 및 전원 공급(SG100 및 SG1000)"]
+* link:viewing-status-indicators-on-sg100-and-sg1000-appliances.html["SG100 및 SG1000 어플라이언스의 상태 표시기 보기"]
+

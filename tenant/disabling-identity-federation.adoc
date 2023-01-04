@@ -1,0 +1,36 @@
+---
+permalink: tenant/disabling-identity-federation.html 
+sidebar: sidebar 
+keywords: storagegrid, tenant, disable identity federation, disabling identity federation, federated identity source 
+summary: 이 테넌트에 대해 ID 페더레이션 서비스를 구성한 경우 테넌트 그룹 및 사용자에 대한 ID 페더레이션을 일시적으로 또는 영구적으로 비활성화할 수 있습니다. ID 페더레이션을 비활성화하면 StorageGRID 시스템과 ID 소스 간에 통신이 이루어지지 않습니다. 그러나 구성한 설정은 그대로 유지되므로 나중에 ID 페더레이션을 쉽게 다시 활성화할 수 있습니다. 
+---
+= ID 페더레이션을 사용하지 않도록 설정합니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+이 테넌트에 대해 ID 페더레이션 서비스를 구성한 경우 테넌트 그룹 및 사용자에 대한 ID 페더레이션을 일시적으로 또는 영구적으로 비활성화할 수 있습니다. ID 페더레이션을 비활성화하면 StorageGRID 시스템과 ID 소스 간에 통신이 이루어지지 않습니다. 그러나 구성한 설정은 그대로 유지되므로 나중에 ID 페더레이션을 쉽게 다시 활성화할 수 있습니다.
+
+.필요한 것
+* 지원되는 브라우저를 사용하여 테넌트 관리자에 로그인해야 합니다.
+* 특정 액세스 권한이 있어야 합니다.
+
+
+.이 작업에 대해
+ID 페더레이션을 사용하지 않도록 설정하기 전에 다음 사항을 확인해야 합니다.
+
+* 페더레이션 사용자는 로그인할 수 없습니다.
+* 현재 로그인한 페더레이션 사용자는 세션이 만료될 때까지 테넌트 계정에 대한 액세스 권한을 유지하지만 세션이 만료된 후에는 로그인할 수 없습니다.
+* StorageGRID 시스템과 ID 소스 간의 동기화는 수행되지 않습니다.
+
+
+.단계
+. 액세스 관리 * > * ID 페더레이션 * 을 선택합니다.
+. ID 페더레이션 사용 * 확인란의 선택을 취소합니다.
+. 저장 * 을 선택합니다.
+
+
+.관련 정보
+link:tenant-management-permissions.html["테넌트 관리 권한"]

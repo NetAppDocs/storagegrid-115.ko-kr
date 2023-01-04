@@ -1,0 +1,23 @@
+---
+permalink: rhel/automating-installation-and-configuration-of-storagegrid-host-service.html 
+sidebar: sidebar 
+keywords:  
+summary: Anabilities, Puppet, Chef, Fabric 또는 SaltStack과 같은 표준 오케스트레이션 프레임워크를 사용하여 StorageGRID 호스트 서비스의 설치를 자동화할 수 있습니다. 
+---
+= StorageGRID 호스트 서비스의 설치 및 구성 자동화
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Anabilities, Puppet, Chef, Fabric 또는 SaltStack과 같은 표준 오케스트레이션 프레임워크를 사용하여 StorageGRID 호스트 서비스의 설치를 자동화할 수 있습니다.
+
+StorageGRID 호스트 서비스는 RPM으로 패키징되며 자동 설치를 위해 미리 준비하거나 프로그래밍 방식으로 준비할 수 있는 구성 파일에 의해 구동됩니다. 표준 오케스트레이션 프레임워크를 사용하여 RHEL 또는 CentOS를 설치 및 구성하는 경우 플레이북이나 레시피에 StorageGRID를 추가하는 것이 간단해야 합니다.
+
+Ansible 역할 및 플레이북의 예에는 설치 아카이브가 제공됩니다 `/extras` 폴더. Ansible 플레이북에서 방법을 확인할 수 있습니다 `storagegrid` 역할은 호스트를 준비하고 StorageGRID를 대상 서버에 설치합니다. 필요에 따라 역할 또는 플레이북을 사용자 지정할 수 있습니다.
+
+
+NOTE: 예제 플레이북에는 StorageGRID 호스트 서비스를 시작하기 전에 네트워크 디바이스를 생성하는 데 필요한 단계가 포함되어 있지 않습니다. 이 단계를 추가한 후 플레이북을 사용하여 작업을 완료합니다.
+
+호스트 준비 및 가상 그리드 노드 구축을 위한 모든 단계를 자동화할 수 있습니다.

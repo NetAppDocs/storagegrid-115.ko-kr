@@ -1,0 +1,43 @@
+---
+permalink: fabricpool/creating-tenant-account-for-fabricpool.html 
+sidebar: sidebar 
+keywords: fabricPool, tenant, SSO 
+summary: FabricPool용 그리드 관리자에서 테넌트 계정을 만들어야 합니다. 
+---
+= FabricPool에 대한 테넌트 계정을 생성합니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+FabricPool용 그리드 관리자에서 테넌트 계정을 만들어야 합니다.
+
+.필요한 것
+* 지원되는 브라우저를 사용하여 Grid Manager에 로그인해야 합니다.
+* 특정 액세스 권한이 있어야 합니다.
+
+
+.이 작업에 대해
+테넌트 계정을 사용하면 클라이언트 애플리케이션이 StorageGRID에 객체를 저장하고 검색할 수 있습니다. 각 테넌트 계정에는 고유한 계정 ID, 인증된 그룹 및 사용자, 버킷 및 객체가 있습니다.
+
+여러 ONTAP 클러스터에 동일한 테넌트 계정을 사용할 수 있습니다. 또는 필요에 따라 각 ONTAP 클러스터에 대한 전용 테넌트 계정을 생성할 수 있습니다.
+
+[NOTE]
+====
+이 지침에서는 Grid Manager에 대해 SSO(Single Sign-On)를 구성했다고 가정합니다. SSO를 사용하지 않는 경우 의 지침을 따르십시오 link:../admin/creating-tenant-account-if-storagegrid-is-not-using-sso.html["StorageGRID에서 SSO를 사용하지 않는 경우 테넌트 계정 생성"].
+
+====
+.단계
+. Tenants * 를 선택합니다.
+. Create * 를 선택합니다.
+. FabricPool 테넌트 계정의 표시 이름을 입력합니다.
+. S3 * 를 선택합니다.
+. 플랫폼 서비스 사용을 활성화하려면 [플랫폼 서비스 허용] * 확인란을 선택된 상태로 둡니다.
++
+플랫폼 서비스가 설정된 경우 테넌트는 외부 서비스에 액세스하는 CloudMirror 복제와 같은 기능을 사용할 수 있습니다.
+
+. 스토리지 할당량 * 필드는 비워 둡니다.
+. [루트 액세스 그룹] * 필드의 그리드 관리자에서 기존 통합 그룹을 선택하여 테넌트에 대한 초기 루트 액세스 권한을 가집니다.
+. 저장 * 을 선택합니다.
+

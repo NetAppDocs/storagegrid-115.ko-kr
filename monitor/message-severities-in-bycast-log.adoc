@@ -1,0 +1,22 @@
+---
+permalink: monitor/message-severities-in-bycast-log.html 
+sidebar: sidebar 
+keywords: bycast, log, severities 
+summary: bycast.log 에 있는 메시지에는 심각도 수준이 할당됩니다. 
+---
+= bycast.log 의 메시지 심각도
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+의 메시지 `bycast.log` 에 심각도 수준이 할당됩니다.
+
+예를 들면 다음과 같습니다.
+
+* * 공지 * -- 기록해야 하는 이벤트가 발생했습니다. 대부분의 로그 메시지는 이 수준에 있습니다.
+* * 경고 * -- 예상치 못한 조건이 발생했습니다.
+* * 오류 * -- 작업에 영향을 주는 중대한 오류가 발생했습니다.
+* * 심각 * -- 정상 작동을 멈춘 비정상적인 조건이 발생했습니다. 기저 질환을 즉시 해결해야 합니다. 중요 메시지는 그리드 관리자에도 표시됩니다. 지원 * > * 도구 * > * 그리드 토폴로지 * 를 선택합니다. 그런 다음 * 사이트 * > * 노드 * > * SSM * > * 이벤트 * 를 선택합니다.
+

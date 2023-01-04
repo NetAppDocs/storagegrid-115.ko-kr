@@ -1,0 +1,24 @@
+---
+permalink: maintain/storagegrid-hotfix-procedure.html 
+sidebar: sidebar 
+keywords:  
+summary: 기능 릴리즈 간에 소프트웨어 문제가 발견되어 해결된 경우 StorageGRID 시스템에 핫픽스를 적용해야 할 수 있습니다. 
+---
+= StorageGRID 핫픽스 절차
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+기능 릴리즈 간에 소프트웨어 문제가 발견되어 해결된 경우 StorageGRID 시스템에 핫픽스를 적용해야 할 수 있습니다.
+
+StorageGRID 핫픽스에는 기능 또는 패치 릴리스 외부에서 사용할 수 있는 소프트웨어 변경 사항이 포함되어 있습니다. 동일한 변경 사항이 향후 릴리스에 포함됩니다. 또한 각 핫픽스 릴리스에는 기능 또는 패치 릴리스 내의 모든 이전 핫픽스의 롤업도 포함되어 있습니다.
+
+* link:considerations-for-applying-hotfix.html["핫픽스 적용 시 고려 사항"]
+* link:how-your-system-is-affected-when-you-apply-hotfix.html["핫픽스를 적용할 때 시스템이 영향을 받는 방식"]
+* link:obtaining-required-materials-for-hotfix.html["핫픽스에 필요한 자료 얻기"]
+* link:downloading-hotfix-file.html["핫픽스 파일을 다운로드하는 중입니다"]
+* link:checking-systems-condition-before-applying-hotfix.html["핫픽스를 적용하기 전에 시스템 상태를 확인합니다"]
+* link:applying-hotfix.html["핫픽스를 적용합니다"]
+

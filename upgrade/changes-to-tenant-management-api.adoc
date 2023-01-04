@@ -1,0 +1,28 @@
+---
+permalink: upgrade/changes-to-tenant-management-api.html 
+sidebar: sidebar 
+keywords: tenant management api, api, api version, swagger, rest api 
+summary: StorageGRID 11.5는 테넌트 관리 API 버전 3을 사용합니다. 버전 3은 버전 2를 사용하지 않지만 버전 1과 버전 2는 계속 지원됩니다. 
+---
+= 테넌트 관리 API의 변경 사항
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+StorageGRID 11.5는 테넌트 관리 API 버전 3을 사용합니다. 버전 3은 버전 2를 사용하지 않지만 버전 1과 버전 2는 계속 지원됩니다.
+
+
+IMPORTANT: StorageGRID 11.5에서 관리 API 버전 1 및 버전 2를 계속 사용할 수 있지만, 이러한 API 버전에 대한 지원은 StorageGRID의 향후 릴리스에서 제거됩니다. StorageGRID 11.5로 업그레이드한 후 를 사용하여 더 이상 사용되지 않는 v1 및 v2 API를 비활성화할 수 있습니다 `PUT /grid/config/management` API를 참조하십시오.
+
+
+
+== 테넌트 스토리지 사용 API의 새 매개 변수입니다
+
+를 클릭합니다 `GET /org/usage` 이제 API에 가 있습니다 `strictConsistency` 매개 변수. 스토리지 노드 간에 스토리지 사용 정보를 검색할 때 강력한 글로벌 정합성을 적용하려면 이 매개 변수를 로 설정합니다 `true`. 이 매개변수가 로 설정된 경우 `false` (기본값) StorageGRID는 강력한 글로벌 일관성을 사용하여 사용 정보 검색을 시도하지만 강력한 글로벌 일관성을 충족할 수 없는 경우 강력한 사이트 일관성으로 돌아갑니다.
+
+.관련 정보
+link:../s3/index.html["S3을 사용합니다"]
+
+link:../tenant/index.html["테넌트 계정을 사용합니다"]

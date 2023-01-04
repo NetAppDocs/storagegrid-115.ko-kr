@@ -1,0 +1,19 @@
+---
+permalink: ilm/configuring-erasure-coding-profiles.html 
+sidebar: sidebar 
+keywords:  
+summary: '스토리지 풀을 삭제 코딩 체계와 연결하여 삭제 코딩 프로파일을 구성합니다(예: 6+3). 그런 다음 ILM 규칙에 대한 배치 지침을 구성할 때 삭제 코딩 프로파일을 선택할 수 있습니다. 오브젝트가 규칙과 일치하면 삭제 코딩 구성표에 따라 스토리지 풀의 스토리지 위치에 데이터 및 패리티 조각들이 생성되고 배포됩니다.' 
+---
+= 삭제 코딩 프로필 구성
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+스토리지 풀을 삭제 코딩 체계와 연결하여 삭제 코딩 프로파일을 구성합니다(예: 6+3). 그런 다음 ILM 규칙에 대한 배치 지침을 구성할 때 삭제 코딩 프로파일을 선택할 수 있습니다. 오브젝트가 규칙과 일치하면 삭제 코딩 구성표에 따라 스토리지 풀의 스토리지 위치에 데이터 및 패리티 조각들이 생성되고 배포됩니다.
+
+* link:creating-erasure-coding-profile.html["삭제 코딩 프로필 생성"]
+* link:renaming-erasure-coding-profile.html["삭제 코딩 프로필 이름 바꾸기"]
+* link:deactivating-erasure-coding-profile.html["삭제 코딩 프로필 비활성화 중"]
+

@@ -1,0 +1,115 @@
+---
+permalink: s3/using-s3-object-lock.html 
+sidebar: sidebar 
+keywords: using S3 object lock, object lock, S3 object 
+summary: StorageGRID 시스템에서 글로벌 S3 오브젝트 잠금 설정이 활성화된 경우 S3 오브젝트 잠금이 설정된 버킷을 생성한 다음 해당 버켓에 추가하는 각 오브젝트 버전에 대한 보관 기한 및 법적 보류 설정을 지정할 수 있습니다. 
+---
+= S3 오브젝트 잠금 사용
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+StorageGRID 시스템에서 글로벌 S3 오브젝트 잠금 설정이 활성화된 경우 S3 오브젝트 잠금이 설정된 버킷을 생성한 다음 해당 버켓에 추가하는 각 오브젝트 버전에 대한 보관 기한 및 법적 보류 설정을 지정할 수 있습니다.
+
+S3 오브젝트 잠금을 사용하면 고정된 시간 또는 무기한으로 오브젝트를 삭제 또는 덮어쓰는 것을 방지하기 위해 오브젝트 레벨 설정을 지정할 수 있습니다.
+
+StorageGRID S3 오브젝트 잠금 기능은 Amazon S3 규정 준수 모드에 상응하는 단일 보존 모드를 제공합니다. 기본적으로 보호된 개체 버전은 사용자가 덮어쓰거나 삭제할 수 없습니다. StorageGRID S3 오브젝트 잠금 기능은 거버넌스 모드를 지원하지 않으며, 특별한 권한이 있는 사용자가 보존 설정을 무시하거나 보호된 오브젝트를 삭제할 수 없습니다.
+
+
+
+== 버킷에 대해 S3 오브젝트 잠금 설정
+
+StorageGRID 시스템에 대해 글로벌 S3 오브젝트 잠금 설정이 활성화된 경우 각 버킷을 생성할 때 선택적으로 S3 오브젝트 잠금을 활성화할 수 있습니다. 다음 방법 중 하나를 사용할 수 있습니다.
+
+* 테넌트 관리자를 사용하여 버킷을 생성합니다.
++
+link:../tenant/index.html["테넌트 계정을 사용합니다"]
+
+* 과 함께 PUT 버킷 요청을 사용하여 버킷을 작성합니다 `x-amz-bucket-object-lock_enabled` 요청 헤더.
++
+link:s3-rest-api-supported-operations-and-limitations.html["버킷 작업"]
+
+
+
+버킷이 생성된 후에는 S3 오브젝트 잠금을 추가하거나 비활성화할 수 없습니다. S3 오브젝트 잠금에는 버킷 버전 관리가 필요하며, 이 버전은 버킷을 생성할 때 자동으로 활성화됩니다.
+
+S3 오브젝트 잠금이 활성화된 버킷에는 S3 오브젝트 잠금 설정이 있는 오브젝트와 없는 오브젝트의 조합이 포함될 수 있습니다. StorageGRID는 S3 오브젝트 잠금 버킷의 오브젝트에 대한 기본 보존을 지원하지 않으므로 오브젝트 잠금 구성 버킷 작업은 지원되지 않습니다.
+
+
+
+== 버킷에 대해 S3 오브젝트 잠금이 설정되었는지 확인
+
+S3 오브젝트 잠금이 활성화되었는지 확인하려면 오브젝트 잠금 구성 가져오기 요청을 사용하십시오.
+
+link:s3-rest-api-supported-operations-and-limitations.html["버킷 작업"]
+
+
+
+== S3 오브젝트 잠금 설정으로 오브젝트 생성
+
+S3 오브젝트 잠금이 활성화된 버킷에 오브젝트 버전을 추가할 때 S3 오브젝트 잠금 설정을 지정하려면 오브젝트 넣기, 오브젝트 복사 넣기 또는 다중 파트 업로드 요청을 시작합니다. 다음 요청 헤더를 사용하십시오.
+
+
+NOTE: 버킷을 생성할 때 S3 오브젝트 잠금을 활성화해야 합니다. 버킷을 생성한 후에는 S3 오브젝트 잠금을 추가하거나 비활성화할 수 없습니다.
+
+* `x-amz-object-lock-mode`, 규정 준수(대소문자 구분)여야 합니다.
++
+
+NOTE: 를 지정할 경우 `x-amz-object-lock-mode`, 또한 을 지정해야 합니다 `x-amz-object-lock-retain-until-date`.
+
+* `x-amz-object-lock-retain-until-date`
++
+** 보존 기간 값은 형식이어야 합니다 `2020-08-10T21:46:00Z`. 소수 자릿수는 허용되지만 소수점 이하 자릿수는 3자리만 유지됩니다(밀리초 단위). 다른 ISO 8601 형식은 허용되지 않습니다.
+** 보존 종료 날짜는 미래여야 합니다.
+
+
+* `x-amz-object-lock-legal-hold`
++
+법적 증거 자료 보관(대소문자 구분)이 켜져 있는 경우, 해당 물체는 법적 증거 자료 보관 하에 배치됩니다. 법적 증거 자료 보관 기능이 꺼져 있는 경우 법적 증거 자료 보관 작업이 없습니다. 다른 값을 사용하면 400개의 잘못된 요청(InvalidArgument) 오류가 발생합니다.
+
+
+
+이러한 요청 헤더를 사용하는 경우 다음과 같은 제한 사항에 유의하십시오.
+
+* 를 클릭합니다 `Content-MD5` 요청 헤더가 필요한 경우 `x-amz-object-lock-*` 요청 헤더가 Put Object 요청에 있습니다. `Content-MD5` Put Object(개체 저장) - Copy(복사) 또는 Initiate MultiPart Upload(다중 파트 업로드)에는 필요하지 않습니다.
+* 버킷에 S3 오브젝트 잠금이 설정되어 있지 않은 경우 및 가 활성화되어 있어야 합니다 `x-amz-object-lock-*` 요청 헤더가 있으면 400개의 잘못된 요청(InvalidRequest) 오류가 반환됩니다.
+* Put Object 요청은 의 사용을 지원합니다 `x-amz-storage-class: REDUCED_REDUNDANCY` AWS 동작과 일치시킵니다. 하지만 오브젝트가 S3 오브젝트 잠금이 설정된 버킷으로 수집되면 StorageGRID는 항상 이중 커밋 수집을 수행합니다.
+* 후속 Get 또는 Head Object 버전 응답에는 헤더가 포함됩니다 `x-amz-object-lock-mode`, `x-amz-object-lock-retain-until-date`, 및 `x-amz-object-lock-legal-hold`, 구성된 경우 및 요청 보낸 사람이 올바른 경우 `s3:Get*` 권한.
+* 이후 개체 버전 삭제 또는 개체 버전 삭제 요청은 보존 기한 이전이거나 법적 보류가 켜져 있는 경우 실패합니다.
+
+
+
+
+== S3 오브젝트 잠금 설정을 업데이트하는 중입니다
+
+기존 개체 버전에 대한 법적 증거 자료 보관 또는 보존 설정을 업데이트해야 하는 경우 다음 개체 하위 리소스 작업을 수행할 수 있습니다.
+
+* `PUT Object legal-hold`
++
+새 법적 증거 자료 보관 값이 켜져 있으면 해당 개체는 법적 증거 자료 보관 아래에 배치됩니다. 법적 증거 자료 보관 가치가 없는 경우 법적 구속이 해제됩니다.
+
+* `PUT Object retention`
++
+** 모드 값은 규정 준수(대/소문자 구분)여야 합니다.
+** 보존 기간 값은 형식이어야 합니다 `2020-08-10T21:46:00Z`. 소수 자릿수는 허용되지만 소수점 이하 자릿수는 3자리만 유지됩니다(밀리초 단위). 다른 ISO 8601 형식은 허용되지 않습니다.
+** 개체 버전에 기존 보존 기한이 있는 경우 개체 버전을 늘릴 수만 있습니다. 새 값은 미래여야 합니다.
+
+
+
+
+.관련 정보
+link:../ilm/index.html["ILM을 사용하여 개체를 관리합니다"]
+
+link:../tenant/index.html["테넌트 계정을 사용합니다"]
+
+link:put-object.html["개체 를 넣습니다"]
+
+link:put-object-copy.html["개체 - 복사 를 선택합니다"]
+
+link:s3-rest-api-supported-operations-and-limitations.html["멀티파트 업로드를 시작합니다"]
+
+link:object-versioning.html["오브젝트 버전 관리"]
+
+https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock.html["Amazon Simple Storage Service 사용자 가이드: S3 Object Lock 사용"]

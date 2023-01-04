@@ -1,0 +1,20 @@
+---
+permalink: expand/planning-expansion.html 
+sidebar: sidebar 
+keywords: expand, expansion, planning 
+summary: StorageGRID를 확장하여 스토리지 용량을 늘리고, 메타데이터 용량을 추가하거나, 이중화 또는 새로운 기능을 추가하거나, 새 사이트를 추가할 수 있습니다. 추가해야 하는 노드의 수, 유형 및 위치는 확장 이유에 따라 다릅니다. 
+---
+= StorageGRID 확장 계획
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+StorageGRID를 확장하여 스토리지 용량을 늘리고, 메타데이터 용량을 추가하거나, 이중화 또는 새로운 기능을 추가하거나, 새 사이트를 추가할 수 있습니다. 추가해야 하는 노드의 수, 유형 및 위치는 확장 이유에 따라 다릅니다.
+
+* link:adding-storage-capacity.html["스토리지 용량 추가"]
+* link:adding-metadata-capacity.html["메타데이터 용량 추가"]
+* link:adding-grid-nodes-to-add-capabilities.html["그리드 노드를 추가하여 시스템에 기능을 추가합니다"]
+* link:adding-new-site.html["새 사이트 추가"]
+

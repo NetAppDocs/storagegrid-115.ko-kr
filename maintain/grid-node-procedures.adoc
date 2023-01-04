@@ -1,0 +1,43 @@
+---
+permalink: maintain/grid-node-procedures.html 
+sidebar: sidebar 
+keywords: storagegrid, grid node procedure 
+summary: 특정 그리드 노드에서 절차를 수행해야 할 수 있습니다. Grid Manager에서 이러한 절차 중 몇 가지를 수행할 수 있지만 대부분의 절차에서는 노드의 명령줄에서 Server Manager에 액세스해야 합니다. 
+---
+= 그리드 노드 절차
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+특정 그리드 노드에서 절차를 수행해야 할 수 있습니다. Grid Manager에서 이러한 절차 중 몇 가지를 수행할 수 있지만 대부분의 절차에서는 노드의 명령줄에서 Server Manager에 액세스해야 합니다.
+
+서버 관리자는 모든 그리드 노드에서 실행되어 서비스의 시작 및 중지를 감독하고 서비스가 StorageGRID 시스템에 정상적으로 합류하고 탈퇴하도록 합니다. 또한 서버 관리자는 모든 그리드 노드의 서비스를 모니터링하고 장애를 보고하는 서비스를 자동으로 다시 시작합니다.
+
+
+IMPORTANT: 기술 지원 부서에서 지시하는 경우에만 서버 관리자에 액세스해야 합니다.
+
+
+NOTE: Server Manager를 완료한 후 현재 명령 셸 세션을 닫고 로그아웃해야 합니다. 입력: `exit`
+
+.선택
+* link:viewing-server-manager-status-and-version.html["서버 관리자 상태 및 버전 보기"]
+* link:viewing-current-status-of-all-services.html["모든 서비스의 현재 상태 보기"]
+* link:starting-server-manager-and-all-services.html["서버 관리자 및 모든 서비스를 시작하는 중입니다"]
+* link:restarting-server-manager-and-all-services.html["서버 관리자 및 모든 서비스를 다시 시작하는 중입니다"]
+* link:stopping-server-manager-and-all-services.html["서버 관리자 및 모든 서비스를 중지하는 중입니다"]
+* link:viewing-current-status-of-service.html["서비스의 현재 상태 보기"]
+* link:stopping-service.html["서비스를 중지하는 중입니다"]
+* link:placing-appliance-into-maintenance-mode.html["유지보수 모드로 제품을 두십시오"]
+* link:forcing-service-to-terminate.html["서비스 강제 종료"]
+* link:starting-or-restarting-service.html["서비스를 시작하거나 다시 시작하는 중입니다"]
+* link:removing-port-remaps.html["포트 재맵을 제거하는 중입니다"]
+* link:removing-port-remaps-on-bare-metal-hosts.html["베어 메탈 호스트에서 포트 리맵을 제거합니다"]
+* link:rebooting-grid-node.html["그리드 노드 재부팅"]
+* link:shutting-down-grid-node.html["그리드 노드 종료"]
+* link:powering-down-host.html["호스트 전원을 끕니다"]
+* link:powering-off-and-on-all-nodes-in-grid.html["그리드의 모든 노드 전원을 껐다가 켭니다"]
+* link:using-donotstart-file.html["DoNotStart 파일 사용"]
+* link:troubleshooting-server-manager.html["서버 관리자 문제 해결"]
+

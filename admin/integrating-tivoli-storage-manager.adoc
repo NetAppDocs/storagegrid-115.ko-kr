@@ -1,0 +1,19 @@
+---
+permalink: admin/integrating-tivoli-storage-manager.html 
+sidebar: sidebar 
+keywords:  
+summary: '이 섹션에는 TSM 서버 구성에 영향을 미치는 아카이브 노드 운영 세부 정보를 비롯하여 아카이브 노드를 TSM\(Tivoli Storage Manager\) 서버와 통합하기 위한 Best Practice 및 설정 정보가 포함되어 있습니다.' 
+---
+= Tivoli Storage Manager 통합
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+이 섹션에는 TSM 서버 구성에 영향을 미치는 아카이브 노드 운영 세부 정보를 비롯하여 아카이브 노드를 TSM(Tivoli Storage Manager) 서버와 통합하기 위한 Best Practice 및 설정 정보가 포함되어 있습니다.
+
+* link:archive-node-configuration-and-operation.html["아카이브 노드 구성 및 작업"]
+* link:configuration-best-practices.html["구성 모범 사례"]
+* link:completing-archive-node-setup.html["아카이브 노드 설정을 완료합니다"]
+

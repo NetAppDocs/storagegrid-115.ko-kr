@@ -1,0 +1,25 @@
+---
+permalink: admin/configuring-archive-node-connections-to-archival-storage.html 
+sidebar: sidebar 
+keywords:  
+summary: 아카이브 노드를 외부 아카이브와 연결하도록 구성할 때 대상 유형을 선택해야 합니다. 
+---
+= 아카이브 스토리지에 대한 아카이브 노드 연결 구성
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+아카이브 노드를 외부 아카이브와 연결하도록 구성할 때 대상 유형을 선택해야 합니다.
+
+StorageGRID 시스템은 S3 인터페이스를 통해 오브젝트 데이터를 클라우드에 아카이빙하거나 TSM(Tivoli Storage Manager) 미들웨어를 통해 테이프로 아카이빙할 수 있도록 지원합니다.
+
+
+NOTE: 아카이브 노드에 대해 아카이브 타겟의 유형을 구성한 후에는 타겟 유형을 변경할 수 없습니다.
+
+* link:archiving-to-cloud-through-s3-api.html["S3 API를 통해 클라우드에 아카이빙"]
+* link:archiving-to-tape-through-tsm-middleware.html["TSM 미들웨어를 통해 테이프로 아카이빙"]
+* link:configuring-archive-node-retrieve-settings.html["아카이브 노드 검색 설정을 구성합니다"]
+* link:configuring-archive-node-replication.html["아카이브 노드 복제 구성"]
+

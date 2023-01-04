@@ -1,0 +1,24 @@
+---
+permalink: admin/migrating-data-into-storagegrid.html 
+sidebar: sidebar 
+keywords:  
+summary: 대량의 데이터를 StorageGRID 시스템으로 마이그레이션하는 동시에 일상적인 작업을 위해 StorageGRID 시스템을 사용할 수 있습니다. 
+---
+= StorageGRID로 데이터 마이그레이션
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+대량의 데이터를 StorageGRID 시스템으로 마이그레이션하는 동시에 일상적인 작업을 위해 StorageGRID 시스템을 사용할 수 있습니다.
+
+다음 섹션에서는 대량의 데이터를 StorageGRID 시스템으로 마이그레이션하는 방법을 이해하고 계획하는 방법을 안내합니다. 이 가이드는 데이터 마이그레이션의 일반적인 가이드가 아니며 마이그레이션을 수행하기 위한 자세한 단계는 포함되어 있지 않습니다. 이 섹션의 지침과 지침을 따라 일상적인 작업을 방해하지 않으면서 데이터가 StorageGRID 시스템으로 효율적으로 마이그레이션되고 마이그레이션된 데이터가 StorageGRID 시스템에서 적절하게 처리되도록 하십시오.
+
+* link:confirming-capacity-of-storagegrid-system.html["StorageGRID 시스템의 용량 확인"]
+* link:determining-ilm-policy-for-migrated-data.html["마이그레이션된 데이터에 대한 ILM 정책 결정"]
+* link:impact-of-migration-on-operations.html["마이그레이션이 운영에 미치는 영향"]
+* link:scheduling-data-migration.html["데이터 마이그레이션 예약"]
+* link:monitoring-data-migration.html["데이터 마이그레이션 모니터링"]
+* link:creating-custom-notifications-for-migration-alarms.html["마이그레이션 알람에 대한 사용자 지정 알림을 생성합니다"]
+

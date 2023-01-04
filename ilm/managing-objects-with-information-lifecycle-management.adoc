@@ -1,0 +1,25 @@
+---
+permalink: ilm/managing-objects-with-information-lifecycle-management.html 
+sidebar: sidebar 
+keywords:  
+summary: 'ILM(정보 수명 주기 관리) 규칙 및 정책을 구성하여 StorageGRID 시스템의 개체를 관리할 수 있습니다. ILM 규칙 및 정책은 StorageGRID이 개체 데이터의 복사본을 만들고 배포하는 방법과 시간이 지남에 따라 이러한 복사본을 관리하는 방법을 지시합니다.' 
+---
+= 정보 수명 주기 관리로 개체 관리
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ILM(정보 수명 주기 관리) 규칙 및 정책을 구성하여 StorageGRID 시스템의 개체를 관리할 수 있습니다. ILM 규칙 및 정책은 StorageGRID이 개체 데이터의 복사본을 만들고 배포하는 방법과 시간이 지남에 따라 이러한 복사본을 관리하는 방법을 지시합니다.
+
+ILM 규칙 및 ILM 정책을 설계하고 구현하려면 신중한 계획이 필요합니다. 운영 요구사항, StorageGRID 시스템의 토폴로지, 오브젝트 보호 요구사항 및 사용 가능한 스토리지 유형을 이해해야 합니다. 그런 다음 여러 유형의 개체를 복사, 배포 및 저장할 방법을 결정해야 합니다.
+
+* link:how-ilm-operates-throughout-objects-life.html["ILM이 개체 수명 전반에 걸쳐 작동하는 방식"]
+* link:what-ilm-policy-is.html["ILM 정책이란 무엇인가"]
+* link:what-ilm-rule-is.html["ILM 규칙이란 무엇입니까"]
+* link:creating-storage-grades-storage-pools-ec-profiles-regions.html["스토리지 등급, 스토리지 풀, EC 프로파일 및 영역을 생성합니다"]
+* link:creating-ilm-rule.html["ILM 규칙 만들기"]
+* link:creating-ilm-policy.html["ILM 정책 생성"]
+* link:working-with-ilm-rules-and-ilm-policies.html["ILM 규칙 및 ILM 정책 작업"]
+

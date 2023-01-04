@@ -1,0 +1,21 @@
+---
+permalink: ilm/creating-storage-grades-storage-pools-ec-profiles-regions.html 
+sidebar: sidebar 
+keywords:  
+summary: StorageGRID 시스템에 대한 ILM 규칙을 생성하려면 먼저 오브젝트 스토리지 위치를 정의하고, 원하는 복사본 유형을 결정하고, S3 영역을 선택적으로 구성해야 합니다. 
+---
+= 스토리지 등급, 스토리지 풀, EC 프로파일 및 영역을 생성합니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+StorageGRID 시스템에 대한 ILM 규칙을 생성하려면 먼저 오브젝트 스토리지 위치를 정의하고, 원하는 복사본 유형을 결정하고, S3 영역을 선택적으로 구성해야 합니다.
+
+* link:creating-and-assigning-storage-grades.html["스토리지 평점 생성 및 할당"]
+* link:configuring-storage-pools.html["스토리지 풀 구성"]
+* link:using-cloud-storage-pools.html["클라우드 스토리지 풀 사용"]
+* link:configuring-erasure-coding-profiles.html["삭제 코딩 프로필 구성"]
+* link:configuring-regions-optional-and-s3-only.html["영역 구성(옵션 및 S3만 해당)"]
+

@@ -1,0 +1,32 @@
+---
+permalink: admin/kms-adding.html 
+sidebar: sidebar 
+keywords:  
+summary: StorageGRID 키 관리 서버 마법사를 사용하여 각 KMS 또는 KMS 클러스터를 추가합니다. 
+---
+= KMS(키 관리 서버) 추가
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+StorageGRID 키 관리 서버 마법사를 사용하여 각 KMS 또는 KMS 클러스터를 추가합니다.
+
+.필요한 것
+* 을(를) 검토해야 합니다 link:kms-considerations-and-requirements.html["키 관리 서버 사용에 대한 고려 사항 및 요구 사항"].
+* 이(가) 있어야 합니다 link:kms-configuring-storagegrid-as-client.html["KMS에서 StorageGRID를 클라이언트로 구성했습니다"]또한 각 KMS 또는 KMS 클러스터에 필요한 정보가 있어야 합니다
+* 루트 액세스 권한이 있어야 합니다.
+* 지원되는 브라우저를 사용하여 Grid Manager에 로그인해야 합니다.
+
+
+.이 작업에 대해
+가능하면 다른 KMS에서 관리하지 않는 모든 사이트에 적용되는 기본 KMS를 구성하기 전에 사이트별 키 관리 서버를 구성하십시오. 기본 KMS를 먼저 만들면 그리드의 모든 노드 암호화 어플라이언스는 기본 KMS로 암호화됩니다. 나중에 사이트별 KMS를 만들려면 먼저 기본 KMS에서 새 KMS로 암호화 키의 현재 버전을 복사해야 합니다.
+
+link:kms-considerations-for-changing-for-site.html["사이트의 KMS를 변경할 때의 고려 사항"]
+
+.단계
+. link:kms-adding-enter-kms-details.html["1단계: KMS 세부 정보를 입력합니다"]
+. link:kms-adding-upload-server-certificate.html["2단계: 서버 인증서 업로드"]
+. link:kms-adding-upload-client-certificates.html["3단계: 클라이언트 인증서 업로드"]
+

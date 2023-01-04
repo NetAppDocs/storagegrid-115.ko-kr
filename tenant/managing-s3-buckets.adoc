@@ -1,0 +1,14 @@
+---
+permalink: tenant/managing-s3-buckets.html 
+sidebar: sidebar 
+keywords: StorageGRID, tenant, tenant manager, s3 bucket 
+summary: '적절한 권한이 있는 S3 테넌트를 사용하는 경우 S3 버킷을 생성, 보기 및 삭제하고, 정합성 보장 수준 설정을 업데이트하고, CORS(Cross-Origin Resource Sharing)\(CORS\)를 구성하고, 마지막 액세스 시간 업데이트 설정을 활성화 및 비활성화하고, S3 플랫폼 서비스를 관리할 수 있습니다.' 
+---
+= S3 버킷 관리
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+적절한 권한이 있는 S3 테넌트를 사용하는 경우 S3 버킷을 생성, 보기 및 삭제하고, 정합성 보장 수준 설정을 업데이트하고, CORS(Cross-Origin Resource Sharing)를 구성하고, 마지막 액세스 시간 업데이트 설정을 활성화 및 비활성화하고, S3 플랫폼 서비스를 관리할 수 있습니다.

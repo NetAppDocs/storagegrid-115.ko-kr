@@ -1,0 +1,31 @@
+---
+permalink: monitor/reviewing-previous-events.html 
+sidebar: sidebar 
+keywords:  
+summary: 이전 이벤트 메시지 목록을 생성하여 이전에 발생한 문제를 격리할 수 있습니다. 
+---
+= 이전 이벤트 검토
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+이전 이벤트 메시지 목록을 생성하여 이전에 발생한 문제를 격리할 수 있습니다.
+
+. 지원 * > * 도구 * > * 그리드 토폴로지 * 를 선택합니다.
+. site_ * > *_GRID node_ * > * SSM * > * Events * > * Reports * 를 선택합니다.
+. 텍스트 * 를 선택합니다.
++
+마지막 이벤트 * 특성은 차트 보기에 표시되지 않습니다.
+
+. 속성 * 을 * 마지막 이벤트 * 로 변경합니다.
+. 필요에 따라 * 빠른 쿼리 * 의 기간을 선택합니다.
+. Update * 를 클릭합니다.
++
+image::../media/events_report.gif[이벤트 페이지]
+
+
+
+.관련 정보
+link:using-charts-and-reports.html["차트 및 보고서 사용"]

@@ -1,0 +1,18 @@
+---
+permalink: tenant/managing-s3-tenant-accounts.html 
+sidebar: sidebar 
+keywords:  
+summary: 테넌트 관리자를 사용하여 S3 액세스 키를 관리하고 S3 버킷을 생성 및 관리할 수 있습니다. 
+---
+= S3 테넌트 계정 관리
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+테넌트 관리자를 사용하여 S3 액세스 키를 관리하고 S3 버킷을 생성 및 관리할 수 있습니다.
+
+* link:managing-s3-access-keys.html["S3 액세스 키 관리"]
+* link:managing-s3-buckets.html["S3 버킷 관리"]
+

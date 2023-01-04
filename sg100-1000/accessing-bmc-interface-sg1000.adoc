@@ -1,0 +1,65 @@
+---
+permalink: sg100-1000/accessing-bmc-interface-sg1000.html 
+sidebar: sidebar 
+keywords: storagegrid, sg100, sg1000, service appliance, services appliance, gateway Node, admin node, BMC, baseboard management controller, access, open, login 
+summary: BMC 관리 포트의 DHCP 또는 고정 IP 주소를 사용하여 서비스 어플라이언스에서 BMC 인터페이스에 액세스할 수 있습니다. 
+---
+= BMC 인터페이스 액세스
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+BMC 관리 포트의 DHCP 또는 고정 IP 주소를 사용하여 서비스 어플라이언스에서 BMC 인터페이스에 액세스할 수 있습니다.
+
+.필요한 것
+* 관리 클라이언트가 지원되는 웹 브라우저를 사용하고 있습니다.
+* 서비스 어플라이언스의 BMC 관리 포트는 사용하려는 관리 네트워크에 연결되어 있습니다.
++
+* SG100 BMC 관리 포트 *
+
++
+image::../media/sg100_bmc_management_port.png[sg100 BMC 관리 포트]
+
++
+* SG1000 BMC 관리 포트 *
+
++
+image::../media/sg1000_bmc_management_port.png[SG1000 BMC 관리 포트]
+
+
+
+.단계
+. BMC 인터페이스의 URL을 입력합니다
+`*https://_BMC_Port_IP_*`
++
+용 `_BMC_Port_IP_`, BMC 관리 포트에 대해 DHCP 또는 고정 IP 주소를 사용합니다.
+
++
+BMC 로그인 페이지가 나타납니다.
+
+. 기본 루트 암호를 변경할 때 설정한 암호를 사용하여 루트 사용자 이름과 암호를 입력합니다
+`*root*`
++
+`*_password_*`
+
++
+image::../media/bmc_signin_page.gif[BMC 로그인 페이지]
+
+. 로그인 * 을 클릭합니다
++
+BMC 대시보드가 나타납니다.
+
++
+image::../media/bmc_dashboard.gif[BMC 대시보드]
+
+. 선택적으로 * 설정 * > * 사용자 관리 * 를 선택하고 "사용 안 함" 사용자를 클릭하여 추가 사용자를 생성합니다.
++
+
+NOTE: 사용자가 처음 로그인할 때 보안을 강화하기 위해 암호를 변경하라는 메시지가 표시될 수 있습니다.
+
+
+
+.관련 정보
+link:changing-root-password-for-bmc-interface-sg1000.html["BMC 인터페이스의 루트 암호 변경"]

@@ -1,0 +1,19 @@
+---
+permalink: tenant/using-identity-federation.html 
+sidebar: sidebar 
+keywords:  
+summary: ID 페더레이션을 사용하면 테넌트 그룹 및 사용자를 더 빠르게 설정할 수 있으며, 테넌트 사용자는 익숙한 자격 증명을 사용하여 테넌트 계정에 로그인할 수 있습니다. 
+---
+= ID 페더레이션 사용
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ID 페더레이션을 사용하면 테넌트 그룹 및 사용자를 더 빠르게 설정할 수 있으며, 테넌트 사용자는 익숙한 자격 증명을 사용하여 테넌트 계정에 로그인할 수 있습니다.
+
+* link:configuring-federated-identity-source.html["통합 ID 소스 구성"]
+* link:forcing-synchronization-with-identity-source.html["ID 소스와 동기화 수행"]
+* link:disabling-identity-federation.html["ID 페더레이션을 사용하지 않도록 설정합니다"]
+

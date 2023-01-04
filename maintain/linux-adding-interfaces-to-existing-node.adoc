@@ -1,0 +1,60 @@
+---
+permalink: maintain/linux-adding-interfaces-to-existing-node.html 
+sidebar: sidebar 
+keywords: storagegrid, recover, linux, adding interfaces, add interfaces, adding interface to node, add interface to node 
+summary: 처음에 설치하지 않은 Linux 기반 노드에 인터페이스를 추가하려면 이 절차를 사용해야 합니다. 
+---
+= Linux: 기존 노드에 인터페이스 추가
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+처음에 설치하지 않은 Linux 기반 노드에 인터페이스를 추가하려면 이 절차를 사용해야 합니다.
+
+설치 중에 Linux 호스트의 노드 구성 파일에 admin_network_target 또는 client_network_target을 구성하지 않은 경우 이 절차를 사용하여 인터페이스를 추가합니다. 노드 구성 파일에 대한 자세한 내용은 해당 Linux 운영 체제의 StorageGRID 설치 지침을 참조하십시오.
+
+link:../rhel/index.html["Red Hat Enterprise Linux 또는 CentOS를 설치합니다"]
+
+link:../ubuntu/index.html["Ubuntu 또는 Debian을 설치합니다"]
+
+노드 내부가 아닌 새 네트워크 할당이 필요한 노드를 호스팅하는 Linux 서버에서 이 절차를 수행합니다. 이 절차에서는 노드에만 인터페이스를 추가합니다. 다른 네트워크 매개 변수를 지정하려고 하면 유효성 검사 오류가 발생합니다.
+
+주소 지정 정보를 제공하려면 IP 변경 도구를 사용해야 합니다. 노드의 네트워크 구성 변경에 대한 정보를 참조하십시오.
+
+link:changing-nodes-network-configuration.html["노드의 네트워크 구성 변경"]
+
+.단계
+. 새 네트워크 할당이 필요한 노드를 호스팅하는 Linux 서버에 로그인합니다.
+. 에서 노드 구성 파일을 편집합니다 `/etc/storagegrid/nodes/_node-name_.conf`.
++
+
+IMPORTANT: 다른 네트워크 매개 변수를 지정하지 마십시오. 그렇지 않으면 유효성 검사 오류가 발생합니다.
+
++
+.. 새 네트워크 대상을 추가합니다.
++
+[listing]
+----
+CLIENT_NETWORK_TARGET = bond0.3206
+----
+.. 선택 사항: MAC 주소를 추가합니다.
++
+[listing]
+----
+CLIENT_NETWORK_MAC = aa:57:61:07:ea:5c
+----
+
+
+. node validate 명령을 실행합니다. `sudo storagegrid node validate _node-name_`
+. 모든 유효성 검사 오류를 해결합니다.
+. 노드 다시 로드 명령을 실행합니다. `sudo storagegrid node reload _node-name_`
+
+
+.관련 정보
+link:../rhel/index.html["Red Hat Enterprise Linux 또는 CentOS를 설치합니다"]
+
+link:../ubuntu/index.html["Ubuntu 또는 Debian을 설치합니다"]
+
+link:changing-nodes-network-configuration.html["노드의 네트워크 구성 변경"]

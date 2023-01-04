@@ -1,0 +1,25 @@
+---
+permalink: maintain/index.html 
+sidebar: sidebar 
+keywords:  
+summary: 핫픽스 적용 방법, 장애가 발생한 그리드 노드 복구, 그리드 노드 및 사이트 파기, 시스템 장애 시 개체 복구 방법에 대해 알아보십시오. 
+---
+= 복구 유지
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+핫픽스 적용 방법, 장애가 발생한 그리드 노드 복구, 그리드 노드 및 사이트 파기, 시스템 장애 시 개체 복구 방법에 대해 알아보십시오.
+
+* link:introduction-to-storagegrid-recovery-and-maintenance.html["StorageGRID 복구 및 유지 관리 소개"]
+* link:storagegrid-hotfix-procedure.html["StorageGRID 핫픽스 절차"]
+* link:grid-node-recovery-procedures.html["그리드 노드 복구 절차"]
+* link:how-site-recovery-is-performed-by-technical-support.html["기술 지원 부서에서 사이트 복구를 수행하는 방법"]
+* link:decommission-procedure.html["서비스 해제 절차"]
+* link:network-maintenance-procedures.html["네트워크 유지보수 절차"]
+* link:host-level-and-middleware-procedures.html["호스트 레벨 및 미들웨어 절차"]
+* link:grid-node-procedures.html["그리드 노드 절차"]
+* link:appliance-node-cloning.html["어플라이언스 노드 클론 복제"]
+

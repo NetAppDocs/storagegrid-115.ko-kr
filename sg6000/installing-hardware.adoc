@@ -1,0 +1,27 @@
+---
+permalink: sg6000/installing-hardware.html 
+sidebar: sidebar 
+keywords: storagegrid, sg6000, storage node, storage appliance, hardware, install, installing 
+summary: 하드웨어 설치에는 SG6000-CN 컨트롤러 및 스토리지 컨트롤러 쉘프를 캐비닛 또는 랙에 설치하고, 케이블을 연결하고, 전원을 적용해야 합니다. 
+---
+= 하드웨어 설치
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+하드웨어 설치에는 SG6000-CN 컨트롤러 및 스토리지 컨트롤러 쉘프를 캐비닛 또는 랙에 설치하고, 케이블을 연결하고, 전원을 적용해야 합니다.
+
+.단계
+* link:registering-hardware.html["하드웨어를 등록하는 중입니다"]
+* link:sg6060-installing-60-drive-shelves-into-cabinet-or-rack.html["SG6060: 캐비닛 또는 랙에 60 드라이브 쉘프 설치"]
+* link:sg6060-installing-drives.html["SG6060: 드라이브 설치"]
+* link:sgf6024-installing-24-drive-shelves-into-cabinet-or-rack.html["SGF6024: 캐비닛 또는 랙에 24 드라이브 쉘프 설치"]
+* link:sg6000-cn-installing-into-cabinet-or-rack.html["SG6000-CN: 캐비닛 또는 랙에 설치"]
+* link:cabling-appliance-sg6000.html["어플라이언스 케이블 연결(SG6000)"]
+* link:sg6060-cabling-optional-expansion-shelves.html["SG6060: 확장 쉘프 케이블링(옵션"]
+* link:connecting-power-cords-and-applying-power-sg6000.html["전원 코드 연결 및 전원 공급(SG6000)"]
+* link:viewing-status-indicators-and-buttons-on-sg6000-cn-controller.html["SG6000-CN 컨트롤러의 상태 표시등 및 단추 보기"]
+* link:viewing-boot-up-status-codes-for-sg6000-storage-controllers.html["SG6000 스토리지 컨트롤러의 부팅 상태 코드 보기"]
+

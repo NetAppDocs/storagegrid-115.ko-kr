@@ -1,0 +1,22 @@
+---
+permalink: primer/index.html 
+sidebar: sidebar 
+keywords:  
+summary:  
+---
+= 그리드 프라이머
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+NetApp StorageGRID 시스템의 기본 사항을 알아보십시오.
+
+* link:about-storagegrid.html["StorageGRID 정보"]
+* link:storagegrid-architecture-and-network-topology.html["StorageGRID 아키텍처 및 네트워크 토폴로지"]
+* link:how-storagegrid-manages-data.html["StorageGRID의 데이터 관리 방법"]
+* link:exploring-grid-manager.html["그리드 관리자 탐색"]
+* link:exploring-tenant-manager.html["테넌트 관리자 탐색"]
+* link:using-storagegrid.html["StorageGRID 사용"]
+

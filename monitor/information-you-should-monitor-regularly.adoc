@@ -1,0 +1,91 @@
+---
+permalink: monitor/information-you-should-monitor-regularly.html 
+sidebar: sidebar 
+keywords: monitor, monitoring, StorageGRID, 
+summary: StorageGRID는 오류가 발생하거나 노드 또는 사이트를 사용할 수 없는 경우에도 계속 작동하도록 설계된 내결함성 분산 스토리지 시스템입니다. 시스템 상태, 워크로드 및 사용 통계를 사전에 모니터링하여 잠재적인 문제가 그리드의 효율성 또는 가용성에 영향을 미치기 전에 이를 해결하기 위한 조치를 취해야 합니다. 
+---
+= 정기적으로 모니터링해야 하는 정보
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+StorageGRID는 오류가 발생하거나 노드 또는 사이트를 사용할 수 없는 경우에도 계속 작동하도록 설계된 내결함성 분산 스토리지 시스템입니다. 시스템 상태, 워크로드 및 사용 통계를 사전에 모니터링하여 잠재적인 문제가 그리드의 효율성 또는 가용성에 영향을 미치기 전에 이를 해결하기 위해 조치를 취해야 합니다.
+
+사용량이 많은 시스템에서는 많은 양의 정보가 생성됩니다. 이 섹션에서는 지속적인 모니터링을 위한 가장 중요한 정보에 대한 지침을 제공합니다. 이 섹션에는 다음과 같은 하위 섹션이 포함되어 있습니다.
+
+* link:monitoring-system-health.html["시스템 상태 모니터링"]
+* link:monitoring-storage-capacity.html["스토리지 용량 모니터링"]
+* link:monitoring-information-lifecycle-management.html["정보 수명 주기 관리 모니터링"]
+* link:monitoring-performance-networking-and-system-resources.html["성능, 네트워킹 및 시스템 리소스 모니터링"]
+* link:monitoring-tenant-activity.html["테넌트 작업 모니터링"]
+* link:monitoring-archival-capacity.html["아카이빙 용량 모니터링"]
+* link:monitoring-load-balancing-operations.html["로드 밸런싱 작업 모니터링"]
+* link:applying-hotfixes-or-upgrading-software-if-necessary.html["필요한 경우 핫픽스 적용 또는 소프트웨어 업그레이드"]
+
+
+|===
+| 모니터링할 대상 | 주파수 
+
+
+ a| 
+Grid Manager DashboardNote에 표시되는 시스템 상태 데이터입니다. 이전 날부터 변경된 사항이 있는지 확인하십시오.
+ a| 
+매일
+
+
+
+ a| 
+스토리지 노드 오브젝트 및 메타데이터 용량이 사용되는 속도입니다
+ a| 
+매주
+
+
+
+ a| 
+정보 수명 주기 관리 작업
+ a| 
+매주
+
+
+
+ a| 
+성능, 네트워킹 및 시스템 리소스:
+
+* 쿼리 대기 시간
+* 연결 및 네트워킹
+* 노드 레벨 리소스
+
+ a| 
+매주
+
+
+
+ a| 
+테넌트 작업
+ a| 
+매주
+
+
+
+ a| 
+외부 아카이브 스토리지 시스템의 용량입니다
+ a| 
+매주
+
+
+
+ a| 
+로드 밸런싱 작업
+ a| 
+초기 설정 후 및 구성 변경 후
+
+
+
+ a| 
+소프트웨어 핫픽스 및 소프트웨어 업그레이드 가용성
+ a| 
+매월
+
+|===

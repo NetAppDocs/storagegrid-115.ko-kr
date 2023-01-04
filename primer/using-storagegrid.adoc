@@ -1,0 +1,24 @@
+---
+permalink: primer/using-storagegrid.html 
+sidebar: sidebar 
+keywords:  
+summary: 그리드 노드와 StorageGRID 네트워크를 설치한 후 StorageGRID를 구성하고 사용할 수 있습니다. 일부 작업은 시스템 관리 기능에 대한 사용자 액세스 제어, 테넌트 계정 설정, 클라이언트 연결 관리, 구성 옵션 설정, ILM을 통한 개체 위치 관리, StorageGRID 시스템의 상태 및 일상적인 작업 모니터링, 일상적인 유지 관리 및 비정기적인 유지 관리 작업 수행 등이 수행합니다. 
+---
+= StorageGRID 사용
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+그리드 노드와 StorageGRID 네트워크를 설치한 후 StorageGRID를 구성하고 사용할 수 있습니다. 일부 작업은 시스템 관리 기능에 대한 사용자 액세스 제어, 테넌트 계정 설정, 클라이언트 연결 관리, 구성 옵션 설정, ILM을 통한 개체 위치 관리, StorageGRID 시스템의 상태 및 일상적인 작업 모니터링, 일상적인 유지 관리 및 비정기적인 유지 관리 작업 수행 등이 수행합니다.
+
+* link:controlling-storagegrid-access.html["StorageGRID 액세스 제어"]
+* link:managing-tenants-and-client-connections.html["테넌트 및 클라이언트 연결 관리"]
+* link:configuring-network-settings.html["네트워크 설정을 구성하는 중입니다"]
+* link:configuring-system-settings.html["시스템 설정 구성"]
+* link:using-information-lifecycle-management.html["정보 수명 주기 관리 사용"]
+* link:monitoring-storagegrid-operations.html["StorageGRID 작업 모니터링"]
+* link:performing-maintenance-procedures.html["유지보수 절차 수행"]
+* link:using-storagegrid-support-options.html["StorageGRID 지원 옵션 사용"]
+

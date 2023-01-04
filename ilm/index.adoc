@@ -1,0 +1,19 @@
+---
+permalink: ilm/index.html 
+sidebar: sidebar 
+keywords:  
+summary:  
+---
+= ILM을 사용하여 개체를 관리합니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+정보 수명 주기 규칙 및 정책으로 오브젝트를 관리하는 방법과 S3 오브젝트 잠금을 사용하여 오브젝트 보존 규정을 준수하는 방법을 알아보십시오.
+
+* link:managing-objects-with-information-lifecycle-management.html["정보 수명 주기 관리로 개체 관리"]
+* link:managing-objects-with-s3-object-lock.html["S3 오브젝트 잠금으로 오브젝트 관리"]
+* link:example-ilm-rules-and-policies.html["ILM 규칙 및 정책의 예"]
+

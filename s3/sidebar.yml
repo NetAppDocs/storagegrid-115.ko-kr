@@ -1,0 +1,99 @@
+---
+section: s3
+title: S3 REST API 사용
+url: "/s3/index.html"
+entries:
+- title: S3 REST API 지원
+  url: "/s3/support-for-s3-rest-api.html"
+  entries:
+  - title: S3 REST API 지원으로 변경
+    url: "/s3/changes-to-s3-rest-api-support.html"
+  - title: 지원되는 버전
+    url: "/s3/supported-versions.html"
+  - title: StorageGRID 플랫폼 서비스 지원
+    url: "/s3/support-for-storagegrid-platform-services.html"
+- title: 테넌트 계정 및 연결 구성
+  url: "/s3/configuring-tenant-accounts-and-connections.html"
+- title: StorageGRID에서 S3 REST API를 구축하는 방법
+  url: "/s3/how-storagegrid-implements-s3-rest-api.html"
+  entries:
+  - title: 클라이언트 요청 충돌
+    url: "/s3/conflicting-client-requests.html"
+  - title: 일관성 제어
+    url: "/s3/consistency-controls.html"
+  - title: StorageGRID ILM 규칙이 개체를 관리하는 방법
+    url: "/s3/how-storagegrid-ilm-rules-manage-objects.html"
+  - title: 오브젝트 버전 관리
+    url: "/s3/object-versioning.html"
+  - title: S3 REST API 구현을 위한 권장 사항
+    url: "/s3/recommendations-for-implementing-s3-rest-api.html"
+- title: S3 REST API에서 지원되는 작업 및 제한 사항
+  url: "/s3/s3-rest-api-supported-operations-and-limitations.html"
+  entries:
+  - title: 요청을 인증하는 중입니다
+    url: "/s3/authenticating-requests.html"
+  - title: 서비스에 대한 작업
+    url: "/s3/operations-on-the-service.html"
+  - title: 버킷 작업
+    url: "/s3/operations-on-buckets.html"
+  - title: 버킷에 대한 사용자 지정 작업
+    url: "/s3/custom-operations-on-buckets.html"
+  - title: 객체에 대한 작업
+    url: "/s3/operations-on-objects.html"
+    entries:
+    - title: S3 오브젝트 잠금 사용
+      url: "/s3/using-s3-object-lock.html"
+    - title: 서버 측 암호화 사용
+      url: "/s3/using-server-side-encryption.html"
+    - title: 객체를 가져옵니다
+      url: "/s3/get-object.html"
+    - title: 헤드 개체
+      url: "/s3/head-object.html"
+    - title: 사후 개체 복원
+      url: "/s3/post-object-restore.html"
+    - title: 개체 를 넣습니다
+      url: "/s3/put-object.html"
+    - title: 개체 - 복사 를 선택합니다
+      url: "/s3/put-object-copy.html"
+  - title: 멀티파트 업로드 작업
+    url: "/s3/operations-for-multipart-uploads.html"
+    entries:
+    - title: 다중 파트 업로드 나열
+      url: "/s3/list-multipart-uploads.html"
+    - title: 멀티파트 업로드를 시작합니다
+      url: "/s3/initiate-multipart-upload.html"
+    - title: 부품 업로드
+      url: "/s3/upload-part.html"
+    - title: 업로드 부품 - 복사
+      url: "/s3/upload-part-copy.html"
+    - title: 멀티파트 업로드를 완료합니다
+      url: "/s3/complete-multipart-upload.html"
+  - title: 오류 응답
+    url: "/s3/error-responses.html"
+- title: StorageGRID S3 REST API 작업
+  url: "/s3/storagegrid-s3-rest-api-operations.html"
+- title: 버킷 및 그룹 액세스 정책
+  url: "/s3/bucket-and-group-access-policies.html"
+- title: REST API에 대한 보안 구성
+  url: "/s3/configuring-security-for-rest-api.html"
+- title: 작업 모니터링 및 감사
+  url: "/s3/monitoring-and-auditing-operations.html"
+  entries:
+  - title: 오브젝트 수집 및 검색 속도 모니터링
+    url: "/s3/monitoring-object-ingest-and-retrieval-rates.html"
+  - title: 감사 로그 액세스 및 검토
+    url: "/s3/accessing-and-reviewing-audit-logs.html"
+    entries:
+    - title: 감사 로그에서 S3 작업을 추적했습니다
+      url: "/s3/s3-operations-tracked-in-audit-logs.html"
+- title: 활성, 유휴 및 동시 HTTP 연결의 이점
+  url: "/s3/benefits-of-active-idle-and-concurrent-http-connections.html"
+  entries:
+  - title: 유휴 HTTP 연결을 열어 두면 얻을 수 있는 이점
+    url: "/s3/benefits-of-keeping-idle-http-connections-open.html"
+  - title: 활성 HTTP 연결의 이점
+    url: "/s3/benefits-of-active-http-connections.html"
+  - title: 동시 HTTP 연결의 이점
+    url: "/s3/benefits-of-concurrent-http-connections.html"
+  - title: 읽기 및 쓰기 작업을 위한 HTTP 연결 풀 분리
+    url: "/s3/separation-of-http-connection-pools-for-read-and-write-operations.html"

@@ -1,0 +1,23 @@
+---
+permalink: sg5600/installing-hardware.html 
+sidebar: sidebar 
+keywords: storagegrid, sg5600, storage node, storage appliance, hardware, install, installing 
+summary: 하드웨어 설치에는 하드웨어 구성 요소 설치, 구성 요소 케이블 연결 및 포트 구성 등 몇 가지 주요 작업이 포함됩니다. 
+---
+= 하드웨어 설치
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+하드웨어 설치에는 하드웨어 구성 요소 설치, 구성 요소 케이블 연결 및 포트 구성 등 몇 가지 주요 작업이 포함됩니다.
+
+.단계
+* link:registering-hardware.html["하드웨어를 등록하는 중입니다"]
+* link:installing-appliance-in-cabinet-or-rack-sg5600.html["캐비닛 또는 랙에 어플라이언스 설치(SG5600)"]
+* link:cabling-appliance-sg5600.html["어플라이언스 케이블 연결(SG5600)"]
+* link:connecting-ac-power-cords-sg5600.html["AC 전원 코드 연결(SG5600)"]
+* link:turning-power-on-sg5600.html["전원 켜기(SG5600)"]
+* link:viewing-boot-up-status-and-reviewing-error-codes-on-sg5600-controllers.html["SG5600 컨트롤러에서 부팅 상태 및 오류 코드 검토"]
+

@@ -1,0 +1,22 @@
+---
+permalink: admin/controlling-administrator-access-to-storagegrid.html 
+sidebar: sidebar 
+keywords:  
+summary: '방화벽 포트를 열거나 닫거나, 관리 그룹 및 사용자를 관리하고, SSO(Single Sign-On)\ 를 구성하고, StorageGRID 메트릭에 대한 안전한 외부 액세스를 허용하는 클라이언트 인증서를 제공하여 StorageGRID 시스템에 대한 관리자 액세스를 제어할 수 있습니다.' 
+---
+= StorageGRID에 대한 관리자 액세스 제어
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+방화벽 포트를 열거나 닫거나, 관리 그룹 및 사용자를 관리하고, SSO(Single Sign-On)를 구성하고, StorageGRID 메트릭에 대한 안전한 외부 액세스를 허용하는 클라이언트 인증서를 제공하여 StorageGRID 시스템에 대한 관리자 액세스를 제어할 수 있습니다.
+
+* link:controlling-access-through-firewalls.html["방화벽을 통한 액세스 제어"]
+* link:using-identity-federation.html["ID 페더레이션 사용"]
+* link:managing-admin-groups.html["관리 그룹 관리"]
+* link:managing-local-users.html["로컬 사용자 관리"]
+* link:using-single-sign-on.html["StorageGRID용 SSO(Single Sign-On) 사용"]
+* link:configuring-administrator-client-certificates.html["관리자 클라이언트 인증서를 구성하는 중입니다"]
+

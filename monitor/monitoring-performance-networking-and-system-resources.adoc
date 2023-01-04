@@ -1,0 +1,14 @@
+---
+permalink: monitor/monitoring-performance-networking-and-system-resources.html 
+sidebar: sidebar 
+keywords:  
+summary: 성능, 네트워킹 및 시스템 리소스를 모니터링하여 StorageGRID가 현재 로드를 처리할 수 있는지 여부를 확인하고 시간이 지나면서 클라이언트 성능이 저하되지 않도록 해야 합니다. 
+---
+= 성능, 네트워킹 및 시스템 리소스 모니터링
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+성능, 네트워킹 및 시스템 리소스를 모니터링하여 StorageGRID가 현재 로드를 처리할 수 있는지 여부를 확인하고 시간이 지나면서 클라이언트 성능이 저하되지 않도록 해야 합니다.

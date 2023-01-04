@@ -1,0 +1,26 @@
+---
+permalink: vmware/configuring-grid-and-completing-installation.html 
+sidebar: sidebar 
+keywords: storagegrid, vmware, configuring grid, completing installation 
+summary: 기본 관리 노드의 그리드 관리자에서 StorageGRID 시스템을 구성하여 설치를 완료합니다. 
+---
+= 그리드 구성 및 설치 완료
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+기본 관리 노드의 그리드 관리자에서 StorageGRID 시스템을 구성하여 설치를 완료합니다.
+
+* link:navigating-to-grid-manager.html["그리드 관리자로 이동합니다"]
+* link:specifying-storagegrid-license-information.html["StorageGRID 라이센스 정보 지정"]
+* link:adding-sites.html["사이트 추가"]
+* link:specifying-grid-network-subnets.html["그리드 네트워크 서브넷 지정"]
+* link:approving-pending-grid-nodes.html["보류 중인 그리드 노드를 승인하는 중입니다"]
+* link:specifying-network-time-protocol-server-information.html["네트워크 시간 프로토콜 서버 정보 지정"]
+* link:specifying-domain-name-system-server-information.html["도메인 이름 시스템 서버 정보 지정"]
+* link:specifying-storagegrid-system-passwords.html["StorageGRID 시스템 암호 지정"]
+* link:reviewing-your-configuration-and-completing-installation.html["구성을 검토하고 설치를 완료합니다"]
+* link:post-installation-guidelines.html["설치 후 지침"]
+

@@ -1,0 +1,22 @@
+---
+permalink: admin/managing-high-availability-groups.html 
+sidebar: sidebar 
+keywords:  
+summary: '고가용성 \(HA\) 그룹을 사용하여 S3 및 Swift 클라이언트에 고가용성 데이터 연결을 제공할 수 있습니다. HA 그룹을 사용하여 Grid Manager 및 Tenant Manager에 대한 고가용성 연결을 제공할 수도 있습니다.' 
+---
+= 고가용성 그룹 관리
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+고가용성(HA) 그룹을 사용하여 S3 및 Swift 클라이언트에 고가용성 데이터 연결을 제공할 수 있습니다. HA 그룹을 사용하여 Grid Manager 및 Tenant Manager에 대한 고가용성 연결을 제공할 수도 있습니다.
+
+* link:what-ha-group-is.html["HA 그룹이란"]
+* link:how-ha-groups-are-used.html["HA 그룹 사용 방법"]
+* link:configuration-options-for-ha-groups.html["HA 그룹에 대한 구성 옵션"]
+* link:creating-high-availability-group.html["고가용성 그룹 생성"]
+* link:editing-high-availability-group.html["고가용성 그룹 편집"]
+* link:removing-high-availability-group.html["고가용성 그룹을 제거하는 중입니다"]
+

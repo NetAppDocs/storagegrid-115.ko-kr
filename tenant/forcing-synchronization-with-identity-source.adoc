@@ -1,0 +1,38 @@
+---
+permalink: tenant/forcing-synchronization-with-identity-source.html 
+sidebar: sidebar 
+keywords: storagegrid, tenant, identity source, synchronize identity source 
+summary: StorageGRID 시스템은 ID 소스에서 페더레이션 그룹과 사용자를 정기적으로 동기화합니다. 사용자 권한을 최대한 빨리 설정하거나 제한하려는 경우 동기화를 강제로 시작할 수 있습니다. 
+---
+= ID 소스와 동기화 수행
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+StorageGRID 시스템은 ID 소스에서 페더레이션 그룹과 사용자를 정기적으로 동기화합니다. 사용자 권한을 최대한 빨리 설정하거나 제한하려는 경우 동기화를 강제로 시작할 수 있습니다.
+
+.필요한 것
+* 지원되는 브라우저를 사용하여 테넌트 관리자에 로그인해야 합니다.
+* 특정 액세스 권한이 있어야 합니다.
+* 저장된 ID 소스를 활성화해야 합니다.
+
+
+.단계
+. 액세스 관리 * > * ID 페더레이션 * 을 선택합니다.
++
+ID 페더레이션 페이지가 나타납니다. 동기화 서버 * 버튼은 페이지 오른쪽 상단에 있습니다.
+
++
+
+NOTE: 저장된 ID 소스가 활성화되어 있지 않으면 * 동기화 서버 * 버튼이 활성화되지 않습니다.
+
+. 동기화 서버 * 를 선택합니다.
++
+동기화가 성공적으로 시작되었음을 나타내는 확인 메시지가 표시됩니다.
+
+
+
+.관련 정보
+link:tenant-management-permissions.html["테넌트 관리 권한"]

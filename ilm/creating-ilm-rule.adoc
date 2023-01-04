@@ -1,0 +1,71 @@
+---
+permalink: ilm/creating-ilm-rule.html 
+sidebar: sidebar 
+keywords:  
+summary: ILM 규칙을 사용하여 시간에 따른 오브젝트 데이터 배치를 관리할 수 있습니다. ILM 규칙을 만들려면 ILM 규칙 만들기 마법사를 사용합니다. 
+---
+= ILM 규칙 만들기
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ILM 규칙을 사용하여 시간에 따른 오브젝트 데이터 배치를 관리할 수 있습니다. ILM 규칙을 만들려면 ILM 규칙 만들기 마법사를 사용합니다.
+
+.시작하기 전에
+* 지원되는 브라우저를 사용하여 Grid Manager에 로그인해야 합니다.
+* 특정 액세스 권한이 있어야 합니다.
+* 이 규칙이 적용되는 테넌트 계정을 지정하려면 테넌트 계정 권한이 있거나 각 계정의 계정 ID를 알아야 합니다.
+* 규칙이 마지막 액세스 시간 메타데이터에서 오브젝트를 필터링하려면 S3 또는 Swift용 컨테이너에서 마지막 액세스 시간 업데이트를 활성화해야 합니다.
+* 복제된 복사본을 생성하는 경우 사용할 스토리지 풀 또는 클라우드 스토리지 풀을 구성해야 합니다.
+* 삭제 코딩 복사본을 만드는 경우 삭제 코딩 프로필을 구성해야 합니다.
+* 에 대해 잘 알고 있어야 합니다 link:data-protection-options-for-ingest.html["데이터 보호를 위한 수집 옵션"].
+* S3 오브젝트 잠금에 사용하기 위해 규정 준수 규칙을 생성해야 하는 경우 에 대해 잘 알고 있어야 합니다 link:requirements-for-s3-object-lock.html["S3 오브젝트 잠금에 대한 요구사항"].
+
+
+
+NOTE: 정책에 대한 기본 ILM 규칙을 만들려면 대신 다음 절차를 사용합니다. link:creating-default-ilm-rule.html["기본 ILM 규칙 생성"].
+
+.이 작업에 대해
+ILM 규칙 생성 시:
+
+* StorageGRID 시스템의 토폴로지 및 스토리지 구성을 고려하십시오.
+* 생성할 오브젝트 복사본 유형(복제 또는 삭제 코딩)과 필요한 각 오브젝트의 복사본 수를 고려하십시오.
+* StorageGRID 시스템에 연결하는 응용 프로그램에서 사용되는 개체 메타데이터 유형을 확인합니다. ILM 규칙은 해당 메타데이터를 기반으로 개체를 필터링합니다.
+* 시간에 따라 오브젝트 복사본을 배치할 위치를 고려합니다.
+* 수집 시 데이터 보호 옵션에 사용할 옵션 결정(균형, 엄격 또는 이중 커밋)
+
+
+.단계
+. ILM * > * 규칙 * 을 선택합니다.
++
+재고 규칙과 함께 ILM 규칙 페이지가 나타나며 Make 2 Copies(2개 복사본 만들기) 가 선택됩니다.
+
++
+image::../media/ilm_create_ilm_rule.png[ILM 규칙 페이지]
+
++
+
+NOTE: StorageGRID 시스템에서 전역 S3 개체 잠금 설정이 활성화된 경우 ILM 규칙 페이지가 약간 다르게 표시됩니다. 요약 테이블에는 * 규격 * 열이 포함되며 선택한 규칙에 대한 세부 정보에는 * 규격 * 필드가 포함됩니다.
+
+. Create * 를 선택합니다.
++
+ILM 규칙 생성 마법사의 1단계(기본 정의)가 나타납니다. 기본 사항 정의 페이지를 사용하여 규칙이 적용되는 개체를 정의합니다.
+
+
+
+.관련 정보
+link:../s3/index.html["S3을 사용합니다"]
+
+link:../swift/index.html["Swift를 사용합니다"]
+
+link:configuring-erasure-coding-profiles.html["삭제 코딩 프로필 구성"]
+
+link:configuring-storage-pools.html["스토리지 풀 구성"]
+
+link:using-cloud-storage-pools.html["클라우드 스토리지 풀 사용"]
+
+link:data-protection-options-for-ingest.html["데이터 보호를 위한 수집 옵션"]
+
+link:managing-objects-with-s3-object-lock.html["S3 오브젝트 잠금으로 오브젝트 관리"]

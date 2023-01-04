@@ -1,0 +1,42 @@
+---
+permalink: maintain/introduction-to-storagegrid-recovery-and-maintenance.html 
+sidebar: sidebar 
+keywords: storagegrid, recovery, maintenance 
+summary: StorageGRID의 복구 및 유지 보수 절차에는 소프트웨어 핫픽스 적용, 그리드 노드 복구, 장애가 발생한 사이트 복구, 그리드 노드 또는 전체 사이트 폐기, 네트워크 유지 보수 수행, 호스트 레벨 및 미들웨어 유지 보수 절차 수행, 그리드 노드 절차 수행 등이 포함됩니다. 
+---
+= StorageGRID 복구 및 유지 관리 소개
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+StorageGRID의 복구 및 유지 보수 절차에는 소프트웨어 핫픽스 적용, 그리드 노드 복구, 장애가 발생한 사이트 복구, 그리드 노드 또는 전체 사이트 폐기, 네트워크 유지 보수 수행, 호스트 레벨 및 미들웨어 유지 보수 절차 수행, 그리드 노드 절차 수행 등이 포함됩니다.
+
+모든 복구 및 유지 보수 작업은 StorageGRID 시스템에 대한 폭넓은 이해가 필요합니다. StorageGRID 시스템의 토폴로지를 검토하여 그리드 구성을 이해해야 합니다.
+
+모든 지침을 정확하게 따르고 모든 경고에 주의해야 합니다.
+
+설명되지 않은 유지보수 절차는 지원되지 않거나 서비스 계약이 필요합니다.
+
+하드웨어 절차는 StorageGRID 어플라이언스의 설치 및 유지보수 지침을 참조하십시오.
+
+
+NOTE: "'Linux'는 Red Hat ® Enterprise Linux ®, Ubuntu ®, CentOS 또는 Debian ® 배포를 의미합니다. NetApp 상호 운용성 매트릭스 툴을 사용하여 지원되는 버전 목록을 확인하십시오.
+
+.관련 정보
+link:../primer/index.html["그리드 프라이머"]
+
+link:../network/index.html["네트워크 지침"]
+
+link:../admin/index.html["StorageGRID 관리"]
+
+link:../sg100-1000/index.html["SG100 및 AMP, SG1000 서비스 어플라이언스"]
+
+link:../sg6000/index.html["SG6000 스토리지 어플라이언스"]
+
+link:../sg5700/index.html["SG5700 스토리지 어플라이언스"]
+
+link:../sg5600/index.html["SG5600 스토리지 어플라이언스"]
+
+https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"]

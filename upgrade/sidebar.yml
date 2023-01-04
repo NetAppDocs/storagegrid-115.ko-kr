@@ -1,0 +1,56 @@
+---
+section: upgrade
+title: 소프트웨어 업그레이드
+url: "/upgrade/index.html"
+entries:
+- title: StorageGRID 11.5 정보
+  url: "/upgrade/about-this-release.html"
+  entries:
+  - title: StorageGRID 11.5의 새로운 기능
+    url: "/upgrade/whats-new.html"
+  - title: 제거되거나 사용되지 않는 기능
+    url: "/upgrade/removed-or-deprecated-features.html"
+  - title: Grid Management API 변경
+    url: "/upgrade/changes-to-grid-management-api.html"
+  - title: 테넌트 관리 API의 변경 사항
+    url: "/upgrade/changes-to-tenant-management-api.html"
+- title: 업그레이드 계획 및 준비
+  url: "/upgrade/upgrade-planning-and-preparation.html"
+  entries:
+  - title: 업그레이드를 완료하는 데 걸리는 시간 예상
+    url: "/upgrade/estimating-time-to-complete-upgrade.html"
+  - title: 업그레이드 중 시스템에 미치는 영향
+    url: "/upgrade/how-your-system-is-affected-during-upgrade.html"
+  - title: 그룹 및 사용자 계정에 대한 업그레이드의 영향
+    url: "/upgrade/impact-of-upgrade-on-groups-and-user-accounts.html"
+  - title: 설치된 StorageGRID 버전을 확인하는 중입니다
+    url: "/upgrade/verifying-installed-version-of-storagegrid.html"
+  - title: 소프트웨어 업그레이드에 필요한 자료 얻기
+    url: "/upgrade/obtaining-required-materials-for-software-upgrade.html"
+    entries:
+    - title: 웹 브라우저 요구 사항
+      url: "/upgrade/web-browser-requirements.html"
+  - title: StorageGRID 업그레이드 파일을 다운로드하는 중입니다
+    url: "/upgrade/downloading-storagegrid-upgrade-files.html"
+  - title: 복구 패키지 다운로드 중
+    url: "/upgrade/downloading-recovery-package.html"
+  - title: 소프트웨어를 업그레이드하기 전에 시스템 상태를 확인합니다
+    url: "/upgrade/checking-systems-condition-before-upgrading-software.html"
+- title: 업그레이드를 수행하는 중입니다
+  url: "/upgrade/performing-upgrade.html"
+  entries:
+  - title: 'Linux: 모든 호스트에 RPM 또는 DEB 패키지 설치'
+    url: "/upgrade/linux-installing-rpm-or-deb-package-on-all-hosts.html"
+  - title: 업그레이드를 시작하는 중입니다
+    url: "/upgrade/starting-upgrade.html"
+  - title: 그리드 노드 업그레이드 및 업그레이드 완료
+    url: "/upgrade/upgrading-grid-nodes-and-completing-upgrade.html"
+  - title: 메타데이터 예약 공간 설정을 높입니다
+    url: "/upgrade/increasing-metadata-reserved-space-setting.html"
+- title: 업그레이드 문제 해결
+  url: "/upgrade/troubleshooting-upgrade-issues.html"
+  entries:
+  - title: 사용자 인터페이스 문제 해결
+    url: "/upgrade/troubleshooting-user-interface-issues.html"
+  - title: '"Docker 이미지 가용성 검사" 오류 메시지'
+    url: "/upgrade/docker-image-availability-check-error-messages.html"

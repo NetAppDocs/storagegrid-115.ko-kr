@@ -1,0 +1,49 @@
+---
+permalink: admin/creating-tenant-account.html 
+sidebar: sidebar 
+keywords:  
+summary: StorageGRID 시스템의 스토리지에 대한 액세스를 제어하려면 하나 이상의 테넌트 계정을 생성해야 합니다. 
+---
+= 테넌트 계정을 생성하는 중입니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+StorageGRID 시스템의 스토리지에 대한 액세스를 제어하려면 하나 이상의 테넌트 계정을 생성해야 합니다.
+
+.필요한 것
+* 지원되는 브라우저를 사용하여 Grid Manager에 로그인해야 합니다.
+* 특정 액세스 권한이 있어야 합니다.
+
+
+.단계
+. Tenants * 를 선택합니다.
++
+테넌트 계정 페이지가 나타나고 기존 테넌트 계정이 나열됩니다.
+
++
+image::../media/tenant_accounts_page_blank.png[테넌트 계정 페이지 - 비어 있습니다]
+
+. Create * 를 선택합니다.
++
+Create Tenant Account 페이지가 나타납니다. 페이지에 포함된 필드는 StorageGRID 시스템에서 SSO(Single Sign-On)를 활성화했는지 여부에 따라 달라집니다.
+
++
+** SSO를 사용하지 않는 경우 Create Tenant Account 페이지는 다음과 같습니다.
++
+image::../media/create_tenant_account_no_sso.gif[Create Tenant Account SSO 비활성화]
+
+** SSO가 활성화된 경우 Create Tenant Account 페이지는 다음과 같습니다.
++
+image::../media/create_tenant_account_sso.gif[Create Tenant Account SSO enabled(테넌트 계정 SSO 생성]
+
+
+
+
+
+.관련 정보
+link:using-identity-federation.html["ID 페더레이션 사용"]
+
+link:configuring-sso.html["Single Sign-On 구성"]

@@ -1,0 +1,38 @@
+---
+permalink: tenant/deleting-group.html 
+sidebar: sidebar 
+keywords: StorageGRID, tenant manager, tenant group, deleting tenant group, delete tenant group 
+summary: 시스템에서 그룹을 삭제할 수 있습니다. 해당 그룹에만 속하는 사용자는 더 이상 테넌트 관리자에 로그인하거나 테넌트 계정을 사용할 수 없습니다. 
+---
+= 그룹을 삭제하는 중입니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+시스템에서 그룹을 삭제할 수 있습니다. 해당 그룹에만 속하는 사용자는 더 이상 테넌트 관리자에 로그인하거나 테넌트 계정을 사용할 수 없습니다.
+
+.필요한 것
+* 지원되는 브라우저를 사용하여 테넌트 관리자에 로그인해야 합니다.
+* 루트 액세스 권한이 있는 사용자 그룹에 속해야 합니다.
+
+
+.단계
+. 액세스 관리 * > * 그룹 * 을 선택합니다.
++
+image::../media/tenant_add_groups_example.png[액세스 제어 > 그룹 페이지의 스크린 샷]
+
+. 삭제할 그룹의 확인란을 선택합니다.
+. Actions * > * Delete group * 을 선택합니다.
++
+확인 메시지가 나타납니다.
+
+. 확인 메시지에 표시된 그룹을 삭제하려면 * Delete group * 을 선택합니다.
++
+페이지의 오른쪽 상단에 확인 메시지가 나타납니다. 캐시 때문에 변경사항을 적용하려면 15분이 소요될 수 있습니다.
+
+
+
+.관련 정보
+link:tenant-management-permissions.html["테넌트 관리 권한"]

@@ -1,0 +1,349 @@
+---
+section: maintain
+title: 복구 유지
+url: "/maintain/index.html"
+entries:
+- title: StorageGRID 복구 및 유지 관리 소개
+  url: "/maintain/introduction-to-storagegrid-recovery-and-maintenance.html"
+  entries:
+  - title: 웹 브라우저 요구 사항
+    url: "/maintain/web-browser-requirements.html"
+  - title: 복구 패키지 다운로드 중
+    url: "/maintain/downloading-recovery-package.html"
+- title: StorageGRID 핫픽스 절차
+  url: "/maintain/storagegrid-hotfix-procedure.html"
+  entries:
+  - title: 핫픽스 적용 시 고려 사항
+    url: "/maintain/considerations-for-applying-hotfix.html"
+  - title: 핫픽스를 적용할 때 시스템이 영향을 받는 방식
+    url: "/maintain/how-your-system-is-affected-when-you-apply-hotfix.html"
+  - title: 핫픽스에 필요한 자료 얻기
+    url: "/maintain/obtaining-required-materials-for-hotfix.html"
+  - title: 핫픽스 파일을 다운로드하는 중입니다
+    url: "/maintain/downloading-hotfix-file.html"
+  - title: 핫픽스를 적용하기 전에 시스템 상태를 확인합니다
+    url: "/maintain/checking-systems-condition-before-applying-hotfix.html"
+  - title: 핫픽스를 적용합니다
+    url: "/maintain/applying-hotfix.html"
+- title: 그리드 노드 복구 절차
+  url: "/maintain/grid-node-recovery-procedures.html"
+  entries:
+  - title: 그리드 노드 복구에 대한 경고 및 고려 사항
+    url: "/maintain/warnings-and-considerations-for-grid-node-recovery.html"
+  - title: 그리드 노드 복구를 위해 필요한 자료를 수집합니다
+    url: "/maintain/gathering-required-materials-for-grid-node-recovery.html"
+    entries:
+    - title: StorageGRID 설치 파일 다운로드 및 추출
+      url: "/maintain/downloading-and-extracting-storagegrid-installation-files.html"
+  - title: 노드 복구 절차 선택
+    url: "/maintain/selecting-node-recovery-procedure.html"
+  - title: 스토리지 노드 장애 복구
+    url: "/maintain/recovering-from-storage-node-failures.html"
+    entries:
+    - title: 15일 이상 중단된 스토리지 노드 복구
+      url: "/maintain/recovering-storage-node-that-has-been-down-more-than-15-days.html"
+    - title: StorageGRID 어플라이언스 스토리지 노드 복구
+      url: "/maintain/recovering-storagegrid-appliance-storage-node.html"
+      entries:
+      - title: 어플라이언스 스토리지 노드 재설치 준비
+        url: "/maintain/preparing-appliance-storage-node-for-reinstallation.html"
+      - title: StorageGRID 어플라이언스 설치를 시작합니다
+        url: "/maintain/starting-storagegrid-appliance-installation.html"
+      - title: StorageGRID 어플라이언스 설치 모니터링
+        url: "/maintain/monitoring-storagegrid-appliance-installation-sn.html"
+      - title: 복구 시작 을 선택하여 어플라이언스 스토리지 노드를 구성합니다
+        url: "/maintain/selecting-start-recovery-to-configure-appliance-storage-node.html"
+      - title: 어플라이언스 스토리지 볼륨 다시 마운트 및 다시 포맷("수동 단계")
+        url: "/maintain/remounting-and-reformatting-appliance-storage-volumes.html"
+      - title: 어플라이언스의 스토리지 볼륨에 오브젝트 데이터를 복원합니다
+        url: "/maintain/restoring-object-data-to-storage-volume-for-appliance.html"
+      - title: 어플라이언스 스토리지 노드를 복구한 후 스토리지 상태를 확인합니다
+        url: "/maintain/checking-storage-state-after-recovering-sga.html"
+    - title: 시스템 드라이브가 손상되지 않은 스토리지 볼륨 장애로부터 복구
+      url: "/maintain/recovering-from-storage-volume-failure-where-system-drive-is-intact.html"
+      entries:
+      - title: 스토리지 볼륨 복구에 대한 경고 검토
+        url: "/maintain/reviewing-warnings-about-storage-volume-recovery.html"
+      - title: 장애가 발생한 스토리지 볼륨 식별 및 마운트 해제
+        url: "/maintain/identifying-and-unmounting-failed-storage-volumes.html"
+      - title: 장애가 발생한 스토리지 볼륨을 복구하고 Cassandra 데이터베이스를 재구축합니다
+        url: "/maintain/recovering-failed-storage-volumes-and-rebuilding-cassandra-database.html"
+      - title: 시스템 드라이브가 손상되지 않은 스토리지 볼륨에 오브젝트 데이터를 복원합니다
+        url: "/maintain/restoring-object-data-to-storage-volume-where-system-drive-is-intact.html"
+      - title: 스토리지 볼륨을 복구한 후 스토리지 상태를 확인하는 중입니다
+        url: "/maintain/checking-storage-state-after-recovering-storage-volumes.html"
+    - title: 시스템 드라이브 장애 복구
+      url: "/maintain/recovering-from-system-drive-failure.html"
+      entries:
+      - title: 스토리지 노드 시스템 드라이브 복구에 대한 경고 검토
+        url: "/maintain/reviewing-warnings-for-system-drive-recovery.html"
+      - title: 스토리지 노드 교체
+        url: "/maintain/replacing-storage-node.html"
+      - title: 복구 시작 을 선택하여 스토리지 노드를 구성합니다
+        url: "/maintain/selecting-start-recovery-to-configure-storage-node.html"
+      - title: 스토리지 볼륨 재마운트 및 포맷("수동 단계")
+        url: "/maintain/remounting-and-reformatting-storage-volumes-manual-steps.html"
+      - title: 필요한 경우 오브젝트 데이터를 스토리지 볼륨에 복원
+        url: "/maintain/restoring-object-data-to-storage-volume-if-required.html"
+      - title: 스토리지 노드 시스템 드라이브를 복구한 후 스토리지 상태를 확인합니다
+        url: "/maintain/checking-storage-state-after-recovering-storage-node-system-drive.html"
+  - title: 관리 노드 장애 복구
+    url: "/maintain/recovering-from-admin-node-failures.html"
+    entries:
+    - title: 운영 관리 노드 장애를 복구합니다
+      url: "/maintain/recovering-from-primary-admin-node-failures.html"
+      entries:
+      - title: 실패한 기본 관리 노드에서 감사 로그를 복사하는 중입니다
+        url: "/maintain/copying-audit-logs-from-failed-primary-admin-node.html"
+      - title: 기본 관리자 노드 교체
+        url: "/maintain/replacing-primary-admin-node.html"
+      - title: 대체 운영 관리자 노드 구성
+        url: "/maintain/configuring-replacement-primary-admin-node.html"
+      - title: 복구된 기본 관리자 노드에서 감사 로그 복구
+        url: "/maintain/restoring-audit-log-on-recovered-primary-admin-node.html"
+      - title: 복구된 기본 관리자 노드에서 기본 보낸 사람을 재설정합니다
+        url: "/maintain/resetting-preferred-sender-on-recovered-primary-admin-node.html"
+      - title: 운영 관리자 노드를 복구할 때 관리 노드 데이터베이스를 복구합니다
+        url: "/maintain/restoring-admin-node-database-primary-admin-node.html"
+      - title: 기본 관리 노드를 복구할 때 Prometheus 메트릭을 복원하는 중입니다
+        url: "/maintain/restoring-prometheus-metrics-primary-admin-node.html"
+    - title: 운영 관리자 노드가 아닌 노드에서 복구
+      url: "/maintain/recovering-from-non-primary-admin-node-failures.html"
+      entries:
+      - title: 오류가 발생한 비 기본 관리 노드에서 감사 로그를 복사합니다
+        url: "/maintain/copying-audit-logs-from-failed-non-primary-admin-node.html"
+      - title: 비 기본 관리 노드 교체
+        url: "/maintain/replacing-non-primary-admin-node.html"
+      - title: 복구 시작 을 선택하여 비 기본 관리 노드를 구성합니다
+        url: "/maintain/selecting-start-recovery-to-configure-non-primary-admin-node.html"
+      - title: 복구된 비 기본 관리 노드에서 감사 로그 복원
+        url: "/maintain/restoring-audit-log-on-recovered-non-primary-admin-node.html"
+      - title: 복구된 비 기본 관리 노드에서 기본 설정 보낸 사람을 재설정합니다
+        url: "/maintain/resetting-preferred-sender-on-recovered-non-primary-admin-node.html"
+      - title: 비 운영 관리 노드를 복구할 때 관리 노드 데이터베이스를 복원합니다
+        url: "/maintain/restoring-admin-node-database-non-primary-admin-node.html"
+      - title: 비 운영 관리 노드를 복구할 때 Prometheus 메트릭을 복원하는 중입니다
+        url: "/maintain/restoring-prometheus-metrics-non-primary-admin-node.html"
+  - title: 게이트웨이 노드 장애를 복구합니다
+    url: "/maintain/recovering-from-gateway-node-failures.html"
+    entries:
+    - title: 게이트웨이 노드 교체
+      url: "/maintain/replacing-gateway-node.html"
+    - title: Start Recovery(복구 시작) 를 선택하여 게이트웨이 노드를 구성합니다
+      url: "/maintain/selecting-start-recovery-to-configure-gateway-node.html"
+  - title: 아카이브 노드 장애 복구
+    url: "/maintain/recovering-from-archive-node-failures.html"
+    entries:
+    - title: 아카이브 노드 교체
+      url: "/maintain/replacing-archive-node.html"
+    - title: 복구 시작 을 선택하여 아카이브 노드를 구성합니다
+      url: "/maintain/selecting-start-recovery-to-configure-archive-node.html"
+    - title: 클라우드에 아카이브 노드 연결을 재설정하는 중입니다
+      url: "/maintain/resetting-archive-node-connection-to-cloud.html"
+  - title: '모든 그리드 노드 유형: VMware 노드 교체'
+    url: "/maintain/all-node-types-replacing-vmware-node.html"
+  - title: '모든 그리드 노드 유형: Linux 노드 교체'
+    url: "/maintain/all-node-types-replacing-linux-node.html"
+    entries:
+    - title: 새 Linux 호스트 배포
+      url: "/maintain/deploying-new-linux-hosts.html"
+    - title: 그리드 노드를 호스트에 복구 중입니다
+      url: "/maintain/restoring-existing-nodes.html"
+      entries:
+      - title: 그리드 노드 복구 및 검증
+        url: "/maintain/restoring-and-validating-grid-nodes.html"
+        entries:
+        - title: 누락된 네트워크 인터페이스 오류를 수정하는 중입니다
+          url: "/maintain/fixing-mssing-network-interface-errors.html"
+        - title: 누락된 블록 장치 오류 수정 중
+          url: "/maintain/fixing-missing-block-device-errors.html"
+      - title: StorageGRID 호스트 서비스를 시작합니다
+        url: "/maintain/starting-storagegrid-host-service.html"
+      - title: 정상적으로 시작하지 못한 노드 복구
+        url: "/maintain/recovering-nodes-that-fail-to-start-normally.html"
+    - title: '다음 단계: 필요한 경우 추가 복구 단계 수행'
+      url: "/maintain/whats-next-performing-additional-recovery-steps-if-required.html"
+  - title: 장애가 발생한 노드를 서비스 어플라이언스로 교체
+    url: "/maintain/replacing-failed-node-with-services-appliance.html"
+    entries:
+    - title: 서비스 어플라이언스 설치(플랫폼 변경 전용)
+      url: "/maintain/installing-services-appliance-platform-change-only.html"
+    - title: 어플라이언스 재설치 준비(플랫폼 교체만 해당)
+      url: "/maintain/preparing-appliance-for-reinstallation-platform-replacement-only.html"
+    - title: 서비스 어플라이언스에서 소프트웨어 설치를 시작합니다
+      url: "/maintain/starting-software-installation-on-services-appliance-recovery.html"
+    - title: 모니터링 서비스 어플라이언스 설치
+      url: "/maintain/monitoring-services-appliance-installation.html"
+- title: 기술 지원 부서에서 사이트 복구를 수행하는 방법
+  url: "/maintain/how-site-recovery-is-performed-by-technical-support.html"
+- title: 서비스 해제 절차
+  url: "/maintain/decommission-procedure.html"
+  entries:
+  - title: 그리드 노드 해제
+    url: "/maintain/grid-node-decommissioning.html"
+    entries:
+    - title: 그리드 노드 파기 준비
+      url: "/maintain/preparing-to-decommission-grid-nodes.html"
+      entries:
+      - title: 그리드 노드 폐기에 대한 고려 사항
+        url: "/maintain/considerations-for-decommissioning-grid-nodes.html"
+        entries:
+        - title: 관리 노드 또는 게이트웨이 노드를 폐기하기 위한 고려 사항
+          url: "/maintain/considerations-for-decommissioning-admin-or-gateway-nodes.html"
+        - title: 스토리지 노드 폐기에 대한 고려 사항
+          url: "/maintain/considerations-for-decommissioning-storage-nodes.html"
+          entries:
+          - title: ADC 정수에 대한 이해
+            url: "/maintain/understanding-adc-service-quorum.html"
+          - title: ILM 정책 및 스토리지 구성 검토
+            url: "/maintain/reviewing-ilm-policy-and-storage-configuration.html"
+          - title: 연결이 끊긴 스토리지 노드 해제
+            url: "/maintain/decommissioning-disconnected-storage-nodes.html"
+          - title: 스토리지 노드 통합
+            url: "/maintain/consolidating-storage-nodes.html"
+          - title: 여러 스토리지 노드 사용 중지
+            url: "/maintain/decommissioning-multiple-storage-nodes.html"
+      - title: 데이터 복구 작업을 확인하는 중입니다
+        url: "/maintain/checking-data-repair-jobs.html"
+    - title: 필요한 자료를 모으는 중입니다
+      url: "/maintain/gathering-required-materials-node-decom.html"
+    - title: 서비스 해제 노드 페이지 액세스
+      url: "/maintain/accessing-decommission-nodes-page.html"
+    - title: 분리된 그리드 노드를 해체합니다
+      url: "/maintain/decommissioning-disconnected-grid-nodes.html"
+    - title: 연결된 그리드 노드 해제
+      url: "/maintain/decommissioning-connected-grid-nodes.html"
+    - title: 스토리지 노드에 대한 서비스 해제 프로세스를 일시 중지하고 다시 시작합니다
+      url: "/maintain/pausing-and-resuming-decommission-process-for-storage-nodes.html"
+    - title: 노드 사용 중단 문제 해결
+      url: "/maintain/troubleshooting-node-decommissioning.html"
+  - title: 현장 해체
+    url: "/maintain/site-decommissioning.html"
+    entries:
+    - title: 사이트 제거 고려 사항
+      url: "/maintain/considerations-for-removing-site.html"
+    - title: 필요한 자료를 모으는 중입니다
+      url: "/maintain/gathering-required-materials-site-decom.html"
+    - title: '1단계: 사이트를 선택합니다'
+      url: "/maintain/step-1-select-site.html"
+    - title: '2단계: 세부 정보 보기'
+      url: "/maintain/step-2-view-details.html"
+    - title: '3단계: ILM 정책 수정'
+      url: "/maintain/step-3-revise-ilm-policy.html"
+    - title: '4단계: ILM 참조 제거'
+      url: "/maintain/step-4-remove-ilm-references.html"
+    - title: '5단계: 노드 충돌 해결(및 서비스 해제 시작)'
+      url: "/maintain/step-5-resolve-node-conflicts.html"
+    - title: '6단계: 서비스 해제 모니터링'
+      url: "/maintain/step-6-monitor-decommission.html"
+- title: 네트워크 유지보수 절차
+  url: "/maintain/network-maintenance-procedures.html"
+  entries:
+  - title: 그리드 네트워크에 대한 서브넷을 업데이트하는 중입니다
+    url: "/maintain/updating-subnets-for-grid-network.html"
+  - title: IP 주소 구성
+    url: "/maintain/configuring-ip-addresses.html"
+    entries:
+    - title: 노드의 네트워크 구성 변경
+      url: "/maintain/changing-nodes-network-configuration.html"
+    - title: 관리자 네트워크에서 서브넷 목록에 추가 또는 변경
+      url: "/maintain/adding-to-or-changing-subnet-lists-on-admin-network.html"
+    - title: 그리드 네트워크에서 서브넷 목록에 추가 또는 변경
+      url: "/maintain/adding-to-or-changing-subnet-lists-on-grid-network.html"
+    - title: 'Linux: 기존 노드에 인터페이스 추가'
+      url: "/maintain/linux-adding-interfaces-to-existing-node.html"
+    - title: 그리드의 모든 노드에 대한 IP 주소 변경
+      url: "/maintain/changing-ip-addresses-and-mtu-values-for-all-nodes-in-grid.html"
+  - title: DNS 서버 구성 중
+    url: "/maintain/configuring-dns-servers.html"
+    entries:
+    - title: 단일 그리드 노드에 대한 DNS 구성 수정
+      url: "/maintain/modifying-dns-configuration-for-single-grid-node.html"
+  - title: NTP 서버 구성
+    url: "/maintain/configuring-ntp-servers.html"
+  - title: 격리된 노드의 네트워크 연결을 복구합니다
+    url: "/maintain/restoring-network-connectivity-for-isolated-nodes.html"
+- title: 호스트 레벨 및 미들웨어 절차
+  url: "/maintain/host-level-and-middleware-procedures.html"
+  entries:
+  - title: 'Linux: 그리드 노드를 새 호스트로 마이그레이션'
+    url: "/maintain/linux-migrating-grid-node-to-new-host.html"
+    entries:
+    - title: 'Linux: 소스 호스트에서 노드를 내보내십시오'
+      url: "/maintain/linux-exporting-node-from-source-host.html"
+    - title: 'Linux: 타겟 호스트에서 노드 가져오기'
+      url: "/maintain/linux-importing-node-on-target-host.html"
+    - title: 'Linux: 마이그레이션된 노드 시작'
+      url: "/maintain/linux-starting-migrated-node.html"
+  - title: TSM 미들웨어를 위한 아카이브 노드 유지 보수
+    url: "/maintain/archive-node-maintenance-for-tsm-middleware.html"
+  - title: 'VMware: 자동 재시작을 위한 가상 시스템 구성'
+    url: "/maintain/wmware-configuring-virtual-machine-for-automatic-restart.html"
+- title: 그리드 노드 절차
+  url: "/maintain/grid-node-procedures.html"
+  entries:
+  - title: 서버 관리자 상태 및 버전 보기
+    url: "/maintain/viewing-server-manager-status-and-version.html"
+  - title: 모든 서비스의 현재 상태 보기
+    url: "/maintain/viewing-current-status-of-all-services.html"
+  - title: 서버 관리자 및 모든 서비스를 시작하는 중입니다
+    url: "/maintain/starting-server-manager-and-all-services.html"
+  - title: 서버 관리자 및 모든 서비스를 다시 시작하는 중입니다
+    url: "/maintain/restarting-server-manager-and-all-services.html"
+  - title: 서버 관리자 및 모든 서비스를 중지하는 중입니다
+    url: "/maintain/stopping-server-manager-and-all-services.html"
+  - title: 서비스의 현재 상태 보기
+    url: "/maintain/viewing-current-status-of-service.html"
+  - title: 서비스를 중지하는 중입니다
+    url: "/maintain/stopping-service.html"
+  - title: 유지보수 모드로 제품을 두십시오
+    url: "/maintain/placing-appliance-into-maintenance-mode.html"
+  - title: 서비스 강제 종료
+    url: "/maintain/forcing-service-to-terminate.html"
+  - title: 서비스를 시작하거나 다시 시작하는 중입니다
+    url: "/maintain/starting-or-restarting-service.html"
+  - title: 포트 재맵을 제거하는 중입니다
+    url: "/maintain/removing-port-remaps.html"
+  - title: 베어 메탈 호스트에서 포트 리맵을 제거합니다
+    url: "/maintain/removing-port-remaps-on-bare-metal-hosts.html"
+  - title: 그리드 노드 재부팅
+    url: "/maintain/rebooting-grid-node.html"
+    entries:
+    - title: Grid Manager에서 그리드 노드를 재부팅합니다
+      url: "/maintain/rebooting-grid-node-from-grid-manager.html"
+    - title: 명령 셸에서 그리드 노드 재부팅
+      url: "/maintain/rebooting-grid-node-from-command-shell.html"
+  - title: 그리드 노드 종료
+    url: "/maintain/shutting-down-grid-node.html"
+  - title: 호스트 전원을 끕니다
+    url: "/maintain/powering-down-host.html"
+  - title: 그리드의 모든 노드 전원을 껐다가 켭니다
+    url: "/maintain/powering-off-and-on-all-nodes-in-grid.html"
+    entries:
+    - title: 서비스를 중지하고 그리드 노드를 종료하는 중입니다
+      url: "/maintain/stopping-services-and-shutting-down-grid-nodes.html"
+    - title: 그리드 노드를 시작하는 중입니다
+      url: "/maintain/powering-on-grid-nodes.html"
+  - title: DoNotStart 파일 사용
+    url: "/maintain/using-donotstart-file.html"
+    entries:
+    - title: 서비스에 대한 DoNotStart 파일 추가
+      url: "/maintain/adding-donotstart-file-for-service.html"
+    - title: 서비스에 대한 DoNotStart 파일 제거
+      url: "/maintain/removing-donotstart-file-for-service.html"
+  - title: 서버 관리자 문제 해결
+    url: "/maintain/troubleshooting-server-manager.html"
+    entries:
+    - title: 서버 관리자 로그 파일에 액세스 중입니다
+      url: "/maintain/accessing-server-manager-log-file.html"
+    - title: 오류 상태의 서비스
+      url: "/maintain/service-with-error-state.html"
+- title: 어플라이언스 노드 클론 복제
+  url: "/maintain/appliance-node-cloning.html"
+  entries:
+  - title: 어플라이언스 노드 클론 복제의 작동 방식
+    url: "/maintain/how-appliance-node-cloning-works.html"
+  - title: 어플라이언스 노드 클론 생성을 위한 고려 사항 및 요구 사항
+    url: "/maintain/considerations-and-requirements-for-appliance-node-cloning.html"
+  - title: 어플라이언스 노드 클론 생성 절차
+    url: "/maintain/appliance-node-cloning-procedure.html"

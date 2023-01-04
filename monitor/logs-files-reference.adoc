@@ -1,0 +1,34 @@
+---
+permalink: monitor/logs-files-reference.html 
+sidebar: sidebar 
+keywords: log, logs, log files 
+summary: 다음 섹션에는 이벤트, 진단 메시지 및 오류 상태를 캡처하는 데 사용되는 로그가 나열되어 있습니다. 문제 해결을 지원하기 위해 로그 파일을 수집하여 기술 지원 부서에 전달하라는 요청을 받을 수 있습니다. 
+---
+= 로그 파일 참조
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+다음 섹션에는 이벤트, 진단 메시지 및 오류 상태를 캡처하는 데 사용되는 로그가 나열되어 있습니다. 문제 해결을 지원하기 위해 로그 파일을 수집하여 기술 지원 부서에 전달하라는 요청을 받을 수 있습니다.
+
+* link:storagegrid-software-logs.html["StorageGRID 소프트웨어 로그"]
+* link:deployment-and-maintenance-logs.html["배포 및 유지 관리 로그"]
+* link:logs-for-third-party-software.html["타사 소프트웨어에 대한 로그입니다"]
+* link:about-bycast-log.html["bycast.log 정보"]
+
+
+
+IMPORTANT: 이 섹션의 표는 참조용입니다. 로그는 기술 지원 부서에서 제공하는 고급 문제 해결을 위한 것입니다. 감사 로그 및 응용 프로그램 로그 파일을 사용하여 문제 기록을 재구성하는 고급 기술은 이 가이드의 범위를 벗어납니다.
+
+이러한 로그에 액세스하려면 로그 파일 및 시스템 데이터를 수집할 수 있습니다(* 지원 * > * 도구 * > * 로그 *). 또는 운영 관리 노드를 사용할 수 없거나 특정 노드에 연결할 수 없는 경우 다음과 같이 각 그리드 노드의 로그에 액세스할 수 있습니다.
+
+. 다음 명령을 입력합니다. `ssh admin@grid_node_IP`
+. 에 나열된 암호를 입력합니다 `Passwords.txt` 파일.
+. 루트로 전환하려면 다음 명령을 입력합니다. `su -`
+. 에 나열된 암호를 입력합니다 `Passwords.txt` 파일.
+
+
+.관련 정보
+link:collecting-log-files-and-system-data.html["로그 파일 및 시스템 데이터를 수집하는 중입니다"]

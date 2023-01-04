@@ -1,0 +1,72 @@
+---
+section: primer
+title: 그리드 프라이머
+url: "/primer/index.html"
+entries:
+- title: StorageGRID 정보
+  url: "/primer/about-storagegrid.html"
+  entries:
+  - title: StorageGRID 하이브리드 클라우드
+    url: "/primer/hybrid-clouds-with-storagegrid.html"
+- title: StorageGRID 아키텍처 및 네트워크 토폴로지
+  url: "/primer/storagegrid-architecture-and-network-topology.html"
+- title: StorageGRID의 데이터 관리 방법
+  url: "/primer/how-storagegrid-manages-data.html"
+  entries:
+  - title: 개체의 정의
+    url: "/primer/what-object-is.html"
+  - title: 오브젝트 데이터의 보호 방법
+    url: "/primer/how-object-data-is-protected.html"
+  - title: 개체의 수명입니다
+    url: "/primer/life-of-object.html"
+    entries:
+    - title: 수집 데이터 흐름
+      url: "/primer/ingest-data-flow.html"
+    - title: 복사 관리
+      url: "/primer/copy-management.html"
+    - title: 데이터 흐름을 검색합니다
+      url: "/primer/retrieve-data-flow.html"
+    - title: 데이터 흐름을 삭제합니다
+      url: "/primer/delete-data-flow.html"
+- title: 그리드 관리자 탐색
+  url: "/primer/exploring-grid-manager.html"
+- title: 테넌트 관리자 탐색
+  url: "/primer/exploring-tenant-manager.html"
+- title: StorageGRID 사용
+  url: "/primer/using-storagegrid.html"
+  entries:
+  - title: StorageGRID 액세스 제어
+    url: "/primer/controlling-storagegrid-access.html"
+  - title: 테넌트 및 클라이언트 연결 관리
+    url: "/primer/managing-tenants-and-client-connections.html"
+  - title: 네트워크 설정을 구성하는 중입니다
+    url: "/primer/configuring-network-settings.html"
+  - title: 시스템 설정 구성
+    url: "/primer/configuring-system-settings.html"
+  - title: 정보 수명 주기 관리 사용
+    url: "/primer/using-information-lifecycle-management.html"
+  - title: StorageGRID 작업 모니터링
+    url: "/primer/monitoring-storagegrid-operations.html"
+    entries:
+    - title: 노드 페이지 보기
+      url: "/primer/viewing-nodes-page.html"
+      entries:
+      - title: 노드 페이지의 탭입니다
+        url: "/primer/tabs-for-nodes-page.html"
+      - title: Prometheus 측정 지표
+        url: "/primer/prometheus-metrics.html"
+      - title: StorageGRID 속성
+        url: "/primer/storagegrid-attributes.html"
+    - title: 경고 모니터링 및 관리
+      url: "/primer/monitoring-and-managing-alerts.html"
+    - title: SNMP 모니터링을 사용합니다
+      url: "/primer/using-snmp-monitoring.html"
+    - title: 감사 메시지 검토
+      url: "/primer/reviewing-audit-messages.html"
+  - title: 유지보수 절차 수행
+    url: "/primer/performing-maintenance-procedures.html"
+    entries:
+    - title: 복구 패키지 다운로드 중
+      url: "/primer/downloading-recovery-package.html"
+  - title: StorageGRID 지원 옵션 사용
+    url: "/primer/using-storagegrid-support-options.html"

@@ -1,0 +1,25 @@
+---
+permalink: s3/index.html 
+sidebar: sidebar 
+keywords:  
+summary:  
+---
+= S3을 사용합니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+클라이언트 애플리케이션이 S3 API를 사용하여 StorageGRID 시스템과 어떻게 상호 작용할 수 있는지 알아보십시오.
+
+* link:support-for-s3-rest-api.html["S3 REST API 지원"]
+* link:configuring-tenant-accounts-and-connections.html["테넌트 계정 및 연결 구성"]
+* link:how-storagegrid-implements-s3-rest-api.html["StorageGRID에서 S3 REST API를 구축하는 방법"]
+* link:s3-rest-api-supported-operations-and-limitations.html["S3 REST API에서 지원되는 작업 및 제한 사항"]
+* link:storagegrid-s3-rest-api-operations.html["StorageGRID S3 REST API 작업"]
+* link:bucket-and-group-access-policies.html["버킷 및 그룹 액세스 정책"]
+* link:configuring-security-for-rest-api.html["REST API에 대한 보안 구성"]
+* link:monitoring-and-auditing-operations.html["작업 모니터링 및 감사"]
+* link:benefits-of-active-idle-and-concurrent-http-connections.html["활성, 유휴 및 동시 HTTP 연결의 이점"]
+

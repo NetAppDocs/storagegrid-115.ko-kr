@@ -1,0 +1,24 @@
+---
+permalink: vmware/defining-configuration-file-for-your-deployment.html 
+sidebar: sidebar 
+keywords:  
+summary: deploy-vsphere-ovftool.sh Bash 스크립트에서 사용하는 구성 파일에 StorageGRID용 가상 그리드 노드를 구축하는 데 필요한 정보를 지정합니다. 파일을 처음부터 만들지 않도록 샘플 구성 파일을 수정할 수 있습니다. 
+---
+= 배포를 위한 구성 파일 정의
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+에서 사용하는 구성 파일에 StorageGRID용 가상 그리드 노드를 구축하는 데 필요한 정보를 지정합니다 `deploy-vsphere-ovftool.sh` Bash 스크립트. 파일을 처음부터 만들지 않도록 샘플 구성 파일을 수정할 수 있습니다.
+
+.단계
+. 샘플 구성 파일의 복사본을 만듭니다 (`deploy-vsphere-ovftool.sample.ini`)를 클릭합니다. 새 파일을 다른 이름으로 저장합니다 `deploy-vsphere-ovftool.ini` 와 동일한 디렉토리에 있습니다 `deploy-vsphere-ovftool.sh`.
+. 개방형 `deploy-vsphere-ovftool.ini`.
+. VMware 가상 그리드 노드를 구축하는 데 필요한 모든 정보를 입력합니다.
++
+을 참조하십시오 link:configuration-file-settings.html["구성 파일 설정"] 를 참조하십시오.
+
+. 필요한 모든 정보를 입력하고 확인했으면 파일을 저장하고 닫습니다.
+

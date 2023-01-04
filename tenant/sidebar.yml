@@ -1,0 +1,141 @@
+---
+section: tenant
+title: 테넌트 계정을 사용합니다
+url: "/tenant/index.html"
+entries:
+- title: 테넌트 관리자 사용
+  url: "/tenant/using-tenant-manager.html"
+  entries:
+  - title: 웹 브라우저 요구 사항
+    url: "/tenant/web-browser-requirements.html"
+  - title: 테넌트 관리자에 로그인 중입니다
+    url: "/tenant/signing-in-to-tenant-manager.html"
+  - title: 테넌트 관리자에서 로그아웃하는 중입니다
+    url: "/tenant/signing-out-of-tenant-manager.html"
+  - title: 테넌트 관리자 대시보드 이해
+    url: "/tenant/understanding-tenant-manager-dashboard.html"
+  - title: 테넌트 관리 API 이해
+    url: "/tenant/understanding-tenant-management-api.html"
+    entries:
+    - title: 테넌트 관리 API 버전 관리
+      url: "/tenant/tenant-management-api-versioning.html"
+    - title: 사이트 간 요청 위조(CSRF)로부터 보호
+      url: "/tenant/protecting-against-cross-site-request-forgery-csrf.html"
+- title: 테넌트 사용자에 대한 시스템 액세스 관리
+  url: "/tenant/managing-system-access-for-tenant-users.html"
+  entries:
+  - title: ID 페더레이션 사용
+    url: "/tenant/using-identity-federation.html"
+    entries:
+    - title: 통합 ID 소스 구성
+      url: "/tenant/configuring-federated-identity-source.html"
+      entries:
+      - title: OpenLDAP 서버 구성 지침
+        url: "/tenant/guidelines-for-configuring-openldap-server.html"
+    - title: ID 소스와 동기화 수행
+      url: "/tenant/forcing-synchronization-with-identity-source.html"
+    - title: ID 페더레이션을 사용하지 않도록 설정합니다
+      url: "/tenant/disabling-identity-federation.html"
+  - title: 그룹 관리
+    url: "/tenant/managing-groups.html"
+    entries:
+    - title: S3 테넌트에 대한 그룹 생성 중
+      url: "/tenant/creating-groups-for-s3-tenant.html"
+    - title: Swift 테넌트에 대한 그룹을 생성하는 중입니다
+      url: "/tenant/creating-groups-for-swift-tenant.html"
+    - title: 그룹 세부 정보 보기 및 편집
+      url: "/tenant/viewing-and-editing-group-details.html"
+    - title: 로컬 그룹에 사용자 추가
+      url: "/tenant/adding-users-to-local-group.html"
+    - title: 그룹 이름 편집
+      url: "/tenant/editing-group-name.html"
+    - title: 그룹 복제
+      url: "/tenant/duplicating-group.html"
+    - title: 그룹을 삭제하는 중입니다
+      url: "/tenant/deleting-group.html"
+  - title: 로컬 사용자 관리
+    url: "/tenant/managing-local-users.html"
+- title: S3 테넌트 계정 관리
+  url: "/tenant/managing-s3-tenant-accounts.html"
+  entries:
+  - title: S3 액세스 키 관리
+    url: "/tenant/managing-s3-access-keys.html"
+    entries:
+    - title: 자체 S3 액세스 키 생성
+      url: "/tenant/creating-your-own-s3-access-keys.html"
+    - title: S3 액세스 키 보기
+      url: "/tenant/viewing-your-s3-access-keys.html"
+    - title: 자신의 S3 액세스 키를 삭제합니다
+      url: "/tenant/deleting-your-own-s3-access-keys.html"
+    - title: 다른 사용자의 S3 액세스 키 생성
+      url: "/tenant/creating-another-users-s3-access-keys.html"
+    - title: 다른 사용자의 S3 액세스 키 보기
+      url: "/tenant/viewing-another-users-s3-access-keys.html"
+    - title: 다른 사용자의 S3 액세스 키를 삭제하는 중입니다
+      url: "/tenant/deleting-another-users-s3-access-keys.html"
+  - title: S3 버킷 관리
+    url: "/tenant/managing-s3-buckets.html"
+    entries:
+    - title: S3 오브젝트 잠금 사용
+      url: "/tenant/using-s3-object-lock.html"
+      entries:
+      - title: S3 오브젝트 잠금 워크플로
+        url: "/tenant/s3-object-lock-workflow.html"
+      - title: S3 오브젝트 잠금에 대한 요구사항
+        url: "/tenant/requirements-for-s3-object-lock.html"
+    - title: S3 버킷 생성
+      url: "/tenant/creating-s3-bucket.html"
+    - title: S3 버킷 세부 정보 보기
+      url: "/tenant/viewing-s3-bucket-details.html"
+    - title: 정합성 보장 수준을 변경하는 중입니다
+      url: "/tenant/changing-consistency-level.html"
+    - title: 마지막 액세스 시간 업데이트를 사용하거나 사용하지 않도록 설정합니다
+      url: "/tenant/enabling-or-disabling-last-access-time-updates.html"
+    - title: CORS(Cross-Origin Resource Sharing) 구성
+      url: "/tenant/configuring-cross-origin-resource-sharing-cors.html"
+    - title: S3 버킷을 삭제하는 중입니다
+      url: "/tenant/deleting-s3-bucket.html"
+- title: S3 플랫폼 서비스 관리
+  url: "/tenant/managing-s3-platform-services.html"
+  entries:
+  - title: 어떤 플랫폼 서비스인지 확인하십시오
+    url: "/tenant/what-platform-services-are.html"
+    entries:
+    - title: CloudMirror 복제 서비스 이해
+      url: "/tenant/understanding-cloudmirror-replication-service.html"
+    - title: 버킷에 대한 알림 이해
+      url: "/tenant/understanding-notifications-for-buckets.html"
+    - title: 검색 통합 서비스 이해
+      url: "/tenant/understanding-search-integration-service.html"
+  - title: 플랫폼 서비스 사용에 대한 고려 사항
+    url: "/tenant/considerations-for-using-platform-services.html"
+  - title: 플랫폼 서비스 엔드포인트를 구성합니다
+    url: "/tenant/configuring-platform-services-endpoints.html"
+    entries:
+    - title: 플랫폼 서비스 끝점의 URN 지정
+      url: "/tenant/specifying-urn-for-platform-services-endpoint.html"
+    - title: 플랫폼 서비스 엔드포인트 생성
+      url: "/tenant/creating-platform-services-endpoint.html"
+    - title: 플랫폼 서비스 끝점에 대한 연결 테스트
+      url: "/tenant/testing-connection-for-platform-services-endpoint.html"
+    - title: 플랫폼 서비스 끝점 편집
+      url: "/tenant/editing-platform-services-endpoint.html"
+    - title: 플랫폼 서비스 끝점을 삭제하는 중입니다
+      url: "/tenant/deleting-platform-services-endpoint.html"
+    - title: 플랫폼 서비스 끝점 오류 문제 해결
+      url: "/tenant/troubleshooting-platform-services-endpoint-errors.html"
+  - title: CloudMirror 복제 구성
+    url: "/tenant/configuring-cloudmirror-replication.html"
+  - title: 이벤트 알림을 구성하는 중입니다
+    url: "/tenant/configuring-event-notifications.html"
+  - title: 검색 통합 서비스 사용
+    url: "/tenant/using-search-integration-service.html"
+    entries:
+    - title: 검색 통합을 위한 구성 XML
+      url: "/tenant/configuration-xml-for-search-configuration.html"
+    - title: 검색 통합 서비스 구성
+      url: "/tenant/configuring-search-integration-service.html"
+    - title: JSON이 검색 통합 서비스에 의해 생성되었습니다
+      url: "/tenant/json-generated-by-search-integration-service.html"
+    - title: 메타데이터 알림에 포함된 개체 메타데이터입니다
+      url: "/tenant/object-metadata-included-in-metadata-notifications.html"

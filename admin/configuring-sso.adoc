@@ -1,0 +1,23 @@
+---
+permalink: admin/configuring-sso.html 
+sidebar: sidebar 
+keywords:  
+summary: 'SSO(Single Sign-On) \(SSO\)가 활성화된 경우, 사용자는 조직에서 구현한 SSO 로그인 프로세스를 사용하여 자격 증명이 승인된 경우에만 Grid Manager, Tenant Manager, Grid Management API 또는 Tenant Management API에 액세스할 수 있습니다.' 
+---
+= Single Sign-On 구성
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SSO(Single Sign-On)가 활성화된 경우 사용자는 조직에서 구현한 SSO 로그인 프로세스를 사용하여 자격 증명이 승인된 경우에만 Grid Manager, Tenant Manager, Grid Management API 또는 Tenant Management API에 액세스할 수 있습니다.
+
+* link:confirming-federated-users-can-sign-in.html["페더레이션 사용자가 로그인할 수 있는지 확인합니다"]
+* link:using-sandbox-mode.html["sandbox 모드 사용"]
+* link:creating-relying-party-trusts-in-ad-fs.html["AD FS에서 기반 당사자 신뢰를 생성합니다"]
+* link:testing-relying-party-trusts.html["신뢰할 수 있는 당사자 신뢰 테스트"]
+* link:enabling-single-sign-on.html["SSO(Single Sign-On) 활성화"]
+* link:disabling-single-sign-on.html["SSO(Single Sign-On) 비활성화"]
+* link:temporarily-disabling-and-reenabling-sso-for-admin-node.html["하나의 관리 노드에 대해 SSO(Single Sign-On)를 일시적으로 비활성화 및 다시 활성화합니다"]
+

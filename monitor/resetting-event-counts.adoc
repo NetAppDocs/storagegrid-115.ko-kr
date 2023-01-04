@@ -1,0 +1,28 @@
+---
+permalink: monitor/resetting-event-counts.html 
+sidebar: sidebar 
+keywords:  
+summary: 시스템 이벤트를 해결한 후 이벤트 수를 0으로 재설정할 수 있습니다. 
+---
+= 이벤트 수를 재설정하는 중입니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+시스템 이벤트를 해결한 후 이벤트 수를 0으로 재설정할 수 있습니다.
+
+.필요한 것
+* 지원되는 브라우저를 사용하여 Grid Manager에 로그인해야 합니다.
+* 그리드 토폴로지 페이지 구성 권한이 있어야 합니다.
+
+
+.단계
+. 노드 * > *_그리드 노드 _ * > * 이벤트 * 를 선택합니다.
+. 카운트가 0보다 큰 이벤트가 해결되었는지 확인합니다.
+. Reset event counts * 를 클릭합니다.
++
+image::../media/reset_event_counts.png[이벤트 수를 재설정합니다]
+
+

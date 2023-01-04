@@ -1,0 +1,25 @@
+---
+permalink: admin/index.html 
+sidebar: sidebar 
+keywords:  
+summary:  
+---
+= StorageGRID 관리
+:allow-uri-read: 
+
+
+[role="lead"]
+StorageGRID 시스템을 구성하는 방법에 대해 알아봅니다.
+
+* link:administering-storagegrid-system.html["StorageGRID 시스템 관리"]
+* link:controlling-administrator-access-to-storagegrid.html["StorageGRID에 대한 관리자 액세스 제어"]
+* link:kms-configuring.html["키 관리 서버 구성"]
+* link:managing-tenants.html["테넌트 관리"]
+* link:configuring-client-connections.html["S3 및 Swift 클라이언트 연결 구성"]
+* link:managing-storagegrid-networks-and-connections.html["StorageGRID 네트워크 및 연결 관리"]
+* link:configuring-autosupport.html["AutoSupport 구성"]
+* link:managing-storage-nodes.html["스토리지 노드 관리"]
+* link:managing-admin-nodes.html["관리 노드 관리"]
+* link:managing-archive-nodes.html["아카이브 노드 관리"]
+* link:migrating-data-into-storagegrid.html["StorageGRID로 데이터 마이그레이션"]
+

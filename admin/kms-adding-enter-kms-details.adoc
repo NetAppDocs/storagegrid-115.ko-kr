@@ -1,0 +1,86 @@
+---
+permalink: admin/kms-adding-enter-kms-details.html 
+sidebar: sidebar 
+keywords:  
+summary: '키 관리 서버 추가 마법사의 1단계\(KMS 세부 정보 입력\)에서 KMS 또는 KMS 클러스터에 대한 세부 정보를 제공합니다.' 
+---
+= 1단계: KMS 세부 정보를 입력합니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+키 관리 서버 추가 마법사의 1단계(KMS 세부 정보 입력)에서 KMS 또는 KMS 클러스터에 대한 세부 정보를 제공합니다.
+
+.단계
+. 구성 * * 시스템 설정 * 키 관리 서버 * 를 선택합니다.
++
+구성 세부 정보 탭이 선택된 상태로 키 관리 서버 페이지가 나타납니다.
+
++
+image::../media/kms_configuration_details_no_kms.png[KMS 구성 세부 정보 없음]
+
+. Create * 를 선택합니다.
++
+키 관리 서버 추가 마법사의 1단계(KMS 세부 정보 입력)가 나타납니다.
+
++
+image::../media/kms_step_1_enter_kms_details.png[KMS 1단계 KMS 세부 정보를 입력합니다]
+
+. KMS에 구성한 KMS 및 StorageGRID 클라이언트에 대한 다음 정보를 입력합니다.
++
+[cols="1a,1a"]
+|===
+| 필드에 입력합니다 | 설명 
+
+
+ a| 
+KMS 표시 이름
+ a| 
+이 KMS를 식별하는 데 도움이 되는 설명 이름입니다. 1자에서 64자 사이여야 합니다.
+
+
+
+ a| 
+키 이름
+ a| 
+KMS에서 StorageGRID 클라이언트에 대한 정확한 키 별칭입니다. 1자에서 255자 사이여야 합니다.
+
+
+
+ a| 
+의 키를 관리합니다
+ a| 
+이 KMS와 관련된 StorageGRID 사이트입니다. 가능하면 다른 KMS에서 관리하지 않는 모든 사이트에 적용되는 기본 KMS를 구성하기 전에 사이트별 키 관리 서버를 구성해야 합니다.
+
+** 이 KMS가 특정 사이트의 어플라이언스 노드에 대한 암호화 키를 관리하는 경우 사이트를 선택합니다.
+** 다른 KMS(기본 KMS)에서 관리하지 않는 사이트 * 를 선택하여 전용 KMS가 없는 사이트 및 이후 확장에 추가한 사이트에 적용되는 기본 KMS를 구성합니다.
++
+* 참고:* KMS 구성을 저장하면 검증 오류가 발생합니다. KMS 기본 KMS에 의해 이전에 암호화된 사이트를 선택했지만 새 KMS에 원본 암호화 키의 현재 버전을 제공하지 않은 경우 KMS 구성을 저장하면 오류가 발생합니다.
+
+
+
+
+
+ a| 
+포트
+ a| 
+KMS 서버가 KMIP(Key Management Interoperability Protocol) 통신에 사용하는 포트입니다. 기본값은 5696으로, KMIP 표준 포트입니다.
+
+
+
+ a| 
+호스트 이름
+ a| 
+KMS의 정규화된 도메인 이름 또는 IP 주소입니다.
+
+* 참고: * 서버 인증서의 SAN 필드에는 여기에 입력한 FQDN 또는 IP 주소가 포함되어야 합니다. 그렇지 않으면 StorageGRID는 KMS 또는 KMS 클러스터의 모든 서버에 연결할 수 없습니다.
+
+|===
+. KMS 클러스터를 사용하는 경우 더하기 기호를 선택합니다 image:../media/icon_plus_sign_black_on_white_old.png["아이콘 플러스 기호"] 클러스터에 있는 각 서버의 호스트 이름을 추가합니다.
+. 다음 * 을 선택합니다.
++
+키 관리 서버 추가 마법사의 2단계(서버 인증서 업로드)가 나타납니다.
+
+

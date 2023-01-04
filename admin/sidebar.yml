@@ -1,0 +1,391 @@
+---
+section: admin
+title: StorageGRID 관리
+url: "/admin/index.html"
+entries:
+- title: StorageGRID 시스템 관리
+  url: "/admin/administering-storagegrid-system.html"
+  entries:
+  - title: 웹 브라우저 요구 사항
+    url: "/admin/web-browser-requirements.html"
+  - title: Grid Manager에 로그인합니다
+    url: "/admin/signing-in-to-grid-manager.html"
+  - title: Grid Manager에서 로그아웃합니다
+    url: "/admin/signing-out-of-grid-manager.html"
+  - title: 암호 변경
+    url: "/admin/changing-your-password.html"
+  - title: 프로비저닝 암호 변경
+    url: "/admin/changing-provisioning-passphrase.html"
+  - title: 브라우저 세션 시간 초과 변경
+    url: "/admin/changing-browser-session-timeout.html"
+  - title: StorageGRID 라이센스 정보 보기
+    url: "/admin/viewing-storagegrid-license-information.html"
+  - title: StorageGRID 라이센스 정보를 업데이트하는 중입니다
+    url: "/admin/updating-storagegrid-license-information.html"
+  - title: Grid Management API 사용
+    url: "/admin/using-grid-management-api.html"
+    entries:
+    - title: Grid Management API 작업
+      url: "/admin/grid-management-api-operations.html"
+    - title: API 요청을 발급하는 중입니다
+      url: "/admin/issuing-api-requests.html"
+    - title: Grid Management API 버전 관리
+      url: "/admin/grid-management-api-versioning.html"
+    - title: 사이트 간 요청 위조(CSRF)로부터 보호
+      url: "/admin/protecting-against-cross-site-request-forgery-csrf.html"
+    - title: SSO(Single Sign-On)가 활성화된 경우 API를 사용합니다
+      url: "/admin/using-api-if-sso-is-enabled.html"
+  - title: StorageGRID 보안 인증서 사용
+    url: "/admin/using-storagegrid-security-certificates.html"
+- title: StorageGRID에 대한 관리자 액세스 제어
+  url: "/admin/controlling-administrator-access-to-storagegrid.html"
+  entries:
+  - title: 방화벽을 통한 액세스 제어
+    url: "/admin/controlling-access-through-firewalls.html"
+  - title: ID 페더레이션 사용
+    url: "/admin/using-identity-federation.html"
+  - title: 관리 그룹 관리
+    url: "/admin/managing-admin-groups.html"
+  - title: 로컬 사용자 관리
+    url: "/admin/managing-local-users.html"
+  - title: StorageGRID용 SSO(Single Sign-On) 사용
+    url: "/admin/using-single-sign-on.html"
+    entries:
+    - title: Single Sign-On의 작동 방식
+      url: "/admin/how-sso-works.html"
+    - title: Single Sign-On 사용에 대한 요구 사항
+      url: "/admin/requirements-for-sso.html"
+    - title: Single Sign-On 구성
+      url: "/admin/configuring-sso.html"
+      entries:
+      - title: 페더레이션 사용자가 로그인할 수 있는지 확인합니다
+        url: "/admin/confirming-federated-users-can-sign-in.html"
+      - title: sandbox 모드 사용
+        url: "/admin/using-sandbox-mode.html"
+      - title: AD FS에서 기반 당사자 신뢰를 생성합니다
+        url: "/admin/creating-relying-party-trusts-in-ad-fs.html"
+      - title: 신뢰할 수 있는 당사자 신뢰 테스트
+        url: "/admin/testing-relying-party-trusts.html"
+      - title: SSO(Single Sign-On) 활성화
+        url: "/admin/enabling-single-sign-on.html"
+      - title: SSO(Single Sign-On) 비활성화
+        url: "/admin/disabling-single-sign-on.html"
+      - title: 하나의 관리 노드에 대해 SSO(Single Sign-On)를 일시적으로 비활성화 및 다시 활성화합니다
+        url: "/admin/temporarily-disabling-and-reenabling-sso-for-admin-node.html"
+  - title: 관리자 클라이언트 인증서를 구성하는 중입니다
+    url: "/admin/configuring-administrator-client-certificates.html"
+- title: 키 관리 서버 구성
+  url: "/admin/kms-configuring.html"
+  entries:
+  - title: StorageGRID 암호화 방법 검토
+    url: "/admin/reviewing-storagegrid-encryption-methods.html"
+  - title: KMS 및 어플라이언스 구성 개요
+    url: "/admin/kms-overview-of-kms-and-appliance-configuration.html"
+  - title: 키 관리 서버 사용에 대한 고려 사항 및 요구 사항
+    url: "/admin/kms-considerations-and-requirements.html"
+  - title: 사이트의 KMS를 변경할 때의 고려 사항
+    url: "/admin/kms-considerations-for-changing-for-site.html"
+  - title: KMS에서 클라이언트로 StorageGRID 구성
+    url: "/admin/kms-configuring-storagegrid-as-client.html"
+  - title: KMS(키 관리 서버) 추가
+    url: "/admin/kms-adding.html"
+    entries:
+    - title: '1단계: KMS 세부 정보를 입력합니다'
+      url: "/admin/kms-adding-enter-kms-details.html"
+    - title: '2단계: 서버 인증서 업로드'
+      url: "/admin/kms-adding-upload-server-certificate.html"
+    - title: '3단계: 클라이언트 인증서 업로드'
+      url: "/admin/kms-adding-upload-client-certificates.html"
+  - title: KMS 세부 정보 보기
+    url: "/admin/kms-viewing-details.html"
+  - title: 암호화된 노드 보기
+    url: "/admin/kms-viewing-encrypted-nodes.html"
+  - title: KMS(키 관리 서버) 편집
+    url: "/admin/kms-editing.html"
+  - title: KMS(키 관리 서버) 제거
+    url: "/admin/kms-removing.html"
+- title: 테넌트 관리
+  url: "/admin/managing-tenants.html"
+  entries:
+  - title: 테넌트 계정을 생성하는 중입니다
+    url: "/admin/creating-tenant-account.html"
+    entries:
+    - title: StorageGRID에서 SSO를 사용하지 않는 경우 테넌트 계정 생성
+      url: "/admin/creating-tenant-account-if-storagegrid-is-not-using-sso.html"
+    - title: SSO가 활성화된 경우 테넌트 계정을 생성합니다
+      url: "/admin/creating-tenant-account-if-sso-is-enabled.html"
+  - title: 테넌트의 로컬 루트 사용자에 대한 암호 변경
+    url: "/admin/changing-password-for-tenant-local-root-user.html"
+  - title: 테넌트 계정 편집
+    url: "/admin/editing-tenant-account.html"
+  - title: 테넌트 계정을 삭제하는 중입니다
+    url: "/admin/deleting-tenant-account.html"
+  - title: S3 테넌트 계정에 대한 플랫폼 서비스 관리
+    url: "/admin/managing-platform-services-for-s3-tenant-accounts.html"
+    entries:
+    - title: 어떤 플랫폼 서비스인지 확인하십시오
+      url: "/admin/what-platform-services-are.html"
+    - title: 플랫폼 서비스를 위한 네트워킹 및 포트
+      url: "/admin/networking-and-ports-for-platform-services.html"
+    - title: 플랫폼 서비스 메시지를 사이트별로 전달
+      url: "/admin/per-site-delivery-of-platform-services-messages.html"
+    - title: 플랫폼 서비스 문제 해결
+      url: "/admin/troubleshooting-platform-services.html"
+- title: S3 및 Swift 클라이언트 연결 구성
+  url: "/admin/configuring-client-connections.html"
+  entries:
+  - title: '요약: 클라이언트 연결을 위한 IP 주소 및 포트'
+    url: "/admin/summary-ip-addresses-and-ports-for-client-connections.html"
+  - title: 로드 밸런싱 관리
+    url: "/admin/managing-load-balancing.html"
+    entries:
+    - title: 로드 밸런싱 작동 방식 - 로드 밸런서 서비스
+      url: "/admin/how-load-balancing-works-load-balancer-service.html"
+    - title: 부하 분산 장치 엔드포인트 구성
+      url: "/admin/configuring-load-balancer-endpoints.html"
+    - title: 로드 균형 조정 작동 방식 - CLB 서비스
+      url: "/admin/how-load-balancing-works-clb-service.html"
+  - title: 신뢰할 수 없는 클라이언트 네트워크 관리
+    url: "/admin/managing-untrusted-client-networks.html"
+    entries:
+    - title: 노드의 클라이언트 네트워크를 지정하는 것은 신뢰할 수 없습니다
+      url: "/admin/specifying-node-client-network-is-untrusted.html"
+  - title: 고가용성 그룹 관리
+    url: "/admin/managing-high-availability-groups.html"
+    entries:
+    - title: HA 그룹이란
+      url: "/admin/what-ha-group-is.html"
+    - title: HA 그룹 사용 방법
+      url: "/admin/how-ha-groups-are-used.html"
+    - title: HA 그룹에 대한 구성 옵션
+      url: "/admin/configuration-options-for-ha-groups.html"
+    - title: 고가용성 그룹 생성
+      url: "/admin/creating-high-availability-group.html"
+    - title: 고가용성 그룹 편집
+      url: "/admin/editing-high-availability-group.html"
+    - title: 고가용성 그룹을 제거하는 중입니다
+      url: "/admin/removing-high-availability-group.html"
+  - title: S3 API 엔드포인트 도메인 이름 구성
+    url: "/admin/configuring-s3-api-endpoint-domain-names.html"
+  - title: 클라이언트 통신을 위해 HTTP 활성화
+    url: "/admin/enabling-http-for-client-communications.html"
+  - title: 허용되는 클라이언트 작업을 제어합니다
+    url: "/admin/controlling-which-client-operations-are-permitted.html"
+- title: StorageGRID 네트워크 및 연결 관리
+  url: "/admin/managing-storagegrid-networks-and-connections.html"
+  entries:
+  - title: StorageGRID 네트워크 지침
+    url: "/admin/guidelines-for-storagegrid-networks.html"
+  - title: IP 주소 보기
+    url: "/admin/viewing-ip-addresses.html"
+  - title: 발신 TLS 연결에 지원되는 암호
+    url: "/admin/supported-ciphers-for-outgoing-tls-connections.html"
+  - title: 네트워크 전송 암호화를 변경하는 중입니다
+    url: "/admin/changing-network-transfer-encryption.html"
+  - title: 서버 인증서를 구성하는 중입니다
+    url: "/admin/configuring-server-certificates.html"
+    entries:
+    - title: Grid Manager 및 테넌트 관리자에 대한 사용자 지정 서버 인증서 구성
+      url: "/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html"
+    - title: Grid Manager 및 Tenant Manager에 대한 기본 서버 인증서 복원
+      url: "/admin/restoring-default-server-certificates-for-grid-manager-tenant-manager.html"
+    - title: 스토리지 노드 또는 CLB 서비스에 연결하기 위한 사용자 지정 서버 인증서 구성
+      url: "/admin/configuring-custom-server-certificate-for-storage-node-or-clb.html"
+    - title: S3 및 Swift REST API 엔드포인트에 대한 기본 서버 인증서 복원
+      url: "/admin/restoring-default-server-certificates-for-s3-swift-api-endpoints.html"
+    - title: StorageGRID 시스템의 CA 인증서를 복사하는 중입니다
+      url: "/admin/copying-storagegrid-system-ca-certificate.html"
+    - title: FabricPool용 StorageGRID 인증서 구성
+      url: "/admin/configuring-storagegrid-certificates-for-fabricpool.html"
+    - title: 관리 인터페이스에 대해 자체 서명된 서버 인증서를 생성하는 중입니다
+      url: "/admin/generating-self-signed-certificate-for-management-interface.html"
+  - title: 스토리지 프록시 설정을 구성하는 중입니다
+    url: "/admin/configuring-storage-proxy-settings.html"
+  - title: 관리자 프록시 설정을 구성합니다
+    url: "/admin/configuring-admin-proxy-settings.html"
+  - title: 트래픽 분류 정책 관리
+    url: "/admin/managing-traffic-classification-policies.html"
+    entries:
+    - title: 트래픽 분류 정책을 생성하는 중입니다
+      url: "/admin/creating-traffic-classification-policies.html"
+    - title: 트래픽 분류 정책 편집
+      url: "/admin/editing-traffic-classification-policy.html"
+    - title: 트래픽 분류 정책을 삭제하는 중입니다
+      url: "/admin/deleting-traffic-classification-policy.html"
+    - title: 네트워크 트래픽 메트릭 보기
+      url: "/admin/viewing-network-traffic-metrics.html"
+  - title: 링크 비용은 얼마입니까
+    url: "/admin/what-link-costs-are.html"
+    entries:
+    - title: 링크 비용을 업데이트하는 중입니다
+      url: "/admin/updating-link-costs.html"
+- title: AutoSupport 구성
+  url: "/admin/configuring-autosupport.html"
+  entries:
+  - title: AutoSupport 메시지에 대한 프로토콜 지정
+    url: "/admin/specifying-protocol-for-autosupport-messages.html"
+  - title: AutoSupport 온디맨드 를 지원합니다
+    url: "/admin/enabling-autosupport-on-demand.html"
+  - title: 주간 AutoSupport 메시지 비활성화
+    url: "/admin/disabling-weekly-autosupport-messages.html"
+  - title: 이벤트 트리거 AutoSupport 메시지 비활성화
+    url: "/admin/disabling-event-triggered-autosupport-messages.html"
+  - title: 수동으로 AutoSupport 메시지 트리거
+    url: "/admin/manually-triggering-autosupport-message.html"
+  - title: AutoSupport 대상을 추가하는 중입니다
+    url: "/admin/adding-autosupport-destination.html"
+  - title: StorageGRID를 통해 E-Series AutoSupport 메시지 전송
+    url: "/admin/sending-eseries-autosupport-messages-through-storagegrid.html"
+  - title: AutoSupport 메시지 문제 해결
+    url: "/admin/troubleshooting-autosupport-messages.html"
+- title: 스토리지 노드 관리
+  url: "/admin/managing-storage-nodes.html"
+  entries:
+  - title: 스토리지 노드 정의
+    url: "/admin/what-storage-node-is.html"
+  - title: 스토리지 옵션 관리
+    url: "/admin/managing-storage-options.html"
+    entries:
+    - title: 개체 분할이란 무엇입니까
+      url: "/admin/what-object-segmentation-is.html"
+    - title: 스토리지 볼륨 워터마크는 무엇입니까
+      url: "/admin/what-storage-volume-watermarks-are.html"
+  - title: 오브젝트 메타데이터 스토리지 관리
+    url: "/admin/managing-object-metadata-storage.html"
+  - title: 저장된 개체에 대한 전역 설정 구성
+    url: "/admin/configuring-global-settings-for-stored-objects.html"
+    entries:
+    - title: 저장된 객체 압축 구성
+      url: "/admin/configuring-stored-object-compression.html"
+    - title: 저장된 오브젝트 암호화 구성
+      url: "/admin/configuring-stored-object-encryption.html"
+    - title: 저장된 객체 해싱을 구성합니다
+      url: "/admin/configuring-stored-object-hashing.html"
+  - title: 스토리지 노드 구성 설정입니다
+    url: "/admin/storage-node-configuration-settings.html"
+  - title: 전체 스토리지 노드 관리
+    url: "/admin/managing-full-storage-nodes.html"
+- title: 관리 노드 관리
+  url: "/admin/managing-admin-nodes.html"
+  entries:
+  - title: 관리 노드의 정의
+    url: "/admin/what-admin-node-is.html"
+  - title: 여러 관리 노드 사용
+    url: "/admin/using-multiple-admin-nodes.html"
+  - title: 기본 관리자 노드 식별
+    url: "/admin/identifying-primary-admin-node.html"
+  - title: 기본 설정 발신자 선택
+    url: "/admin/selecting-preferred-sender.html"
+  - title: 알림 상태 및 대기열 보기
+    url: "/admin/viewing-notification-status-and-queues.html"
+  - title: 관리자 노드가 확인된 경보를 표시하는 방법(레거시 시스템)
+    url: "/admin/how-admin-nodes-show-acknowledged-alarms.html"
+  - title: 감사 클라이언트 액세스 구성
+    url: "/admin/configuring-audit-client-access.html"
+    entries:
+    - title: CIFS에 대한 감사 클라이언트 구성
+      url: "/admin/configuring-audit-clients-for-cifs.html"
+      entries:
+      - title: Workgroup에 대한 감사 클라이언트 구성
+        url: "/admin/configuring-audit-clients-for-workgroup.html"
+      - title: Active Directory에 대한 감사 클라이언트 구성
+        url: "/admin/configuring-audit-clients-for-active-directory.html"
+      - title: CIFS 감사 공유에 사용자 또는 그룹 추가
+        url: "/admin/adding-user-or-group-to-cifs-audit-share.html"
+      - title: CIFS 감사 공유에서 사용자 또는 그룹 제거
+        url: "/admin/removing-user-or-group-from-cifs-audit-share.html"
+      - title: CIFS 감사 공유 사용자 또는 그룹 이름 변경
+        url: "/admin/changing-cifs-audit-share-user-or-group-name.html"
+      - title: CIFS 감사 통합을 확인하는 중입니다
+        url: "/admin/verifying-cifs-audit-integration.html"
+    - title: NFS에 대한 감사 클라이언트 구성
+      url: "/admin/configuring-audit-client-for-nfs.html"
+      entries:
+      - title: 감사 공유에 NFS 감사 클라이언트 추가
+        url: "/admin/adding-nfs-audit-client-to-audit-share.html"
+      - title: NFS 감사 통합을 확인하는 중입니다
+        url: "/admin/verifying-nfs-audit-integration.html"
+      - title: 감사 공유에서 NFS 감사 클라이언트 제거
+        url: "/admin/removing-nfs-audit-client-from-audit-share.html"
+      - title: NFS 감사 클라이언트의 IP 주소 변경
+        url: "/admin/changing-ip-address-of-nfs-audit-client.html"
+- title: 아카이브 노드 관리
+  url: "/admin/managing-archive-nodes.html"
+  entries:
+  - title: 아카이브 노드의 정의
+    url: "/admin/what-archive-node-is.html"
+    entries:
+    - title: ARC 서비스의 정의
+      url: "/admin/what-arc-service-is.html"
+  - title: 아카이브 스토리지에 대한 아카이브 노드 연결 구성
+    url: "/admin/configuring-archive-node-connections-to-archival-storage.html"
+    entries:
+    - title: S3 API를 통해 클라우드에 아카이빙
+      url: "/admin/archiving-to-cloud-through-s3-api.html"
+      entries:
+      - title: S3 API에 대한 연결 설정 구성
+        url: "/admin/configuring-connection-settings-for-s3-api.html"
+      - title: S3 API에 대한 연결 설정을 수정합니다
+        url: "/admin/modifying-connection-settings-for-s3-api.html"
+      - title: Cloud Tiering Service 상태 수정
+        url: "/admin/modifying-cloud-tiering-service-state.html"
+      - title: S3 API 연결에 대한 저장소 실패 횟수 재설정
+        url: "/admin/resetting-store-failure-count-for-s3-api-connection.html"
+      - title: Cloud Tiering-S3에서 클라우드 스토리지 풀로 오브젝트 마이그레이션
+        url: "/admin/migrating-objects-from-cloud-tiering-s3-to-cloud-storage-pool.html"
+    - title: TSM 미들웨어를 통해 테이프로 아카이빙
+      url: "/admin/archiving-to-tape-through-tsm-middleware.html"
+      entries:
+      - title: TSM 미들웨어에 대한 연결 구성
+        url: "/admin/configuring-connections-to-tsm-middleware.html"
+      - title: TSM 미들웨어 세션에 대한 아카이브 노드 최적화
+        url: "/admin/optimizing-archive-node-for-tsm-middleware-sessions.html"
+      - title: TSM에 대한 아카이브 상태 및 카운터 구성
+        url: "/admin/configuring-archive-store-for-tsm-middleware-connection.html"
+      - title: TSM 서버가 용량에 도달할 때 아카이브 노드 관리
+        url: "/admin/managing-archive-node-when-tsm-server-reaches-capacity.html"
+        entries:
+        - title: TSM 미들웨어가 용량에 도달하면 아카이브 노드를 읽기 전용으로 설정합니다
+          url: "/admin/setting-archive-node-to-read-only-if-tsm-middleware-reaches-capacity.html"
+    - title: 아카이브 노드 검색 설정을 구성합니다
+      url: "/admin/configuring-archive-node-retrieve-settings.html"
+    - title: 아카이브 노드 복제 구성
+      url: "/admin/configuring-archive-node-replication.html"
+  - title: 보관 노드에 대한 사용자 정의 경보 설정
+    url: "/admin/setting-custom-alarms-for-archive-node.html"
+  - title: Tivoli Storage Manager 통합
+    url: "/admin/integrating-tivoli-storage-manager.html"
+    entries:
+    - title: 아카이브 노드 구성 및 작업
+      url: "/admin/archive-node-configuration-and-operation.html"
+    - title: 구성 모범 사례
+      url: "/admin/configuration-best-practices.html"
+    - title: 아카이브 노드 설정을 완료합니다
+      url: "/admin/completing-archive-node-setup.html"
+      entries:
+      - title: 새 TSM 서버를 설치합니다
+        url: "/admin/installing-new-tsm-server.html"
+      - title: TSM 서버 구성
+        url: "/admin/configuring-tsm-server.html"
+        entries:
+        - title: TSM 테이프 및 디스크 스토리지 풀 정의
+          url: "/admin/defining-tsm-tape-and-disk-storage-pools.html"
+        - title: 도메인 정책 정의 및 노드 등록
+          url: "/admin/defining-domain-policy-and-registering-node.html"
+        - title: 도메인 정책 생성 및 활성화
+          url: "/admin/creating-and-activating-domain-policy.html"
+- title: StorageGRID로 데이터 마이그레이션
+  url: "/admin/migrating-data-into-storagegrid.html"
+  entries:
+  - title: StorageGRID 시스템의 용량 확인
+    url: "/admin/confirming-capacity-of-storagegrid-system.html"
+  - title: 마이그레이션된 데이터에 대한 ILM 정책 결정
+    url: "/admin/determining-ilm-policy-for-migrated-data.html"
+  - title: 마이그레이션이 운영에 미치는 영향
+    url: "/admin/impact-of-migration-on-operations.html"
+  - title: 데이터 마이그레이션 예약
+    url: "/admin/scheduling-data-migration.html"
+  - title: 데이터 마이그레이션 모니터링
+    url: "/admin/monitoring-data-migration.html"
+  - title: 마이그레이션 알람에 대한 사용자 지정 알림을 생성합니다
+    url: "/admin/creating-custom-notifications-for-migration-alarms.html"

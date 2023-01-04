@@ -1,0 +1,28 @@
+---
+permalink: sg5600/maintaining-sg5600-appliance.html 
+sidebar: sidebar 
+keywords: storagegrid, sg5600, storage node, storage appliance, maintain, maintaining, hardware, procedures, tasks 
+summary: E2700 컨트롤러에서 SANtricity OS 소프트웨어를 업그레이드하거나 E2700 컨트롤러 또는 E5500SG 컨트롤러를 교체하거나 특정 구성요소를 교체해야 할 수 있습니다. 이 섹션의 절차에서는 어플라이언스가 이미 StorageGRID 시스템의 스토리지 노드로 구축되었다고 가정합니다. 
+---
+= SG5600 어플라이언스 유지 관리
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+E2700 컨트롤러에서 SANtricity OS 소프트웨어를 업그레이드하거나 E2700 컨트롤러 또는 E5500SG 컨트롤러를 교체하거나 특정 구성요소를 교체해야 할 수 있습니다. 이 섹션의 절차에서는 어플라이언스가 이미 StorageGRID 시스템의 스토리지 노드로 구축되었다고 가정합니다.
+
+.단계
+* link:placing-appliance-into-maintenance-mode.html["유지보수 모드로 제품을 두십시오"]
+* link:upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg5600.html["그리드 관리자를 사용하여 스토리지 컨트롤러의 SANtricity OS 업그레이드"]
+* link:upgrading-santricity-os-on-e2700-controller-using-maintenance-mode.html["유지보수 모드를 사용하여 E2700 컨트롤러에서 SANtricity OS 업그레이드"]
+* link:upgrading-drive-firmware-using-santricity-storage-manager.html["SANtricity 저장소 관리자를 사용하여 드라이브 펌웨어를 업그레이드 중입니다"]
+* link:replacing-e2700-controller.html["E2700 컨트롤러 교체"]
+* link:replacing-e5600sg-controller.html["E5500SG 컨트롤러 교체"]
+* link:replacing-other-hardware-components-sg5600.html["다른 하드웨어 구성 요소 교체"]
+* link:changing-link-configuration-of-e5600sg-controller.html["E5500SG 컨트롤러의 링크 구성 변경"]
+* link:changing-mtu-setting.html["MTU 설정을 변경하는 중입니다"]
+* link:checking-dns-server-configuration.html["DNS 서버 구성을 확인하는 중입니다"]
+* link:monitoring-node-encryption-in-maintenance-mode.html["유지보수 모드에서 노드 암호화 모니터링"]
+

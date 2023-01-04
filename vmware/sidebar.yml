@@ -1,0 +1,78 @@
+---
+section: vmware
+title: VMware를 설치합니다
+url: "/vmware/index.html"
+entries:
+- title: 설치 개요
+  url: "/vmware/installation-overview.html"
+- title: 계획 및 준비
+  url: "/vmware/planning-and-preparation.html"
+  entries:
+  - title: 필수 자료
+    url: "/vmware/required-materials.html"
+  - title: StorageGRID 설치 파일 다운로드 및 추출
+    url: "/vmware/downloading-and-extracting-storagegrid-installation-files.html"
+  - title: 소프트웨어 요구 사항
+    url: "/vmware/software-requirements.html"
+  - title: CPU 및 RAM 요구 사항
+    url: "/vmware/cpu-and-ram-requirements.html"
+  - title: 요구사항을 충족해야 합니다
+    url: "/vmware/storage-and-performance-requirements.html"
+  - title: 웹 브라우저 요구 사항
+    url: "/vmware/web-browser-requirements.html"
+- title: VMware vSphere Web Client에 가상 머신 그리드 노드 구축
+  url: "/vmware/deploying-virtual-machine-grid-nodes-in-vmware-vsphere-web-client.html"
+  entries:
+  - title: 배포 환경에 대한 정보를 수집합니다
+    url: "/vmware/collecting-information-about-your-deployment-environment.html"
+  - title: 그리드 노드가 기본 관리자 노드를 검색하는 방법
+    url: "/vmware/how-grid-nodes-discover-primary-admin-node.html"
+  - title: StorageGRID 노드를 가상 시스템으로 구축
+    url: "/vmware/deploying-storagegrid-node-as-virtual-machine.html"
+- title: 그리드 구성 및 설치 완료
+  url: "/vmware/configuring-grid-and-completing-installation.html"
+  entries:
+  - title: 그리드 관리자로 이동합니다
+    url: "/vmware/navigating-to-grid-manager.html"
+  - title: StorageGRID 라이센스 정보 지정
+    url: "/vmware/specifying-storagegrid-license-information.html"
+  - title: 사이트 추가
+    url: "/vmware/adding-sites.html"
+  - title: 그리드 네트워크 서브넷 지정
+    url: "/vmware/specifying-grid-network-subnets.html"
+  - title: 보류 중인 그리드 노드를 승인하는 중입니다
+    url: "/vmware/approving-pending-grid-nodes.html"
+  - title: 네트워크 시간 프로토콜 서버 정보 지정
+    url: "/vmware/specifying-network-time-protocol-server-information.html"
+  - title: 도메인 이름 시스템 서버 정보 지정
+    url: "/vmware/specifying-domain-name-system-server-information.html"
+  - title: StorageGRID 시스템 암호 지정
+    url: "/vmware/specifying-storagegrid-system-passwords.html"
+  - title: 구성을 검토하고 설치를 완료합니다
+    url: "/vmware/reviewing-your-configuration-and-completing-installation.html"
+  - title: 설치 후 지침
+    url: "/vmware/post-installation-guidelines.html"
+- title: 설치 자동화
+  url: "/vmware/automating-installation.html"
+  entries:
+  - title: VMware vSphere에서 그리드 노드 구축 자동화
+    url: "/vmware/automating-grid-node-deployment-in-vmware-vsphere.html"
+    entries:
+    - title: 배포를 위한 구성 파일 정의
+      url: "/vmware/defining-configuration-file-for-your-deployment.html"
+      entries:
+      - title: 구성 파일 설정
+        url: "/vmware/configuration-file-settings.html"
+    - title: Bash 스크립트 실행
+      url: "/vmware/running-bash-script.html"
+  - title: StorageGRID 구성 자동화
+    url: "/vmware/automating-configuration-of-storagegrid.html"
+- title: 설치 REST API 개요
+  url: "/vmware/overview-of-installation-rest-api.html"
+- title: 다음 단계로 넘어갑니다
+  url: "/vmware/where-to-go-next.html"
+- title: 설치 문제 해결
+  url: "/vmware/troubleshooting-installation-issues.html"
+  entries:
+  - title: 가상 머신 리소스 예약을 조정해야 합니다
+    url: "/vmware/virtual-machine-resource-reservation-requires-adjustment.html"

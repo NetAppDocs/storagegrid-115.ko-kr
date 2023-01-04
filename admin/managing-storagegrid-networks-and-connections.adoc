@@ -1,0 +1,27 @@
+---
+permalink: admin/managing-storagegrid-networks-and-connections.html 
+sidebar: sidebar 
+keywords:  
+summary: 그리드 관리자를 사용하여 StorageGRID 네트워크 및 연결을 구성하고 관리할 수 있습니다. 
+---
+= StorageGRID 네트워크 및 연결 관리
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+그리드 관리자를 사용하여 StorageGRID 네트워크 및 연결을 구성하고 관리할 수 있습니다.
+
+을 참조하십시오 link:configuring-client-connections.html["S3 및 Swift 클라이언트 연결 구성"] S3 또는 Swift 클라이언트를 연결하는 방법에 대해 알아보십시오.
+
+* link:guidelines-for-storagegrid-networks.html["StorageGRID 네트워크 지침"]
+* link:viewing-ip-addresses.html["IP 주소 보기"]
+* link:supported-ciphers-for-outgoing-tls-connections.html["발신 TLS 연결에 지원되는 암호"]
+* link:changing-network-transfer-encryption.html["네트워크 전송 암호화를 변경하는 중입니다"]
+* link:configuring-server-certificates.html["서버 인증서를 구성하는 중입니다"]
+* link:configuring-storage-proxy-settings.html["스토리지 프록시 설정을 구성하는 중입니다"]
+* link:configuring-admin-proxy-settings.html["관리자 프록시 설정을 구성합니다"]
+* link:managing-traffic-classification-policies.html["트래픽 분류 정책 관리"]
+* link:what-link-costs-are.html["링크 비용은 얼마입니까"]
+

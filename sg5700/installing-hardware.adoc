@@ -1,0 +1,22 @@
+---
+permalink: sg5700/installing-hardware.html 
+sidebar: sidebar 
+keywords: storagegrid, sg5700, storage node, storage appliance, hardware, install, installing 
+summary: 하드웨어 설치에는 제품을 캐비닛이나 랙에 설치하고, 케이블을 연결하고, 전원을 공급해야 합니다. 
+---
+= 하드웨어 설치
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+하드웨어 설치에는 제품을 캐비닛이나 랙에 설치하고, 케이블을 연결하고, 전원을 공급해야 합니다.
+
+.단계
+* link:registering-hardware.html["하드웨어를 등록하는 중입니다"]
+* link:installing-appliance-in-cabinet-or-rack-sg5700.html["캐비닛 또는 랙에 어플라이언스 설치(SG5700)"]
+* link:cabling-appliance-sg5700.html["어플라이언스 케이블 연결(SG5700)"]
+* link:connecting-power-cords-and-applying-power-sg5700.html["전원 코드 연결 및 전원 적용(SG5700)"]
+* link:viewing-sg5700-boot-up-status-codes.html["SG5700 부팅 상태 코드 보기"]
+

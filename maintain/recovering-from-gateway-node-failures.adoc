@@ -1,0 +1,24 @@
+---
+permalink: maintain/recovering-from-gateway-node-failures.html 
+sidebar: sidebar 
+keywords: storagegrid, recover, gateway node failure 
+summary:  
+---
+= 게이트웨이 노드 장애를 복구합니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+게이트웨이 노드 장애를 복구하려면 일련의 작업을 정확히 완료해야 합니다.
+
+image::../media/overview_api_gateway_node_recovery.png[게이트웨이 노드 복구의 개요 흐름도]
+
+.관련 정보
+link:../sg100-1000/index.html["SG100 및 AMP, SG1000 서비스 어플라이언스"]
+
+.단계
+* link:replacing-gateway-node.html["게이트웨이 노드 교체"]
+* link:selecting-start-recovery-to-configure-gateway-node.html["Start Recovery(복구 시작) 를 선택하여 게이트웨이 노드를 구성합니다"]
+

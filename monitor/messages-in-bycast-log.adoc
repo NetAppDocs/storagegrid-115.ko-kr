@@ -1,0 +1,84 @@
+---
+permalink: monitor/messages-in-bycast-log.html 
+sidebar: sidebar 
+keywords: bycast, bycast.log, bycast log, bycast message 
+summary: '의 메시지 `bycast.log` ADE\(Asynchronous Distributed Environment\)에 의해 기록됩니다. ade는 각 그리드 노드의 서비스에서 사용되는 런타임 환경입니다.' 
+---
+= bycast.log 의 메시지
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+의 메시지 `bycast.log` ADE(Asynchronous Distributed Environment)에 의해 작성됩니다. ade는 각 그리드 노드의 서비스에서 사용되는 런타임 환경입니다.
+
+다음은 ADE 메시지의 예입니다.
+
+[listing]
+----
+May 15 14:07:11 um-sec-rg1-agn3 ADE: |12455685    0357819531
+SVMR EVHR 2019-05-05T27T17:10:29.784677| ERROR 0906 SVMR: Health
+check on volume 3 has failed with reason 'TOUT'
+----
+ade 메시지에는 다음 정보가 포함됩니다.
+
+|===
+| 메시지 세그먼트 | 예제 값 
+
+
+ a| 
+노드 ID입니다
+ a| 
+12455685
+
+
+
+ a| 
+ade 프로세스 ID
+ a| 
+0357819531
+
+
+
+ a| 
+모듈 이름입니다
+ a| 
+SVM
+
+
+
+ a| 
+메시지 식별자입니다
+ a| 
+EVHR
+
+
+
+ a| 
+UTC 시스템 시간입니다
+ a| 
+2019-05-05T27T17:10:29.784677(YYYY-MM-DDTHH:MM:SS.uuuuuu)
+
+
+
+ a| 
+심각도 수준
+ a| 
+오류
+
+
+
+ a| 
+내부 추적 번호
+ a| 
+0906
+
+
+
+ a| 
+메시지
+ a| 
+SVMR: 볼륨 3에 대한 상태 점검에 'Tout' 이유가 있습니다.
+
+|===

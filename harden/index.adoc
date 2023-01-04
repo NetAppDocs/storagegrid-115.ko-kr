@@ -1,0 +1,22 @@
+---
+permalink: harden/index.html 
+sidebar: sidebar 
+keywords:  
+summary:  
+---
+= 시스템 강화
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+보안 위협으로부터 StorageGRID 시스템을 보호하기 위한 시스템 설정, 모범 사례 및 권장 사항에 대해 알아보십시오.
+
+* link:hardening-storagegrid-system.html["StorageGRID 시스템 강화"]
+* link:hardening-guidelines-for-software-upgrades.html["소프트웨어 업그레이드 강화 지침"]
+* link:hardening-guidelines-for-storagegrid-networks.html["StorageGRID 네트워크에 대한 강화 지침"]
+* link:hardening-guidelines-for-storagegrid-nodes.html["StorageGRID 노드에 대한 강화 지침"]
+* link:hardening-guideline-for-server-certificates.html["서버 인증서에 대한 강화 지침"]
+* link:other-hardening-guidelines.html["기타 강화 지침"]]
+

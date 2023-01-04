@@ -1,0 +1,23 @@
+---
+permalink: expand/index.html 
+sidebar: sidebar 
+keywords:  
+summary:  
+---
+= 그리드를 확장합니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+시스템 운영을 중단하지 않고 StorageGRID 시스템을 확장하는 방법에 대해 알아보십시오.
+
+* link:planning-expansion.html["StorageGRID 확장 계획"]
+* link:preparing-for-expansion.html["확장 준비 중"]
+* link:overview-of-expansion-procedure.html["확장 절차 개요"]
+* link:adding-storage-volumes-to-storage-nodes.html["스토리지 노드에 스토리지 볼륨을 추가하는 중입니다"]
+* link:adding-grid-nodes-to-existing-site-or-adding-new-site.html["기존 사이트에 그리드 노드 추가 또는 새 사이트 추가"]
+* link:configuring-expanded-storagegrid-system.html["확장된 StorageGRID 시스템 구성"]
+* link:contacting-technical-support.html["기술 지원 문의"]
+

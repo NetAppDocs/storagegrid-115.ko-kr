@@ -1,0 +1,19 @@
+---
+permalink: primer/how-storagegrid-manages-data.html 
+sidebar: sidebar 
+keywords:  
+summary: StorageGRID 시스템으로 작업을 시작할 때 StorageGRID 시스템에서 데이터를 관리하는 방법을 이해하는 것이 좋습니다. 
+---
+= StorageGRID의 데이터 관리 방법
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+StorageGRID 시스템으로 작업을 시작할 때 StorageGRID 시스템에서 데이터를 관리하는 방법을 이해하는 것이 좋습니다.
+
+* link:what-object-is.html["개체의 정의"]
+* link:how-object-data-is-protected.html["오브젝트 데이터의 보호 방법"]
+* link:life-of-object.html["개체의 수명입니다"]
+

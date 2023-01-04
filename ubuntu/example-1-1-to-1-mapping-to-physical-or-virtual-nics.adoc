@@ -1,0 +1,22 @@
+---
+permalink: ubuntu/example-1-1-to-1-mapping-to-physical-or-virtual-nics.html 
+sidebar: sidebar 
+keywords:  
+summary: 예제 1에서는 호스트측 구성이 거의 또는 전혀 필요하지 않은 간단한 물리적 인터페이스 매핑에 대해 설명합니다. 
+---
+= 예 1: 물리적 NIC 또는 가상 NIC에 1:1 대 1 매핑
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+예제 1에서는 호스트측 구성이 거의 또는 전혀 필요하지 않은 간단한 물리적 인터페이스 매핑에 대해 설명합니다.
+
+image::../media/rhel_install_vlan_diag_1.gif[이 이미지는 주변 텍스트로 설명됩니다.]
+
+Linux 운영 체제는 설치 또는 부팅 중에 또는 인터페이스가 핫 애드 상태일 때 자동으로 ensXYZ 인터페이스를 생성합니다. 부팅 후 인터페이스가 자동으로 실행되도록 설정하는 것 외에는 구성이 필요하지 않습니다. 나중에 구성 프로세스에서 올바른 매핑을 제공할 수 있도록 StorageGRID 네트워크(그리드, 관리자 또는 클라이언트)에 해당하는 ensXYZ를 결정해야 합니다.
+
+이 그림에서는 여러 StorageGRID 노드를 보여 줍니다. 그러나 일반적으로 단일 노드 VM에 이 구성을 사용합니다.
+
+스위치 1이 물리적 스위치인 경우 액세스 모드에 대해 인터페이스 10G~1~10G~3~에 연결된 포트를 구성하고 해당 VLAN에 배치해야 합니다.

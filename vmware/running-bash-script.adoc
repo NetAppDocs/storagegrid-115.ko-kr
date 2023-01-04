@@ -1,0 +1,77 @@
+---
+permalink: vmware/running-bash-script.html 
+sidebar: sidebar 
+keywords:  
+summary: deploy-vsphere-ovftool.sh Bash 스크립트와 수정한 deploy-vsphere-ovftool.ini 구성 파일을 사용하여 VMware vSphere에서 StorageGRID 그리드 노드 구축을 자동화할 수 있습니다. 
+---
+= Bash 스크립트 실행
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+를 사용할 수 있습니다 `deploy-vsphere-ovftool.sh` VMware vSphere에서 StorageGRID 그리드 노드 구축을 자동화하기 위해 수정한 Bash 스크립트 및 deploy-vsphere-ovftool.ini 구성 파일
+
+.필요한 것
+* 사용자 환경에 대한 deploy-vsphere-ovftool.ini 구성 파일을 만들었습니다.
+
+
+도움말 명령을 입력하여 Bash 스크립트에서 사용할 수 있는 도움말을 사용할 수 있습니다 (`-h/--help`)를 클릭합니다. 예를 들면 다음과 같습니다.
+
+[listing]
+----
+./deploy-vsphere-ovftool.sh -h
+----
+또는
+
+[listing]
+----
+./deploy-vsphere-ovftool.sh --help
+----
+.단계
+. Bash 스크립트를 실행하기 위해 사용 중인 Linux 시스템에 로그인합니다.
+. 설치 아카이브를 추출한 디렉토리로 변경합니다.
++
+예를 들면 다음과 같습니다.
+
++
+[listing]
+----
+cd StorageGRID-Webscale-version/vsphere
+----
+. 모든 그리드 노드를 배포하려면 환경에 적합한 옵션을 사용하여 Bash 스크립트를 실행합니다.
++
+예를 들면 다음과 같습니다.
+
++
+[listing]
+----
+./deploy-vsphere-ovftool.sh --username=user --password=pwd ./deploy-vsphere-ovftool.ini
+----
+. 오류로 인해 그리드 노드를 배포하지 못한 경우 오류를 해결하고 해당 노드에 대해서만 Bash 스크립트를 다시 실행합니다.
++
+예를 들면 다음과 같습니다.
+
++
+[listing]
+----
+./deploy-vsphere-ovftool.sh --username=user --password=pwd --single-node="DC1-S3" ./deploy-vsphere-ovftool.ini
+----
+
+
+각 노드의 상태가 Passed가 되면 배포가 완료됩니다.
+
+[listing]
+----
+Deployment Summary
++-----------------------------+----------+----------------------+
+| node                        | attempts | status               |
++-----------------------------+----------+----------------------+
+| DC1-ADM1                    |        1 | Passed               |
+| DC1-G1                      |        1 | Passed               |
+| DC1-S1                      |        1 | Passed               |
+| DC1-S2                      |        1 | Passed               |
+| DC1-S3                      |        1 | Passed               |
++-----------------------------+----------+----------------------+
+----

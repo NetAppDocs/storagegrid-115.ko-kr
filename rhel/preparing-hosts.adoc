@@ -1,0 +1,17 @@
+---
+permalink: rhel/preparing-hosts.html 
+sidebar: sidebar 
+keywords:  
+summary: StorageGRID에 사용할 물리적 또는 가상 호스트를 준비하려면 다음 단계를 완료해야 합니다. Anabilities, Puppet 또는 Chef와 같은 표준 서버 구성 프레임워크를 사용하여 이러한 단계를 대부분 또는 모두 자동화할 수 있습니다. 
+---
+= 호스트를 준비하는 중입니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+StorageGRID에 사용할 물리적 또는 가상 호스트를 준비하려면 다음 단계를 완료해야 합니다. Anabilities, Puppet 또는 Chef와 같은 표준 서버 구성 프레임워크를 사용하여 이러한 단계를 대부분 또는 모두 자동화할 수 있습니다.
+
+.관련 정보
+link:automating-installation-and-configuration-of-storagegrid-host-service.html["StorageGRID 호스트 서비스의 설치 및 구성 자동화"]

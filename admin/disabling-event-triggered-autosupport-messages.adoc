@@ -1,0 +1,37 @@
+---
+permalink: admin/disabling-event-triggered-autosupport-messages.html 
+sidebar: sidebar 
+keywords:  
+summary: 기본적으로 StorageGRID 시스템은 중요한 알림 또는 기타 중요한 시스템 이벤트가 발생할 경우 NetApp 지원에 AutoSupport 메시지를 보내도록 구성됩니다. 
+---
+= 이벤트 트리거 AutoSupport 메시지 비활성화
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+기본적으로 StorageGRID 시스템은 중요한 알림 또는 기타 중요한 시스템 이벤트가 발생할 경우 NetApp 지원에 AutoSupport 메시지를 보내도록 구성됩니다.
+
+.필요한 것
+* 지원되는 브라우저를 사용하여 Grid Manager에 로그인해야 합니다.
+* 루트 액세스 또는 기타 그리드 구성 권한이 있어야 합니다.
+
+
+.이 작업에 대해
+언제든지 이벤트 트리거 AutoSupport 메시지를 사용하지 않도록 설정할 수 있습니다.
+
+
+NOTE: e-메일 알림 시스템 전체를 억제하면 이벤트 트리거 AutoSupport 메시지도 표시되지 않습니다. (* 구성* * 시스템 설정 * 디스플레이 옵션 * 을 선택합니다. 그런 다음 * 알림 모두 표시 안 함 * 을 선택합니다.)
+
+.단계
+. 지원 * > * 도구 * > * AutoSupport * 를 선택합니다.
++
+AutoSupport 페이지가 나타나고 * 설정 * 탭이 선택됩니다.
+
+. 이벤트 트리거 AutoSupport* 활성화 확인란의 선택을 취소합니다.
++
+image::../media/autosupport_event_triggered_disabled.png[이벤트가 트리거된 AutoSupport]
+
+. 저장 * 을 선택합니다.
+

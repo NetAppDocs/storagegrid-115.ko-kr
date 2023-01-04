@@ -1,0 +1,227 @@
+---
+permalink: upgrade/removed-or-deprecated-features.html 
+sidebar: sidebar 
+keywords: features, removed, deprecated, weak consistency, compliance 
+summary: 일부 기능은 StorageGRID 11.5에서 제거되거나 사용되지 않습니다. 업그레이드 전에 클라이언트 응용 프로그램을 업데이트하거나 구성을 수정해야 하는지 여부를 이해하려면 이 항목을 검토해야 합니다. 
+---
+= 제거되거나 사용되지 않는 기능
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+일부 기능은 StorageGRID 11.5에서 제거되거나 사용되지 않습니다. 업그레이드 전에 클라이언트 응용 프로그램을 업데이트하거나 구성을 수정해야 하는지 여부를 이해하려면 이 항목을 검토해야 합니다.
+
+
+
+== 빈약한 일관성 제어가 제거되었습니다
+
+StorageGRID 11.5에서 약한 일관성 제어가 제거되었습니다. 업그레이드 후 다음 동작이 적용됩니다.
+
+* S3 버킷 또는 Swift 컨테이너에 대해 약한 일관성을 설정하는 요청은 성공하지만 정합성 수준은 실제로 사용 가능으로 설정됩니다.
+* 낮은 일관성을 사용하는 기존 버킷과 컨테이너는 사용 가능한 일관성을 사용하도록 자동으로 업데이트됩니다.
+* 일관성 제어 헤더가 약한 요청은 해당하는 경우 실제로 사용 가능한 일관성을 사용합니다.
+
+
+사용 가능한 정합성 제어는 "새 쓰기 후"의 정합성 수준과 동일하게 작동하지만 헤드 작업에 대한 최종 정합성 보장만 제공합니다. 사용 가능한 정합성 제어는 스토리지 노드를 사용할 수 없는 경우 "새 쓰기 후"보다 헤드 작업에 더 높은 가용성을 제공합니다.
+
+
+
+== 그리드 상태에 대한 경보가 더 이상 사용되지 않습니다
+
+를 클릭합니다 `/grid/health/topology` 노드의 ACTIVE_ALARMS_를 확인하는 API는 더 이상 사용되지 않습니다. 그 대신 새로운 것입니다 `/grid/node-health` 끝점이 추가되었습니다. 이 API는 노드의 active_alerts_를 확인하여 각 노드의 현재 상태를 반환합니다.
+
+
+
+== 규정 준수 기능이 사용되지 않습니다
+
+StorageGRID 11.5의 S3 오브젝트 잠금 기능은 이전 StorageGRID 버전에서 사용할 수 있었던 규정 준수 기능을 대체합니다. 새로운 S3 오브젝트 잠금 기능이 Amazon S3 요구 사항을 준수하므로, 이제 ""레거시 규정 준수""라고 하는 독점적인 StorageGRID 규정 준수 기능을 더 이상 사용하지 않습니다.
+
+이전에 글로벌 규정 준수 설정을 활성화한 경우 StorageGRID 11.5로 업그레이드하면 새로운 글로벌 S3 오브젝트 잠금 설정이 자동으로 활성화됩니다. 테넌트 사용자는 더 이상 StorageGRID에서 Compliance를 활성화한 상태로 새 버킷을 생성할 수 없지만, 필요에 따라 테넌트 사용자는 기존 레거시 준수 버킷을 계속 사용하고 관리할 수 있습니다.
+
+테넌트 관리자에서 Shield 아이콘 image:../media/icon_shield.png["Shield 아이콘"] 레거시 준수 버킷을 나타냅니다. 레거시 준수 버킷에도 보류 배지가 있을 수 있습니다 image:../media/hold_badge.png["배지를 잡습니다"] 버킷이 법적 증거 자료 보관 중임을 나타냅니다.
+
+https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/StorageGRID/How_to_manage_legacy_Compliant_buckets_in_StorageGRID_11.5["KB: StorageGRID 11.5에서 레거시 준수 버킷을 관리하는 방법"^]
+
+link:../ilm/index.html["ILM을 사용하여 개체를 관리합니다"]
+
+
+
+== "3개 다파트 너무 작음" 경고가 제거되었습니다
+
+S3 멀티파트 너무 작음 * 경고가 제거되었습니다. 이전에는 S3 클라이언트가 Amazon S3 크기 제한을 충족하지 않는 부품으로 다중 파트 업로드를 완료하려고 시도할 경우 이 경고가 트리거되었습니다. StorageGRID 11.5로 업그레이드한 후 다음 크기 제한을 충족하지 않는 모든 멀티파트 업로드 요청이 실패합니다.
+
+* 멀티파트 업로드의 각 파트는 5MiB(5,242,880바이트)와 5GiB(5,368,709,120바이트) 사이여야 합니다.
+* 마지막 부분은 5MiB(5,242,880바이트)보다 작을 수 있습니다.
+* 일반적으로 파트 크기는 가능한 한 커야합니다. 예를 들어, 100GiB 개체의 경우 5GiB의 파트 크기를 사용합니다. 각 파트는 고유한 개체로 간주되므로 큰 파트 크기를 사용하면 StorageGRID 메타데이터 오버헤드가 줄어듭니다.
+* 5GiB보다 작은 오브젝트의 경우 대신 비다중 파트 업로드를 사용하는 것이 좋습니다.
+
+
+
+
+== "Appliance Link Down on Grid Network" 경고가 제거되었습니다
+
+다음 경고가 제거되었습니다. 그리드 네트워크가 다운된 경우 이러한 경고를 트리거하는 메트릭을 액세스할 수 없습니다.
+
+* 그리드 네트워크에서 서비스 어플라이언스 링크가 다운되었습니다
+* 그리드 네트워크에서 스토리지 어플라이언스 링크가 다운되었습니다
+
+
+
+
+== SNMP 구성에서 제거된 정규화된 도메인 이름에 대한 지원
+
+SG6000, SG100 또는 SG1000의 베이스보드 관리 컨트롤러(BMC)에서 SNMP 서버를 구성할 때 이제 정규화된 도메인 이름 대신 IP 주소를 지정해야 합니다. 정규화된 도메인 이름이 이전에 구성된 경우 StorageGRID 11.5로 업그레이드하기 전에 IP 주소로 변경합니다.
+
+
+
+== 레거시 특성이 제거되었습니다
+
+다음 레거시 특성이 제거되었습니다. 해당되는 경우 Prometheus 메트릭에서 이와 동등한 정보를 제공합니다.
+
+[cols="1a,2a"]
+|===
+| 레거시 특성 | 등가 Prometheus 측정 지표 
+
+
+ a| 
+BREC
+ a| 
+StorageGRID_SERVICE_NETWORK_Received_Bytes를 나타냅니다
+
+
+
+ a| 
+btra
+ a| 
+StorageGRID_SERVICE_NETWORK_TAINED_BATED
+
+
+
+ a| 
+CQST
+ a| 
+StorageGRID_metadata_query_average_latency_milliseconds
+
+
+
+ a| 
+HAI
+ a| 
+StorageGRID_http_sessions_incoming_attempted입니다
+
+
+
+ a| 
+HCCS
+ a| 
+StorageGRID_http_sessions_incoming_currently_설정됨
+
+
+
+ a| 
+HEIS
+ a| 
+StorageGRID_http_sessions_incoming_failed 를 참조하십시오
+
+
+
+ a| 
+기타
+ a| 
+StorageGRID_http_sessions_incoming_successful입니다
+
+
+
+ a| 
+LHAC
+ a| 
+_없음_
+
+
+
+ a| 
+NREC
+ a| 
+_없음_
+
+
+
+ a| 
+NTSO(선택한 시간 소스 오프셋)
+ a| 
+StorageGRID_NTP_선택됨_시간_소스_오프셋_밀리초
+
+
+
+ a| 
+NTRA
+ a| 
+_없음_
+
+
+
+ a| 
+이상
+ a| 
+StorageGRID_서비스_로드
+
+
+
+ a| 
+SMEM
+ a| 
+StorageGRID_SERVICE_MEMORY_USAGE_Bytes
+
+
+
+ a| 
+SUTM
+ a| 
+StorageGRID_SERVICE_CPU_초
+
+
+
+ a| 
+SVUT
+ a| 
+StorageGRID_SERVICE_Uptime_초
+
+
+
+ a| 
+TRBS(수신된 초당 총 비트 수)
+ a| 
+_없음_
+
+
+
+ a| 
+TRXB
+ a| 
+StorageGRID_NETWORK_Received_Bytes를 나타냅니다
+
+
+
+ a| 
+TTBS(초당 총 전송 비트 수)
+ a| 
+_없음_
+
+
+
+ a| 
+TTXB
+ a| 
+StorageGRID_NETWORK_TAINED_BATED
+
+|===
+또한 다음과 같은 관련 변경 사항이 있었습니다.
+
+* 를 클릭합니다 `network_received_bytes` 및 `network_transmitted_bytes` 이러한 메트릭의 값이 증가하기 때문에 Prometheus 지표가 게이지에서 카운터로 변경되었습니다. 현재 Prometheus 쿼리에서 이러한 메트릭을 사용하고 있는 경우 를 사용해야 합니다 `increase()` 쿼리 내의 함수입니다.
+* StorageGRID 서비스에 대한 리소스 탭에서 네트워크 리소스 테이블이 제거되었습니다. (* 지원 * > * 도구 * > * 그리드 토폴로지 * 를 선택한 다음 *_노드_ * > *_서비스_ * > * 리소스 * 를 선택합니다.)
+* 스토리지 노드에 대한 HTTP 세션 페이지가 제거되었습니다. 이전에는 * 지원 * > * 도구 * > * 그리드 토폴로지 * 를 선택한 다음 *_스토리지 노드_ * > * LDR * > * HTTP * 를 선택하여 이 페이지에 액세스할 수 있었습니다.
+* HCCS(현재 설정된 수신 세션) 알람이 제거되었습니다.
+* NTSO(선택한 시간 소스 오프셋) 알람이 제거되었습니다.
+
