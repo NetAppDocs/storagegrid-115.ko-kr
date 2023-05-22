@@ -62,7 +62,7 @@ sidebar:
     entries:
     - section: expand
     - section: maintain
-  - title: 이전 버전
+  - title: 기타 버전
     url: "/earlier-versions.html"
   - title: 법적 고지
     url: "/legal-notices.html"
@@ -148,9 +148,15 @@ homepage:
       url: https://netapp.com/blog/
     - title: NetApp 커뮤니티
       url: https://community.netapp.com/
-  - title: 이전 버전
+  - title: 기타 버전
     links:
+    - title: StorageGRID 11.7 문서
+      url: https://docs.netapp.com/us-en/storagegrid-117/index.html
+    - title: StorageGRID 11.6 문서
+      url: https://docs.netapp.com/us-en/storagegrid-116/index.html
     - title: StorageGRID 11.4 문서
       url: https://docs.netapp.com/sgws-114/index.jsp
     - title: StorageGRID 11.3 문서
       url: https://docs.netapp.com/sgws-113/index.jsp
+    - title: StorageGRID 11.2 문서
+      url: https://docs.netapp.com/sgws-112/index.jsp

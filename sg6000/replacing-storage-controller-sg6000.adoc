@@ -237,4 +237,4 @@ NOTE: 원래 컨트롤러가 IP 주소에 DHCP를 사용하지 않은 경우 새
 
 
 .관련 정보
-http://mysupport.netapp.com/info/web/ECMP1658252.html["NetApp E-Series 시스템 문서 사이트"^]
+http://["NetApp E-Series 시스템 문서 사이트"^]

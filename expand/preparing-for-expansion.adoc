@@ -81,7 +81,7 @@ link:../rhel/index.html["Red Hat Enterprise Linux 또는 CentOS를 설치합니�
 
 link:../ubuntu/index.html["Ubuntu 또는 Debian을 설치합니다"]
 
-https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^]
+https://["NetApp 상호 운용성 매트릭스 툴"^]
 
 
 
@@ -146,7 +146,7 @@ Mozilla Firefox
 .단계
 . StorageGRID용 NetApp 다운로드 페이지로 이동합니다.
 +
-https://mysupport.netapp.com/site/products/all/details/storagegrid/downloads-tab["NetApp 다운로드: StorageGRID"^]
+https://["NetApp 다운로드: StorageGRID"^]
 
 . 그리드에서 현재 실행 중인 StorageGRID 버전을 선택합니다.
 . NetApp 계정의 사용자 이름과 암호를 사용하여 로그인합니다.
@@ -435,6 +435,6 @@ StorageGRID 시스템 확장을 시작하기 전에 새 그리드 노드 또는 
 
 * 관련 정보 *
 
-https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^]
+https://["NetApp 상호 운용성 매트릭스 툴"^]
 
 link:updating-subnets-for-grid-network.html["그리드 네트워크에 대한 서브넷을 업데이트하는 중입니다"]

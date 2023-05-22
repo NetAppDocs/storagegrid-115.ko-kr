@@ -36,4 +36,4 @@ IMPORTANT: 스왑을 완전히 사용하지 않도록 설정하면 성능이 크
 
 
 .관련 정보
-https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^]
+https://["NetApp 상호 운용성 매트릭스 툴"^]

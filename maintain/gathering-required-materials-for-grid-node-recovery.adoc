@@ -60,7 +60,7 @@ StorageGRID 시스템을 처음 설치할 때 암호가 생성되고 문서화�
  a| 
 현재 지원되는 플랫폼 버전은 상호 운용성 매트릭스 툴을 참조하십시오.
 
-https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"]
+https://["NetApp 상호 운용성 매트릭스 툴"]
 
 플랫폼 공급업체의 웹 사이트에서 설명서를 참조하십시오.
 

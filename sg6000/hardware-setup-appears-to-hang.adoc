@@ -25,7 +25,7 @@ summary: 하드웨어 장애 또는 케이블 연결 오류로 인해 스토리�
 .관련 정보
 link:viewing-boot-up-status-codes-for-sg6000-storage-controllers.html["SG6000 스토리지 컨트롤러의 부팅 상태 코드 보기"]
 
-https://library.netapp.com/ecmdocs/ECMLP2588751/html/frameset.html["E5700 및 E2800 시스템 모니터링 가이드"^]
+https://["E5700 및 E2800 시스템 모니터링 가이드"^]
 
 link:viewing-status-indicators-and-buttons-on-sg6000-cn-controller.html["SG6000-CN 컨트롤러의 상태 표시등 및 단추 보기"]
 

@@ -15,7 +15,7 @@ StorageGRID 시스템은 각 S3 테넌트 계정에 대해 최대 1,000개의 �
 
 버킷 이름 제한은 AWS US 표준 지역 제한을 따르지만, S3 가상 호스팅 스타일 요청을 지원하려면 이러한 제한을 DNS 명명 규칙으로 제한해야 합니다.
 
-https://docs.aws.amazon.com/AmazonS3/latest/dev/BucketRestrictions.html["AWS(Amazon Web Services) 문서: 버킷 제한 및 제한 사항"]
+https://["AWS(Amazon Web Services) 문서: 버킷 제한 및 제한 사항"]
 
 link:configuring-tenant-accounts-and-connections.html["S3 요청에 대한 끝점 도메인 이름입니다"]
 
@@ -342,7 +342,7 @@ Bucket 태그 달기
 
 |===
 .관련 정보
-http://docs.aws.amazon.com/AmazonS3/latest/dev/crr.html["AWS(Amazon Web Services) 문서: 지역 간 복제"]
+http://["AWS(Amazon Web Services) 문서: 지역 간 복제"]
 
 link:consistency-controls.html["일관성 제어"]
 
@@ -366,7 +366,7 @@ S3 라이프사이클 구성을 생성하여 StorageGRID 시스템에서 특정 
 
 이 섹션의 간단한 예는 S3 라이프사이클 구성에서 특정 S3 버킷에서 특정 객체가 삭제(만료)되는 시기를 제어하는 방법을 보여줍니다. 이 섹션의 예제는 설명을 위한 것입니다. S3 라이프사이클 구성 생성에 대한 자세한 내용은 _Amazon Simple Storage Service Developer Guide_에서 오브젝트 라이프사이클 관리에 대한 섹션을 참조하십시오. StorageGRID는 만료 작업만 지원하며 전환 작업은 지원하지 않습니다.
 
-https://docs.aws.amazon.com/AmazonS3/latest/dev/object-lifecycle-mgmt.html["Amazon Simple Storage Service 개발자 가이드: 개체 수명 주기 관리"]
+https://["Amazon Simple Storage Service 개발자 가이드: 개체 수명 주기 관리"]
 
 
 

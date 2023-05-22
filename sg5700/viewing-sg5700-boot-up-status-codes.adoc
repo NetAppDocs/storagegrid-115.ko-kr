@@ -82,4 +82,4 @@ link:status-indicators-on-e5700sg-controller.html["E5500SG 컨트롤러의 상�
 
 link:troubleshooting-hardware-installation.html["하드웨어 설치 문제 해결"]
 
-https://library.netapp.com/ecmdocs/ECMLP2588751/html/frameset.html["E5700 및 E2800 시스템 모니터링 가이드"^]
+https://["E5700 및 E2800 시스템 모니터링 가이드"^]

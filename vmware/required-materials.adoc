@@ -62,7 +62,7 @@ StorageGRID 설명서
 
 |===
 .관련 정보
-https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^]
+https://["NetApp 상호 운용성 매트릭스 툴"^]
 
 link:downloading-and-extracting-storagegrid-installation-files.html["StorageGRID 설치 파일 다운로드 및 추출"]
 

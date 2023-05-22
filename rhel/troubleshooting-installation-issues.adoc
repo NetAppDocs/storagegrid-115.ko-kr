@@ -38,4 +38,4 @@ link:../sg5700/index.html["SG5700 스토리지 어플라이언스"]
 
 link:../sg5600/index.html["SG5600 스토리지 어플라이언스"]
 
-https://mysupport.netapp.com/site/global/dashboard["NetApp 지원"^]
+https://["NetApp 지원"^]

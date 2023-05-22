@@ -39,4 +39,4 @@ link:../sg5700/index.html["SG5700 스토리지 어플라이언스"]
 
 link:../sg5600/index.html["SG5600 스토리지 어플라이언스"]
 
-https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"]
+https://["NetApp 상호 운용성 매트릭스 툴"]
