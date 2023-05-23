@@ -22,7 +22,7 @@ StorageGRID 시스템을 업그레이드하기 전에 필요한 파일을 서비
 .단계
 . StorageGRID용 NetApp 다운로드 페이지로 이동합니다.
 +
-https://["NetApp 다운로드: StorageGRID"^]
+https://mysupport.netapp.com/site/products/all/details/storagegrid/downloads-tab["NetApp 다운로드: StorageGRID"^]
 
 . 최신 릴리스를 다운로드하려면 버튼을 선택하거나 드롭다운 메뉴에서 다른 버전을 선택하고 * GO * 를 선택합니다.
 +

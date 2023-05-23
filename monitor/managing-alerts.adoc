@@ -223,7 +223,7 @@ link:../admin/index.html["StorageGRID 관리"]
 
 link:commonly-used-prometheus-metrics.html["일반적으로 사용되는 Prometheus 메트릭입니다"]
 
-https://["Prometheus: 쿼리 기본 사항"]
+https://prometheus.io/docs/querying/basics/["Prometheus: 쿼리 기본 사항"]
 
 
 
@@ -352,7 +352,7 @@ link:../admin/index.html["StorageGRID 관리"]
 
 link:commonly-used-prometheus-metrics.html["일반적으로 사용되는 Prometheus 메트릭입니다"]
 
-https://["Prometheus: 쿼리 기본 사항"]
+https://prometheus.io/docs/querying/basics/["Prometheus: 쿼리 기본 사항"]
 
 
 

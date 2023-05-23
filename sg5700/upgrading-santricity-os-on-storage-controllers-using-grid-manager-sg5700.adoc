@@ -38,7 +38,7 @@ NOTE: 이 절차에서는 NVSRAM을 SANtricity OS 업그레이드와 관련된 �
 E2800 스토리지 컨트롤러용 SANtricity OS 버전을 선택해야 합니다.
 
 +
-https://["NetApp 다운로드: SANtricity OS"^]
+https://mysupport.netapp.com/site/products/all/details/eseries-santricityos/downloads-tab["NetApp 다운로드: SANtricity OS"^]
 
 . 지원되는 브라우저를 사용하여 Grid Manager에 로그인합니다.
 . 유지 관리 * 를 선택합니다. 그런 다음 메뉴의 시스템 섹션에서 * 소프트웨어 업데이트 * 를 선택합니다.

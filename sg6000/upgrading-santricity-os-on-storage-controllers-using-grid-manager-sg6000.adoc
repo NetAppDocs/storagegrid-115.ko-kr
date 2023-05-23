@@ -38,7 +38,7 @@ NOTE: 이 절차에서는 NVSRAM을 SANtricity OS 업그레이드와 관련된 �
 어플라이언스에 있는 스토리지 컨트롤러에 맞는 SANtricity OS 버전을 선택해야 합니다. SG6060은 E2800 컨트롤러를 사용하고 SGF6024는 EF570 컨트롤러를 사용합니다.
 
 +
-https://["NetApp 다운로드: SANtricity OS"^]
+https://mysupport.netapp.com/site/products/all/details/eseries-santricityos/downloads-tab["NetApp 다운로드: SANtricity OS"^]
 
 . 지원되는 브라우저를 사용하여 Grid Manager에 로그인합니다.
 . 유지 관리 * 를 선택합니다. 그런 다음 메뉴의 시스템 섹션에서 * 소프트웨어 업데이트 * 를 선택합니다.
@@ -177,6 +177,6 @@ NOTE: Needs Attention(주의 필요) 상태인 모든 노드의 경우 유지보
 
 
 .관련 정보
-https://["NetApp 상호 운용성 매트릭스 툴"^]
+https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^]
 
 link:upgrading-santricity-os-on-storage-controllers-using-maintenance-mode-sg6000.html["유지보수 모드를 사용하여 스토리지 컨트롤러에서 SANtricity OS 업그레이드"]

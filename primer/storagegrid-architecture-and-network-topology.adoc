@@ -471,9 +471,9 @@ Grid Manager를 통해 표시되는 모니터링, 보고 및 구성 옵션을 �
 
 
 .관련 정보
-https://["NetApp 상호 운용성 매트릭스 툴"^]
+https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^]
 
-https://["NetApp Hardware Universe를 참조하십시오"^]
+https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^]
 
 link:../vmware/index.html["VMware를 설치합니다"]
 

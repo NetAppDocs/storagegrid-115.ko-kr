@@ -31,8 +31,8 @@ image::../media/fabricpool_storagegrid_workflow.png[FabricPool StorageGRID 워�
 
 
 .관련 정보
-* https://["TR-4598: ONTAP 9.8에 대한 FabricPool 모범 사례"^]
-* https://["ONTAP 9 문서 센터"^]
+* https://www.netapp.com/pdf.html?item=/media/17239-tr4598pdf.pdf["TR-4598: ONTAP 9.8에 대한 FabricPool 모범 사례"^]
+* https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 문서 센터"^]
 
 
 

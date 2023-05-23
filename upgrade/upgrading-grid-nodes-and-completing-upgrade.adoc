@@ -118,7 +118,7 @@ image::../media/software_upgrade_done.png[소프트웨어 업그레이드가 완
 
 . StorageGRID용 NetApp 다운로드 페이지에서 방금 설치한 StorageGRID 버전에 사용 가능한 핫픽스가 있는지 확인합니다.
 +
-https://["NetApp 다운로드: StorageGRID"^]
+https://mysupport.netapp.com/site/products/all/details/storagegrid/downloads-tab["NetApp 다운로드: StorageGRID"^]
 
 +
 StorageGRID 11.5._x. y_version 번호:

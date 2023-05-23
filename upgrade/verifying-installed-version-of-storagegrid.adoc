@@ -39,7 +39,7 @@ IMPORTANT: 이전 버전의 StorageGRID가 있는 경우 StorageGRID 11.5로 업
 
 . StorageGRID 11.4를 사용하는 경우 StorageGRID용 NetApp 다운로드 페이지로 이동하여 StorageGRID 11.4._x_버전에 사용 가능한 핫픽스가 있는지 확인합니다.
 +
-https://["NetApp 다운로드: StorageGRID"^]
+https://mysupport.netapp.com/site/products/all/details/storagegrid/downloads-tab["NetApp 다운로드: StorageGRID"^]
 
 . StorageGRID 11.4._x_version에 최신 핫픽스가 적용되어 있는지 확인합니다.
 . 필요한 경우 StorageGRID 11.4._x_버전에 대한 최신 StorageGRID 11.4._x.y_HotFix를 다운로드하여 적용하십시오.

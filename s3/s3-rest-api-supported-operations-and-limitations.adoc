@@ -77,4 +77,4 @@ X-amz-id-2
 
 |===
 .관련 정보
-http://["AWS(Amazon Web Services) 문서: Amazon Simple Storage Service API Reference 를 참조하십시오"]
+http://docs.aws.amazon.com/AmazonS3/latest/API/Welcome.html["AWS(Amazon Web Services) 문서: Amazon Simple Storage Service API Reference 를 참조하십시오"]

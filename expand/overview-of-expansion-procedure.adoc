@@ -25,7 +25,7 @@ image::../media/expansion_workflow.png[확장 프로세스의 개요를 보여 �
 
 * 관련 정보 *
 
-https://["NetApp 상호 운용성 매트릭스 툴"^]
+https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^]
 
 link:planning-expansion.html["StorageGRID 확장 계획"]
 

@@ -112,4 +112,4 @@ link:s3-rest-api-supported-operations-and-limitations.html["멀티파트 업로�
 
 link:object-versioning.html["오브젝트 버전 관리"]
 
-https://["Amazon Simple Storage Service 사용자 가이드: S3 Object Lock 사용"]
+https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock.html["Amazon Simple Storage Service 사용자 가이드: S3 Object Lock 사용"]
