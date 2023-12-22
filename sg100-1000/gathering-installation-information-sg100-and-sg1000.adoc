@@ -21,7 +21,7 @@ StorageGRID용 관리 네트워크는 시스템 관리 및 유지 보수에 사�
 
 SG100 RJ-45 포트 *
 
-image::../media/sg100_rj_45_ports_circled.png[Sg100 RJ 45 포트가 원으로 표시되어 있습니다]
+image::../media/sg100_rj_45_ports_circled.png[SG100 RJ-45 포트]
 
 SG1000 RJ-45 포트 *
 

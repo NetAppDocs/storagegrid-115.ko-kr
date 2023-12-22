@@ -38,7 +38,7 @@ CAUTION: 새 프로비저닝 암호를 안전한 위치에 저장합니다. 설�
 프로비저닝 암호 변경이 완료되면 녹색 성공 배너가 표시됩니다. 변경 작업은 1분 이내에 이루어져야 합니다.
 
 +
-image::../media/change_provisioning_passphrase_success.png[프로비저닝 암호 변경 성공]
+image::../media/change_provisioning_passphrase_success.png[프로비저닝 암호 변경 - 성공 메시지]
 
 . 성공 배너 내에서 * 복구 패키지 페이지 * 링크를 선택합니다.
 . Grid Manager에서 새 복구 패키지를 다운로드합니다. 유지보수 * > * 복구 패키지 * 를 선택하고 새 프로비저닝 암호를 입력합니다.

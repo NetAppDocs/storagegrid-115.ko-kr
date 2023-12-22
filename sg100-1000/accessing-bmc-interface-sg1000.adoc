@@ -20,7 +20,7 @@ BMC 관리 포트의 DHCP 또는 고정 IP 주소를 사용하여 서비스 어�
 * SG100 BMC 관리 포트 *
 
 +
-image::../media/sg100_bmc_management_port.png[sg100 BMC 관리 포트]
+image::../media/sg100_bmc_management_port.png[SG100 관리 포트]
 
 +
 * SG1000 BMC 관리 포트 *

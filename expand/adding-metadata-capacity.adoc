@@ -44,7 +44,7 @@ Grid Manager를 사용하여 스토리지 노드의 메타데이터 용량을 �
 
 그림의 오른쪽에는 사이트에 두 개의 스토리지 노드가 추가된 후 기존 메타데이터가 재분배되는 방법이 나와 있습니다. 각 노드의 메타데이터 양이 감소하고 * Low Metadata Storage * 알림이 더 이상 트리거되지 않으며 메타데이터에 사용 가능한 공간이 증가했습니다.
 
-image::../media/metadata_space_after_expansion.png[확장 후 메타데이터 공간입니다]
+image::../media/metadata_space_after_expansion.png[확장 후 메타데이터 공간]
 
 * 관련 정보 *
 

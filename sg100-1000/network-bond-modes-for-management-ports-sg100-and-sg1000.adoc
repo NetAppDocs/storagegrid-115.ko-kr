@@ -15,7 +15,7 @@ summary: 서비스 어플라이언스에 있는 2개의 1GbE 관리 포트의 �
 
 SG100 네트워크 관리 포트 *
 
-image::../media/sg100_bonded_management_ports.png[sg100에 연결된 관리 포트]
+image::../media/sg100_bonded_management_ports.png[SG100 결합 관리 포트]
 
 SG1000 네트워크 관리 포트 *
 

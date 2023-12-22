@@ -23,7 +23,7 @@ image::../media/kms_step_2_upload_server_certificate.png[KMS 2단계 서버 인�
 서버 인증서 메타데이터가 나타납니다.
 
 +
-image::../media/kms_step_2_server_certificate_metadata.png[KMS 2단계 서버 인증서 메타데이터]
+image::../media/kms_step_2_server_certificate_metadata.png[서버 인증서 메타데이터]
 
 +
 
